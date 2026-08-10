@@ -15,8 +15,13 @@ This repository is established early to provide one public-contract and publicat
 - `PRODUCT.md`
 - `PRINCIPLES.md`
 - `EXPERIENCES.md`
+- `CURRENT_STATE.md` — current cross-product status
+- `ROADMAP.md` — phased product direction
+- `IMPLEMENTATION_PLAN.md` — current implementation sequence
+- `TEST_PLAN.md` — cross-product release/test strategy
+- `CODEX_TO_CHATGPT_HANDOFF.md` — latest product/implementation handoff
 
-The workspace-level roadmap, implementation plan and test plan remain at the CauseBase workspace root during the foundation increment. Builder and Viewer implementation documents defer to these shared contracts.
+These are the canonical shared CauseBase documents. Builder and Viewer retain only component-owned implementation documentation and link here for project state and plans.
 
 ## Intended public release shape
 
