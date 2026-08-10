@@ -1,0 +1,16 @@
+{
+  "entities": [{
+    "causebase_id": "cb_096f07b16a764578ab209ec7ace6ed5e", "subject_kind": "organisation",
+    "external_identifiers": [{"scheme":"abn","value":"78126256862","source_evidence_id":"ev:ffw:acnc"}],
+    "registrations": [{"regulator":"ACNC","evidence_ids":["ev:ffw:acnc"]}],
+    "source_resolutions": [{"source_record_id":"src:acnc-register:b0b7cce1-6d4a-5c0e-8f7c-1a8108da74f2","resolution_status":"resolved","resolution_basis":"curated source inventory ABN matched uniquely to ACNC Register candidate","confidence":"high","supporting_signals":["ABN:78126256862"],"review_status":"not_required"}],
+    "legal_name":"Fitted For Work Limited", "display_name":"Fitted for Work", "entity_status":"registered", "enrichment_level":"thin",
+    "coverage":[{"capability":"regulatory","status":"observed","evidence_ids":["ev:ffw:acnc"]},{"capability":"annual_report","status":"observed","evidence_ids":["ev:ffw:report"]}],
+    "website":"https://fittedforwork.org/", "geography":["Australia"],
+    "organisation_self_description":"Fitted for Work supports women and gender diverse jobseekers to enter and re-enter the workforce.",
+    "activities":["work-readiness support","employment support"], "beneficiaries":["women and gender diverse jobseekers"], "participation_modes":["volunteering","donating"],
+    "financials":{"period":{"period_start":"2023-07-01","period_end":"2024-06-30","period_length_days":366,"label":"FY24"},"revenue":3800425,"total_expenses":3666954},
+    "fundraising":{"fallback_prior_ratio":0.15,"fallback_evidence_ids":["ev:ffw:report"]}, "classifications":[],
+    "evidence":[{"evidence_id":"ev:ffw:acnc","source_type":"regulatory","title":"ACNC Register extract","publisher":"ACNC","observed_at":"2026-08-10"},{"evidence_id":"ev:ffw:report","source_type":"organisation_self_report","title":"Fitted for Work Annual Report 2023-24","publisher":"Fitted for Work","url":"https://fittedforwork.org/wp-content/uploads/2025/02/ANNUAL-REPORT-23-24-WEB-VERSION.pdf","observed_at":"2026-08-10","reporting_period":"FY24","page":27}]
+  }]
+}

@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "causebase_id": "cb_f6ef760e59854e3dbb5ca2a48506feff",
+      "subject_kind": "organisation",
+      "external_identifiers": [{"scheme": "abn", "value": "13025599242", "source_evidence_id": "ev:mcmc:acnc"}],
+      "registrations": [{"regulator": "ACNC", "evidence_ids": ["ev:mcmc:acnc"]}],
+      "source_resolutions": [{"source_record_id": "src:acnc-register:e56b3223-33db-514c-9dac-171cc1afb23e", "resolution_status": "resolved", "resolution_basis": "curated source inventory ABN matched uniquely to ACNC Register candidate", "confidence": "high", "supporting_signals": ["ABN:13025599242"], "review_status": "not_required"}],
+      "legal_name": "Merri Creek Management Committee Inc",
+      "display_name": "Merri Creek Management Committee",
+      "entity_status": "registered",
+      "enrichment_level": "thin",
+      "coverage": [{"capability": "regulatory", "status": "observed", "evidence_ids": ["ev:mcmc:acnc"]}, {"capability": "annual_report", "status": "observed", "evidence_ids": ["ev:mcmc:report"]}, {"capability": "current_activity", "status": "observed", "evidence_ids": ["ev:mcmc:volunteer"]}],
+      "website": "https://mcmc.org.au/",
+      "geography": ["Merri Creek catchment, Victoria"],
+      "organisation_self_description": "Merri Creek Management Committee works with community and partners in the Merri Creek catchment.",
+      "activities": ["environmental restoration", "community events", "volunteering"],
+      "beneficiaries": ["Merri Creek catchment communities"],
+      "participation_modes": ["volunteering", "working bees", "events"],
+      "financials": {"period": {"period_start": "2024-10-01", "period_end": "2025-06-30", "period_length_days": 273, "label": "FY25 (9 months)", "is_transitional_or_nonstandard": true}, "revenue": 2304388, "total_expenses": 2252945},
+      "fundraising": {"fallback_prior_ratio": 0.15, "fallback_evidence_ids": ["ev:mcmc:report"]},
+      "classifications": [],
+      "evidence": [{"evidence_id": "ev:mcmc:acnc", "source_type": "regulatory", "title": "ACNC Register extract", "publisher": "ACNC", "observed_at": "2026-08-10"}, {"evidence_id": "ev:mcmc:report", "source_type": "organisation_self_report", "title": "Merri Creek Management Committee Annual Report 2024-25", "publisher": "Merri Creek Management Committee", "url": "https://mcmc.org.au/images/MCMC_Annual_Report_2024-5.pdf", "observed_at": "2026-08-10", "reporting_period": "FY25 (9 months)", "page": 30}, {"evidence_id": "ev:mcmc:volunteer", "source_type": "organisation_self_report", "title": "Volunteering", "publisher": "Merri Creek Management Committee", "url": "https://mcmc.org.au/get-involved/volunteering-opportunities", "observed_at": "2026-08-10"}]
+    }
+  ]
+}

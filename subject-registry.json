@@ -1,0 +1,135 @@
+{
+  "registry_version": "0.1",
+  "subjects": [
+    {
+      "causebase_id": "cb_df4c1eb4847c4d599df1e3eae3b5af5f",
+      "created_at": "2026-08-10T05:21:09.532987+00:00",
+      "first_public_release": null,
+      "identity_lifecycle_status": "current",
+      "subject_kind": "organisation",
+      "current_display_name": "Australian Red Cross Society",
+      "successor_ids": [],
+      "predecessor_ids": [],
+      "promotion": {
+        "resolution_status": "resolved",
+        "resolution_basis": "curated source inventory ABN matched uniquely to ACNC Register candidate",
+        "source_record_ids": [
+          "src:acnc-register:fb150789-1c68-5ccb-af1f-fc25a984e297"
+        ],
+        "promotion_method": "reviewed_manual"
+      },
+      "lifecycle_events": [
+        {
+          "event_type": "SUBJECT_CREATED",
+          "at": "2026-08-10T05:21:09.533007+00:00",
+          "promotion_method": "reviewed_manual"
+        }
+      ]
+    },
+    {
+      "causebase_id": "cb_f6ef760e59854e3dbb5ca2a48506feff",
+      "created_at": "2026-08-10T05:21:11.350995+00:00",
+      "first_public_release": null,
+      "identity_lifecycle_status": "current",
+      "subject_kind": "organisation",
+      "current_display_name": "Merri Creek Management Committee",
+      "successor_ids": [],
+      "predecessor_ids": [],
+      "promotion": {
+        "resolution_status": "resolved",
+        "resolution_basis": "curated source inventory ABN matched uniquely to ACNC Register candidate",
+        "source_record_ids": [
+          "src:acnc-register:e56b3223-33db-514c-9dac-171cc1afb23e"
+        ],
+        "promotion_method": "reviewed_manual"
+      },
+      "lifecycle_events": [
+        {
+          "event_type": "SUBJECT_CREATED",
+          "at": "2026-08-10T05:21:11.351022+00:00",
+          "promotion_method": "reviewed_manual"
+        }
+      ]
+    },
+    {
+      "causebase_id": "cb_096f07b16a764578ab209ec7ace6ed5e",
+      "created_at": "2026-08-10T05:21:13.200527+00:00",
+      "first_public_release": null,
+      "identity_lifecycle_status": "current",
+      "subject_kind": "organisation",
+      "current_display_name": "Fitted for Work",
+      "successor_ids": [],
+      "predecessor_ids": [],
+      "promotion": {
+        "resolution_status": "resolved",
+        "resolution_basis": "curated source inventory ABN matched uniquely to ACNC Register candidate",
+        "source_record_ids": [
+          "src:acnc-register:b0b7cce1-6d4a-5c0e-8f7c-1a8108da74f2"
+        ],
+        "promotion_method": "reviewed_manual"
+      },
+      "lifecycle_events": [
+        {
+          "event_type": "SUBJECT_CREATED",
+          "at": "2026-08-10T05:21:13.200540+00:00",
+          "promotion_method": "reviewed_manual"
+        },
+        {
+          "event_type": "PROMOTION_PROVENANCE_CORRECTED",
+          "at": "2026-08-10T05:22:00+00:00",
+          "note": "Removed related fund/foundation candidate records; retained only the ABN-backed Fitted For Work Limited source record."
+        }
+      ]
+    },
+    {
+      "causebase_id": "cb_cd0521b6ac784ad883c41b2c91024001",
+      "created_at": "2026-08-10T05:58:55.871385+00:00",
+      "first_public_release": null,
+      "identity_lifecycle_status": "current",
+      "subject_kind": "organisation",
+      "current_display_name": "The Australian Koala Foundation",
+      "successor_ids": [],
+      "predecessor_ids": [],
+      "promotion": {
+        "resolution_status": "resolved",
+        "resolution_basis": "authoritative ABN Lookup legal-name match",
+        "source_record_ids": [
+          "src:acnc-register:906be4c4-6ead-5c66-8f78-6c79a924ff93"
+        ],
+        "promotion_method": "reviewed_manual"
+      },
+      "lifecycle_events": [
+        {
+          "event_type": "SUBJECT_CREATED",
+          "at": "2026-08-10T05:58:55.871402+00:00",
+          "promotion_method": "reviewed_manual"
+        }
+      ]
+    },
+    {
+      "causebase_id": "cb_2779c315c8614f6c84b496cb8b9510e1",
+      "created_at": "2026-08-10T05:58:57.406108+00:00",
+      "first_public_release": null,
+      "identity_lifecycle_status": "current",
+      "subject_kind": "organisation",
+      "current_display_name": "Open House Melbourne",
+      "successor_ids": [],
+      "predecessor_ids": [],
+      "promotion": {
+        "resolution_status": "resolved",
+        "resolution_basis": "organisation self-report ABN and legal-name match",
+        "source_record_ids": [
+          "src:acnc-register:c17aa886-2ac6-5d52-a836-0e5591fcd4d4"
+        ],
+        "promotion_method": "reviewed_manual"
+      },
+      "lifecycle_events": [
+        {
+          "event_type": "SUBJECT_CREATED",
+          "at": "2026-08-10T05:58:57.406127+00:00",
+          "promotion_method": "reviewed_manual"
+        }
+      ]
+    }
+  ]
+}

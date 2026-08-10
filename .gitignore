@@ -1,0 +1,21 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.pytest_cache/
+__pycache__/
+node_modules/
+
+# Releases are intentionally added through explicit publication workflow, never as local scratch output.
+staging/
+tmp/
+temp/
+cache/
+logs/
+runtime/
+archive/
+sources/
+processed/
+*.pdf
+*.warc
+*.html.gz
