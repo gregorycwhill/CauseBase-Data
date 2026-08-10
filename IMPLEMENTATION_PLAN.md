@@ -12,6 +12,10 @@
 3. The public candidate is allowlisted and contains cards, indices, taxonomy, aggregate coverage, semantic neighbours and an agent retrieval guide; source archives and model inputs stay private.
 4. Viewer consumes the generated release, keeps similarity descriptive, and hands corrections to a configurable external intake URL using the documented prefill contract.
 
+## Phase 2A.1 human-test hardening
+
+Treat published release `phase2a-2026-08-10` as historical. Any corrected public-card content uses a new release version and separately recorded Viewer deployment commit. Maintain `main` -> manual validated bundle -> static-only `gh-pages`; no ordinary push deploys. Human feedback is a private external form with generic and field-specific prefill, while the 30-case review pack remains local/private.
+
 1. Establish three repository boundaries and configure these path classes:
    - durable OneDrive archive for completed source and processed evidence;
    - local mutable runtime for state, temp, cache, logs and staging;

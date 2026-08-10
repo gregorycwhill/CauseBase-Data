@@ -10,6 +10,13 @@ Updated: 2026-08-10
 - Synthesis uses `gpt-5-mini-2025-08-07`, prompt `phase2a-0.4`, evidence hashes and private cache metadata. Real `text-embedding-3-small` embeddings back semantic links. Candidate validation passed with zero errors; Builder has 42 passing tests and Viewer has 3.
 - Fundraising expenditure remains `not available from selected evidence` where no defensible ladder-method estimate exists; no universal fallback has been introduced.
 
+## Phase 2A.1 — human-test hardening candidate ready
+
+- A new, not-yet-deployed release candidate `phase2a-2026-08-10-h1` preserves the historical `phase2a-2026-08-10` human-test release.
+- It removes duplicate effective coverage states, strips public request/token/cost telemetry, removes ambiguous blanket evidence IDs from CauseBase-native classifications, and corrects sparse-evidence language through nine bounded synthesis reruns.
+- Diagnostics: 120 cards; zero duplicate capabilities; zero native-classification evidence leakage; zero operational telemetry fields; zero classification-exclusion negative statements; 161 semantic links; zero broken public evidence URLs.
+- A private 30-case local human-review pack is prepared. Google Forms setup remains the required human step before generic and field-specific feedback can submit externally.
+
 ## Phase 1 — National Structured Backbone complete
 
 CauseBase now has a reproducible, private national structured-source backbone. It preserves the separation between source record, resolution assertion, CauseBase subject and evidence/observation; it does not attempt to turn every regulator row into a finished card.

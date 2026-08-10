@@ -4,6 +4,14 @@ Updated: 2026-08-10 — Phase 1 complete
 
 ## Phase 2A completion handoff
 
+## Phase 2A.1 human-test hardening (candidate, not yet deployed)
+
+- Historical deployed release remains `phase2a-2026-08-10`; hardening candidate is `phase2a-2026-08-10-h1`.
+- Fixed 86 duplicate coverage-capability presentations, blanket CauseBase-classification provenance, public OpenAI operational telemetry, sparse ACNC-classification-exclusion wording, currency-hardcoded financial display, misleading enriched badge and merged taxonomy headings.
+- Nine sparse/negative-wording cards were rerun with `gpt-5-mini` prompt `phase2a-0.5`: 12,500 input tokens, 9,556 output tokens, approximately USD 0.022 estimated synthesis cost. Nine changed embedding inputs were regenerated (1,386 input tokens); 111 vectors were reused.
+- New candidate diagnostics are clean for the targeted defects; 31 cards have no neighbour above the conservative threshold, which is retained as an honest semantic-coverage state rather than padded with weak links.
+- Private 30-case local review pack and Google Form setup specification are ready. A human must create the private form and supply its response URL plus `entry.<number>` prefill IDs before Viewer can wire and test generic/field-specific intake.
+
 - A validated 120-card governed enriched corpus candidate is staged in CauseBase Viewer. Each automatically promoted ACNC-authoritative subject has opaque CauseBase identity, valid ABN/source provenance and `subject_kind: unknown`; no group, legal-entity or brand inference was made.
 - Evidence: 82 observed websites; explicit failure/not-available coverage otherwise; five annual-report PDFs privately page-extracted (180 pages) with one acquisition failure retained. Reports, HTML snapshots, prompts and credentials are not public.
 - Synthesis: `gpt-5-mini-2025-08-07`, `phase2a-0.4`, content-addressed evidence cache and full provenance. Final summaries are 82–192 words (median 159); 78 are 150–220 words and eight remain short because selected evidence is sparse.

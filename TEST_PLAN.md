@@ -32,6 +32,8 @@ Maintain a human-reviewed evaluation set for neutrality, factual grounding, PR-l
 
 Phase 2A adds a private 30-case representative evaluation corpus, weighted toward sparse/failed websites and report-bearing subjects. It records source evidence IDs, model/prompt/evidence hashes, review focus and a reviewer-assessment slot; it is the regression basis for later prompt/model changes.
 
+Phase 2A.1 adds corpus-level assertions for one effective public coverage state per capability, no public operational synthesis telemetry, no blanket CauseBase taxonomy evidence IDs, sparse-evidence wording and broken public evidence URLs. Viewer tests cover unavailable/real fundraising estimates, observation currency, conflicting financial values and friendly taxonomy separation.
+
 ## Viewer tests
 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.
