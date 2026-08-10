@@ -30,6 +30,8 @@ Maintain small sanitised or permitted fixtures from awkward real-world cases: mu
 
 Maintain a human-reviewed evaluation set for neutrality, factual grounding, PR-language suppression, activity/beneficiary/geography extraction, taxonomy assignment, uncertainty, attribution, conflicting evidence and financial/fundraising interpretation. Run it for material model or prompt changes; valid JSON alone is not a quality signal.
 
+Phase 2A adds a private 30-case representative evaluation corpus, weighted toward sparse/failed websites and report-bearing subjects. It records source evidence IDs, model/prompt/evidence hashes, review focus and a reviewer-assessment slot; it is the regression basis for later prompt/model changes.
+
 ## Viewer tests
 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.

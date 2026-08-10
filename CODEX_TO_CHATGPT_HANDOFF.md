@@ -2,7 +2,19 @@
 
 Updated: 2026-08-10 — Phase 1 complete
 
-## Completed
+## Phase 2A completion handoff
+
+- A validated 120-card governed enriched corpus candidate is staged in CauseBase Viewer. Each automatically promoted ACNC-authoritative subject has opaque CauseBase identity, valid ABN/source provenance and `subject_kind: unknown`; no group, legal-entity or brand inference was made.
+- Evidence: 82 observed websites; explicit failure/not-available coverage otherwise; five annual-report PDFs privately page-extracted (180 pages) with one acquisition failure retained. Reports, HTML snapshots, prompts and credentials are not public.
+- Synthesis: `gpt-5-mini-2025-08-07`, `phase2a-0.4`, content-addressed evidence cache and full provenance. Final summaries are 82–192 words (median 159); 78 are 150–220 words and eight remain short because selected evidence is sparse.
+- Taxonomy v0 implements cause/problem, beneficiary, activity, approach, participation, geography and organisational-character dimensions. ACNC labels remain attributed external classifications and are excluded from native taxonomy inference and semantic text.
+- Embeddings: `text-embedding-3-small`, 120 cards and 162 thresholded descriptive neighbours; never recommendation framing. No universal fundraising fallback was introduced; unavailable estimates remain explicit.
+- Evaluation: private `phase2a-eval-0.1` has 30 representative cases, including report and website-failure cases, ready for human reviewer assessment.
+- Viewer: generated cards, taxonomy, coverage, agent guide and semantic artefacts validate cleanly. Correction links support a configurable external intake with documented prefill fields; no live endpoint/form is configured.
+- Validation: Builder 42 passing tests; Viewer 3 passing tests; 120-card public candidate has zero allowlist/manifest/representation validation errors.
+- Next vertical increment: complete human evaluation-rubric assessments, broaden report-page discovery, and configure the external correction endpoint before treating the release as operationally mature.
+
+## Phase 1 completion record
 
 - Built a reproducible national structured backbone from current ACNC Register, ACNC AIS and ABR/DGR sources.
 - Archived source files privately with retrieval metadata, hashes, URLs, publisher and licence records.

@@ -2,6 +2,14 @@
 
 Updated: 2026-08-10
 
+## Phase 2A — governed enriched corpus candidate complete
+
+- 120 deliberately heterogeneous ACNC-authoritative subjects have been promoted under `acnc-authoritative-v1`; automated promotions retain `subject_kind: unknown`, opaque CauseBase IDs and source-record/ABN provenance. The original five reviewed subjects remain unchanged.
+- The validated Phase 2A candidate contains 120 enriched cards, CauseBase Taxonomy v0, external ACNC classifications kept separately, per-subject JSON/Markdown, coverage, agent guide, Parquet/CSV/JSONL, manifest and 162 descriptive semantic-neighbour links.
+- Evidence remains private by default. Cohort website collection observed 82 sites and recorded failures explicitly; five directly linked annual-report PDFs (180 pages) were extracted privately, with one retrieval failure retained. No raw websites, reports, prompts, vectors in Markdown, or credentials are published.
+- Synthesis uses `gpt-5-mini-2025-08-07`, prompt `phase2a-0.4`, evidence hashes and private cache metadata. Real `text-embedding-3-small` embeddings back semantic links. Candidate validation passed with zero errors; Builder has 42 passing tests and Viewer has 3.
+- Fundraising expenditure remains `not available from selected evidence` where no defensible ladder-method estimate exists; no universal fallback has been introduced.
+
 ## Phase 1 — National Structured Backbone complete
 
 CauseBase now has a reproducible, private national structured-source backbone. It preserves the separation between source record, resolution assertion, CauseBase subject and evidence/observation; it does not attempt to turn every regulator row into a finished card.

@@ -5,6 +5,13 @@
 
 ## Current increment: reality-spike evidence and provisional-contract validation
 
+## Phase 2A completion record
+
+1. The 120-subject heterogeneous, reproducible cohort uses authoritative ACNC promotion only and records selection strata/provenance privately.
+2. Enrichment uses bounded current website/report evidence, cache-aware `gpt-5-mini` synthesis, CauseBase-native Taxonomy v0 and production embeddings.
+3. The public candidate is allowlisted and contains cards, indices, taxonomy, aggregate coverage, semantic neighbours and an agent retrieval guide; source archives and model inputs stay private.
+4. Viewer consumes the generated release, keeps similarity descriptive, and hands corrections to a configurable external intake URL using the documented prefill contract.
+
 1. Establish three repository boundaries and configure these path classes:
    - durable OneDrive archive for completed source and processed evidence;
    - local mutable runtime for state, temp, cache, logs and staging;

@@ -44,3 +44,7 @@ Add governed public proposal records, review/status history, discussion integrat
 ## Phase 6 — Agent ecosystem
 
 Improve discoverability, stable entity/card URLs, per-entity JSON and Markdown, licence/schema/provenance metadata, selective retrieval examples and citation conventions. Add API or MCP services only when demonstrated demand justifies them; static public artefacts remain independently usable.
+
+## Phase 2A completion note
+
+A 120-card governed candidate is validated and staged for the Viewer with private website/report evidence processing, `gpt-5-mini` synthesis, Taxonomy v0, `text-embedding-3-small` neighbours, per-card JSON/Markdown, an agent guide and a configurable correction-intake contract. Human evaluation assessment and live endpoint configuration remain follow-on operational work.
