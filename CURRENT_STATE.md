@@ -21,6 +21,13 @@ Updated: 2026-08-10
 
 CauseBase now has a reproducible, private national structured-source backbone. It preserves the separation between source record, resolution assertion, CauseBase subject and evidence/observation; it does not attempt to turn every regulator row into a finished card.
 
+## Taxonomy Review v0.1 — first governed corpus review complete
+
+- The frozen baseline remains CauseBase taxonomy `0.1-phase2a` (7 dimensions, 23 terms). No canonical taxonomy file, public card classification or Viewer taxonomy was changed.
+- Builder now provides a private, non-mutating `causebase taxonomy-review` process. Pass A is taxonomy-blind and excludes ACNC classifications, labels, mappings and cohort strata; Pass B critiques the frozen vocabulary only after independent discovery; ACNC is a post-hoc diagnostic annex.
+- First review used the private 120-card `phase2a-2026-08-10-h1` candidate. Its private decision package contains deterministic diagnostics, blind concepts, a complete 23-term audit, eight ranked unapproved proposals (4 HIGH, 3 MEDIUM, 1 WATCH), definition/boundary profiles and migration analysis.
+- The review package is awaiting a product/human taxonomy decision. No proposed term is canonical and no reclassification is authorised by this review alone.
+
 ## National baseline
 
 - ACNC Register: 65,472 normalised source records, each with a stable opaque source-record ID.

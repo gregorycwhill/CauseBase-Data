@@ -34,6 +34,10 @@ Phase 2A adds a private 30-case representative evaluation corpus, weighted towar
 
 Phase 2A.1 adds corpus-level assertions for one effective public coverage state per capability, no public operational synthesis telemetry, no blanket CauseBase taxonomy evidence IDs, sparse-evidence wording and broken public evidence URLs. Viewer tests cover unavailable/real fundraising estimates, observation currency, conflicting financial values and friendly taxonomy separation.
 
+## Taxonomy-review tests
+
+Taxonomy review must preserve the frozen baseline and never mutate canonical taxonomy files or card classifications. Test deterministic corpus diagnostics and stable input hashes; exclude ACNC classification fields, current CauseBase assignments, taxonomy labels and organisation names from taxonomy-blind Pass A; validate proposal operation types, compact review limits, support-count/representative-ID bounds and proposed-term definition profiles; retain future unmapped-concept and taxonomy-ambiguity signals privately; and ensure ACNC comparison occurs only after independent discovery.
+
 ## Viewer tests
 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.

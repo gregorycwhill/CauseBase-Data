@@ -6,6 +6,13 @@ Updated: 2026-08-10 — Phase 1 complete
 
 ## Phase 2A.1 human-test hardening (candidate, not yet deployed)
 
+## Taxonomy Review v0.1 (private decision package; no taxonomy change applied)
+
+- Baseline reviewed: `0.1-phase2a`, frozen at 7 dimensions and 23 terms. The review never mutates canonical taxonomy files, existing card classifications or Viewer data.
+- First review used the 120-card `phase2a-2026-08-10-h1` candidate. Taxonomy-blind Pass A excluded ACNC classifications/labels/mappings/cohort strata, current CauseBase assignments and organisation names. Pass B received the baseline only after independent discovery; ACNC comparison is post-hoc only.
+- Private package: 8 unapproved proposals (4 HIGH, 3 MEDIUM, 1 WATCH), a complete 23-term audit, deterministic frequency/co-occurrence/coverage diagnostics, definition and boundary profiles, migration analysis, and private API telemetry. The strongest diagnostics include `geography.local_or_regional` at high frequency and major co-occurrences for local geography/organisation, events/public-events and volunteer approach/participation.
+- Human taxonomy governance is now required: for every HIGH proposal choose approve, reject, defer/watch, request more evidence, or modify. Any accepted material change needs a new taxonomy version and an explicitly governed affected-card reclassification; do not apply proposals automatically.
+
 - Historical deployed release remains `phase2a-2026-08-10`; hardening candidate is `phase2a-2026-08-10-h1`.
 - Fixed 86 duplicate coverage-capability presentations, blanket CauseBase-classification provenance, public OpenAI operational telemetry, sparse ACNC-classification-exclusion wording, currency-hardcoded financial display, misleading enriched badge and merged taxonomy headings.
 - Nine sparse/negative-wording cards were rerun with `gpt-5-mini` prompt `phase2a-0.5`: 12,500 input tokens, 9,556 output tokens, approximately USD 0.022 estimated synthesis cost. Nine changed embedding inputs were regenerated (1,386 input tokens); 111 vectors were reused.
