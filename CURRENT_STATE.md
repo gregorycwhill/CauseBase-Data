@@ -15,7 +15,7 @@ Updated: 2026-08-10
 - A new, not-yet-deployed release candidate `phase2a-2026-08-10-h1` preserves the historical `phase2a-2026-08-10` human-test release.
 - It removes duplicate effective coverage states, strips public request/token/cost telemetry, removes ambiguous blanket evidence IDs from CauseBase-native classifications, and corrects sparse-evidence language through nine bounded synthesis reruns.
 - Diagnostics: 120 cards; zero duplicate capabilities; zero native-classification evidence leakage; zero operational telemetry fields; zero classification-exclusion negative statements; 161 semantic links; zero broken public evidence URLs.
-- A private 30-case local human-review pack is prepared. The private Google Forms responder endpoint and all six card-context prefill fields are configured locally; the form owner has confirmed private/reviewer handling. The corrected release remains un-deployed pending final validated publication through the manual Pages boundary.
+- A private 30-case local human-review pack is prepared. The private Google Forms responder endpoint and all six card-context prefill fields are configured; the form owner confirmed private/reviewer handling. The corrected human-test release is deployed at `https://gregorycwhill.github.io/CauseBase-Viewer/` through the manual `main` → `gh-pages` boundary: dataset `phase2a-2026-08-10-h1`, Viewer commit `a97b99951915a3c92a03da48352f94ad727db511`.
 
 ## Phase 1 — National Structured Backbone complete
 
