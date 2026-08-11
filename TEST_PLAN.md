@@ -38,6 +38,8 @@ Phase 2A.1 adds corpus-level assertions for one effective public coverage state 
 
 Taxonomy review must preserve the frozen baseline and never mutate canonical taxonomy files or card classifications. Test deterministic corpus diagnostics and stable input hashes; exclude ACNC classification fields, current CauseBase assignments, taxonomy labels and organisation names from taxonomy-blind Pass A; validate proposal operation types, compact review limits, support-count/representative-ID bounds and proposed-term definition profiles; retain future unmapped-concept and taxonomy-ambiguity signals privately; and ensure ACNC comparison occurs only after independent discovery.
 
+For the durable workflow, separately test that PREPARE is API-free and bounded, MODEL-REVIEW cannot create a decision record, decision outcomes validate against the governed schema, and VALIDATE reports candidate impacts without changing cards, taxonomy files or public releases.
+
 ## Viewer tests
 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.

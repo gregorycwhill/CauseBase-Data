@@ -89,6 +89,10 @@ None. The remaining work is operational refresh/release design and enrichment sc
 - No public national card corpus is implied by the backbone; only five reviewed subjects are promoted.
 - DGR parser currently records endorsed presence; richer fund/item/date field mapping can be added without changing identity semantics.
 
+## Taxonomy workflow handoff
+
+The next taxonomy review begins with Builder `taxonomy-review-prepare`, not a model call. Its private packet is the human discussion input. Optional advisory model output must remain separate. Do not alter the historical v0.1 or Sol packages; do not implement a candidate taxonomy until a human decision record explicitly authorises it. Run `taxonomy-review-validate` after implementation and before any reclassification/rebuild decision.
+
 ## Recommended Phase 2 increment
 
 Build a governed real enriched slice (roughly 100–1,000 subjects) using targeted report and website evidence, taxonomy work, real embeddings and correction intake, while retaining this backbone as the source/coverage layer.

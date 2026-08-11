@@ -28,6 +28,12 @@ CauseBase now has a reproducible, private national structured-source backbone. I
 - First review used the private 120-card `phase2a-2026-08-10-h1` candidate. Its private decision package contains deterministic diagnostics, blind concepts, a complete 23-term audit, eight ranked unapproved proposals (4 HIGH, 3 MEDIUM, 1 WATCH), definition/boundary profiles and migration analysis.
 - The review package is awaiting a product/human taxonomy decision. No proposed term is canonical and no reclassification is authorised by this review alone.
 
+## Durable taxonomy workflow — PREPARE demonstration complete
+
+- The historical v0.1 and facet-purity/Sol packages remain immutable advisory evidence; their proposals were not implemented.
+- Builder now separates deterministic `taxonomy-review-prepare`, optional advisory `taxonomy-review-model-review`, human decision records, and non-mutating `taxonomy-review-validate`.
+- The initial deterministic packet reviews the 120-card `phase2a-2026-08-10-h1` corpus against frozen `0.1-phase2a`; it creates pressure questions, diagnostics and bounded cases only. No API request, taxonomy mutation, card regeneration, embedding run, Viewer change or publication occurred.
+
 ## National baseline
 
 - ACNC Register: 65,472 normalised source records, each with a stable opaque source-record ID.

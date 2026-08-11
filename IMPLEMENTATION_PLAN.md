@@ -48,6 +48,10 @@ Website ingestion is a core enrichment stage, separate from report processing. I
 
 For a real enriched subject, treat classification, embedding and similarity outputs as related derived products. Use production embeddings only for real enriched cards; synthetic hash embeddings must never be presented as public semantic similarity.
 
+## Taxonomy maintenance lifecycle
+
+Run deterministic PREPARE periodically against a frozen corpus and taxonomy. It produces a compact private packet before any optional model work. An optional model critique is advisory evidence only. Human decisions are recorded with definitions, boundaries, exclusions, cases and migration implications; implementation then creates a candidate version. VALIDATE compares that candidate with the baseline and current corpus without rebuilding or publishing. Only a separately governed reclassification/release may follow.
+
 ## Correction delivery sequence
 
 The Phase 2/3 enriched-card release requires basic private intake with prefilled card/field/release context and a traceable acknowledgement. Public proposal records, moderation decisions and full history arrive later. No raw intake payload is automatically public.
