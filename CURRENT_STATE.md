@@ -2,6 +2,13 @@
 
 Updated: 2026-08-10
 
+## Phase 2B RC2 — human-review remediation candidate
+
+- Candidate `phase2b-2026-08-12-rc2` retains the same 120-card scope. It preserves both `phase2a-2026-08-10-h1` and failed `phase2b-2026-08-12-rc1` as immutable Viewer release snapshots.
+- All summaries were deliberately regenerated under editorial contract `phase2b-rc2-1` / policy `0.3-rc2`; unchanged evidence alone is no longer a basis for summary reuse. The private migration cache records 120 `gpt-5-mini` calls, 327,726 input tokens, 222,747 output tokens and estimated USD 0.527423.
+- RC2 introduces a card-wide stable evidence-number registry, controlled navigation geography, separated CauseBase and ACNC navigation facets, persistent two-pane Viewer layout, direct ABN/ACNC/website/card links and always-visible funding/fundraising coverage states.
+- The Google Forms correction mapping now matches the externally verified prefill IDs and `usp=pp_url` grammar. Automated URL-contract coverage passes; deployed clean-incognito verification remains a mandatory human release gate before deployment is declared successful.
+
 ## Phase 2B — longitudinal one-stop data candidate
 
 - Candidate `phase2b-2026-08-12-rc1` is an append-only projection of the 120-card `phase2a-2026-08-10-h1` release. h1 is retained as a historical static release and is not rewritten.

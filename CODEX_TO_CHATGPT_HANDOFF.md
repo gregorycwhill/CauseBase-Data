@@ -2,6 +2,15 @@
 
 Updated: 2026-08-10 — Phase 1 complete
 
+## Phase 2B RC2 human-review remediation (candidate; not deployed)
+
+- Candidate: `phase2b-2026-08-12-rc2`, with the existing 120-card corpus only. Failed `phase2b-2026-08-12-rc1` is retained under Viewer `public/releases/`; h1 remains retained there too.
+- Editorial migration: all 120 summaries regenerated with `gpt-5-mini`, prompt `phase2b-rc2-1`, editorial policy `0.3-rc2`, and citation-ID output. Private cache telemetry: 327,726 input tokens, 222,747 output tokens, estimated USD 0.527423. Summary validity now treats evidence hash, prompt, editorial policy and output contract as governing inputs.
+- Viewer: fixed verified Google Forms entry IDs and `usp=pp_url`; card-wide stable `[n]` reference links; independently scrollable result and inspector panes; URL-persisted search/facets/selection; ABN, ACNC search-profile, website, JSON, Markdown and source-native links; always-visible Funding & fundraising states; controlled geography; CauseBase dimensions separated from ACNC classifications.
+- EJA golden card (`cb_604da7f26c6c48dd934e713edc493e9f`): natural reader-first summary with references; ABN and ACNC public links; Australia/Victoria navigation projection; source-native ACNC and AIS records; explicit funding-source `not_available_from_source` and fundraising-method `not_yet_processed` states. It does not merge EJA with Environmental Defenders Office.
+- Validation complete: Builder 55 tests; Viewer 11 tests; RC2 publication validation; static deployment-bundle preparation.
+- Mandatory outstanding human release gate: deploy the candidate through the existing validated manual workflow, then in a clean/incognito browser open EJA and use **Suggest correction**. Confirm the Form visibly contains the organisation, `cb_604da7f26c6c48dd934e713edc493e9f`, `phase2b-2026-08-12-rc2`, the exact card URL, `causebase_summary`, and the displayed summary. Also confirm the selected card remains visible while scrolling the left result list. Do not call deployment successful until this is recorded.
+
 ## Phase 2A completion handoff
 
 ## Phase 2A.1 human-test hardening (candidate, not yet deployed)
