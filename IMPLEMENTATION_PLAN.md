@@ -3,6 +3,14 @@
 **Status:** Accepted product direction; implementation details remain adaptable  
 **Updated:** 2026-08-10
 
+## Phase 2B contract
+
+CauseBase uses a three-layer source contract: source-native public observations, selectively harmonised canonical card fields, and governed derived artefacts. Source observation time, world/effective time and CauseBase representation/release time are separate. Annual financial and regulator observations append; the current projection is a view, not an overwrite.
+
+Incremental refresh is staged: acquire/extract, deterministic change profile, dependency decision, optional bounded semantic assessment, then reuse or refresh. Reuse itself is recorded with the assessed inputs and reason. Numeric-only changes do not automatically regenerate prose or embeddings.
+
+Funding sources, fundraising methods, current-campaign freshness and fundraising expenditure are distinct fields. They remain descriptive, evidence-bound and non-normative.
+
 ## Current increment: reality-spike evidence and provisional-contract validation
 
 ## Phase 2A completion record

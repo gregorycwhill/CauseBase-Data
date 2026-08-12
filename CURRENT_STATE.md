@@ -2,6 +2,13 @@
 
 Updated: 2026-08-10
 
+## Phase 2B — longitudinal one-stop data candidate
+
+- Candidate `phase2b-2026-08-12-rc1` is an append-only projection of the 120-card `phase2a-2026-08-10-h1` release. h1 is retained as a historical static release and is not rewritten.
+- Cards now expose public-safe source-native ACNC Register and AIS sidecars, annual financial observation history, temporal relationship fields, funding-source observations, derivative reuse/refresh assessments and direct source-record links. The initial projection reuses all existing summaries, classifications, embeddings and neighbours after a deterministic assessment; no model calls were made.
+- The candidate includes a public government-source inventory and gap report. ASIC is explicitly not integrated pending its access/cost/terms assessment; CauseBase does not bypass paywalls or access controls.
+- Viewer candidate adds free-text search, stacked facets, taxonomy navigation, browser history, stable card hashes, source/evidence versus convenience links, JSON/Markdown and source-record access, history, funding/fundraising rendering and accessible technical help.
+
 ## Phase 2A — governed enriched corpus candidate complete
 
 - 120 deliberately heterogeneous ACNC-authoritative subjects have been promoted under `acnc-authoritative-v1`; automated promotions retain `subject_kind: unknown`, opaque CauseBase IDs and source-record/ABN provenance. The original five reviewed subjects remain unchanged.

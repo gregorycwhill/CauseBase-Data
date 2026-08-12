@@ -13,6 +13,10 @@
 - preservation of the previous valid release after a failed build;
 - correction-dependent regeneration when governed corrections are introduced;
 - agent usability: an unfamiliar coding/AI agent can discover the current release and correctly retrieve and interpret one subject without downloading the national corpus.
+- append-only annual observations, temporal relationship validity and current-projection selection;
+- source-native sidecar provenance and source-field/canonical-field separation;
+- deterministic change profiles, dependency decisions and recorded derivative reuse;
+- source inventory, historical-release ledger and exact deployment-bundle safety.
 
 ## Data tests
 
@@ -43,3 +47,5 @@ For the durable workflow, separately test that PREPARE is API-free and bounded, 
 ## Viewer tests
 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.
+
+Phase 2B additionally tests stacked facets, clickable taxonomy navigation, source-record links, funding/fundraising display, history/reuse display and accessible help controls.
