@@ -8,7 +8,7 @@ Candidate: `phase2b-2026-08-13-rc3`.
 - Viewer: 13 tests passed.
 - Candidate validation passed.
 - Pages bundle preparation passed.
-- Rendered source-native static HTTP crawler: 326/326 returned HTTP 200.
+- Rendered source-native static HTTP crawler: 326/326 returned HTTP 200 locally and again against the deployed GitHub Pages URLs.
 - Corpus invariants: 120 cards; 120 clean canonical CauseBase URLs; 120 ACNC profile locators; 101 submitted AIS locators; 19 explicit no-submitted-AIS coverage states.
 
 ## Regression-card inspection
@@ -25,4 +25,6 @@ Candidate: `phase2b-2026-08-13-rc3`.
 | Biopixel Oceans Foundation | multiple programs | ACNC profile, AIS, nine program observations, DGR |
 | Catholic Church Insurance | identity-complex legal form | ACNC profile, AIS, program and financial observation |
 
-Manual post-deployment spot checks remain required for visual layout and external-service behaviour: EJA’s direct ACNC profile link, first narrative citation `[1]`, correction-form prefill, and compact LHS browsing.
+## Deployed EJA smoke check
+
+A headless-browser rendering of EJA verified the visible About section, ABN link, exact canonical ACNC profile link, explicit `Deductible Gift Recipient: Yes`, programs, participation, compact classification chips, History, Similar organisations, canonical correction prefill URL, and the first main-prose citation as `[1]`. The left browsing pane presents collapsed filters followed by the independent result list; result rows omit ABNs.
