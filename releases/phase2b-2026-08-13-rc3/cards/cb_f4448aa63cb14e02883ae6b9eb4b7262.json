@@ -1,0 +1,886 @@
+{
+  "causebase_id": "cb_f4448aa63cb14e02883ae6b9eb4b7262",
+  "subject_kind": "unknown",
+  "external_identifiers": [
+    {
+      "scheme": "abn",
+      "value": "48637825668",
+      "source_evidence_id": "ev:acnc:48637825668"
+    }
+  ],
+  "registrations": [
+    {
+      "regulator": "ACNC",
+      "registration_id": null,
+      "status": "registered",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    }
+  ],
+  "tax_statuses": [],
+  "relationships": [],
+  "source_resolutions": [
+    {
+      "source_record_id": "src:acnc-register:47ac393a-bbe8-50ab-80af-d04ef50ec2eb",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "supporting_signals": [
+        "ABN:48637825668",
+        "ACNC Register"
+      ],
+      "conflicting_signals": [],
+      "review_status": "not_required"
+    }
+  ],
+  "legal_name": "AGENCY PROJECTS LIMITED",
+  "display_name": "AGENCY PROJECTS LIMITED",
+  "entity_status": "registered",
+  "canonical_url": "https://gregorycwhill.github.io/CauseBase-Viewer/#cb_f4448aa63cb14e02883ae6b9eb4b7262",
+  "acnc_profile_url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/profile",
+  "acnc_ais_url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/documents/b3333e33-cb32-f111-88b4-6045bde5be38",
+  "operating_names": [
+    "Lauren Ganley"
+  ],
+  "former_names": [],
+  "principal_location": "VIC, Australia",
+  "coverage": [
+    {
+      "capability": "regulatory",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "annual_report",
+      "status": "not_yet_processed",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "website",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:web:48637825668:2026-08-10"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "fundraising_expenditure",
+      "status": "not_available_from_source",
+      "source_record_id": null,
+      "evidence_ids": [],
+      "observed_at": "2026-08-10",
+      "freshness_note": "No direct or defensible derived fundraising expenditure was found in selected Phase 2A evidence."
+    },
+    {
+      "capability": "financials",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:ais:48637825668:2023"
+      ],
+      "observed_at": "2026-08-10",
+      "freshness_note": null
+    },
+    {
+      "capability": "latest_acnc_ais",
+      "status": "observed",
+      "source_record_id": null,
+      "evidence_ids": [
+        "ev:acnc:ais:48637825668:2025"
+      ],
+      "observed_at": "2026-04-07",
+      "freshness_note": "Latest submitted ACNC AIS in the 2026-08-13 public-profile acquisition: 2025."
+    }
+  ],
+  "enrichment_level": "enriched",
+  "website": "www.agencyprojects.org",
+  "geography": [
+    "Victoria (registered location)",
+    "Australia (local, regional and national activity claimed)"
+  ],
+  "navigation_geography": [
+    {
+      "level": "country",
+      "code": "AU",
+      "label": "Australia",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    },
+    {
+      "level": "state_territory",
+      "code": "AU-VIC",
+      "label": "Victoria",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    }
+  ],
+  "causebase_summary": "AGENCY PROJECTS LIMITED (Agency Projects) is a Victoria‑registered arts organisation that delivers First Nations‑led exhibitions, commissions and related public programming on local, national and international scales. Its work includes curating and staging exhibitions that centre Aboriginal and Torres Strait Islander artists, art and built‑environment commissions, forums and the UNTOLD talks series, digital initiatives such as the UPLANDS mapping resource and artist portraits, a residency program (Agency AiR) for First Nations participants, and publications under Agency Editions. Agency also runs events and conference programming (including NAIDOC and Garma partnerships) and says it partners with government and overseas institutions for international projects. Stated beneficiaries include Aboriginal and Torres Strait Islander artists, curators and cultural leaders, First Nations participants and communities, and audiences and collectors.",
+  "summary_evidence_ids": [
+    "ev:web:48637825668:2026-08-10",
+    "ev:acnc:48637825668",
+    "ev:ais:48637825668:2023"
+  ],
+  "organisation_self_description": null,
+  "activities": [
+    "Curating and staging First Nations‑led exhibitions",
+    "Art and built‑environment commissions",
+    "Forums and public talks (UNTOLD talks)",
+    "Digital projects and resources (including UPLANDS, projections, artist portraits)",
+    "Residency program (Agency AiR)",
+    "Publications (Agency Editions)",
+    "Event programming and conferences (including NAIDOC and Garma partnerships)",
+    "International project partnerships with DFAT and overseas institutions"
+  ],
+  "beneficiaries": [
+    "Aboriginal and Torres Strait Islander artists, curators and cultural leaders",
+    "First Nations participants and communities",
+    "Audiences and collectors"
+  ],
+  "participation_modes": [
+    "Public talks and events",
+    "Exhibitions and curated projects",
+    "Artist residencies",
+    "Digital initiatives and publications"
+  ],
+  "participation_observations": [],
+  "opportunities": [],
+  "programs": [],
+  "source_native_records": [
+    {
+      "source_record_id": "src:acnc-register:47ac393a-bbe8-50ab-80af-d04ef50ec2eb",
+      "source_family": "acnc-register",
+      "dataset_version": "2026-08-10",
+      "source_url": "https://www.acnc.gov.au/charity/charities?search=48637825668",
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
+      "observed_at": "2026-08-10",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "ABN": "48637825668",
+        "Legal Name": "AGENCY PROJECTS LIMITED",
+        "Registration Status": "registered",
+        "ACNC classifications": "environment; other beneficiary",
+        "Website": "www.agencyprojects.org",
+        "ACNC registration ID": null,
+        "Public source field coverage": "Fields acquired in the Phase 2A register observation are preserved here; fields absent from that acquired observation are explicitly not_yet_processed rather than inferred."
+      },
+      "source_payload": null,
+      "canonical_field_mappings": {
+        "ABN": "external_identifiers",
+        "Legal Name": "legal_name",
+        "Registration Status": "registrations"
+      },
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-ais:fr:ais:cb_f4448aa63cb14e02883ae6b9eb4b7262:2023",
+      "source_family": "acnc-ais",
+      "dataset_version": "2026-08-10",
+      "source_url": null,
+      "retrieved_at": "2026-08-12T14:24:20.675968Z",
+      "observed_at": "2026-08-10",
+      "effective_from": "2022-07-01",
+      "effective_to": "2023-06-30",
+      "source_fields": {
+        "Reporting period": "01/07/2022 to 30/06/2023",
+        "Reporting scope": "subject",
+        "Consolidated": "unknown",
+        "Revenue": "0",
+        "Donations and bequests": null,
+        "Government grants": null,
+        "Total expenses": "0",
+        "Assets": null,
+        "Liabilities": null
+      },
+      "source_payload": null,
+      "canonical_field_mappings": {
+        "Revenue": "financial_records[].revenue",
+        "Total expenses": "financial_records[].total_expenses"
+      },
+      "evidence_ids": [
+        "ev:ais:48637825668:2023"
+      ]
+    },
+    {
+      "source_record_id": "src:acnc-public-profile:48637825668:cb_f4448aa63cb14e02883ae6b9eb4b7262:2026-08-13",
+      "source_family": "acnc-public-profile",
+      "dataset_version": "2026-08-13-public-api",
+      "source_url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/profile",
+      "retrieved_at": "2026-08-13T00:32:15.698599Z",
+      "observed_at": "2026-04-07",
+      "effective_from": null,
+      "effective_to": null,
+      "source_fields": {
+        "uuid": "9622f9cc-b25f-eb11-89f5-000d3ad1f9f4",
+        "abn": "48637825668",
+        "latest_ais_year": "2025",
+        "latest_ais_uuid": "b3333e33-cb32-f111-88b4-6045bde5be38"
+      },
+      "source_payload": {
+        "data": {
+          "AFSAddressPostalCode": "3066",
+          "AFSEmail": "info@agencyprojects.org",
+          "Abn": "48637825668",
+          "AddressCountry": "Australia",
+          "AddressLine1": "47 Easey Street",
+          "AddressLine2": null,
+          "AddressLine3": null,
+          "AddressPostalCode": "3066",
+          "AddressStateOrProvince": "VIC",
+          "AddressSuburb": "Collingwood",
+          "AddressSuburbStatePostcode": "Collingwood VIC 3066",
+          "AnnualReports": [
+            {
+              "AISId": "d76678fe-ef68-ef11-a670-00224892ef15",
+              "DateReceived": "2024-09-02T05:55:49.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Annual Information Statement 2021",
+              "uuid": "3c5a9a2d-1a98-eb11-b1ac-000d3acc2ac2"
+            },
+            {
+              "AISId": "5cde886d-dc68-ef11-a671-6045bdc3685f",
+              "DateReceived": "2024-09-02T03:35:53.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Annual Information Statement 2022",
+              "uuid": "3f5a9a2d-1a98-eb11-b1ac-000d3acc2ac2"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-09-02T05:55:23.0000000Z",
+              "DocumentUuid": "3905b5e6-ef68-ef11-a670-0022481048ed",
+              "DueDate": "2022-01-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2021",
+              "type": "Financial Report 2021",
+              "uuid": "425a9a2d-1a98-eb11-b1ac-000d3acc2ac2"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-09-02T03:35:21.0000000Z",
+              "DocumentUuid": "52d53b5b-dc68-ef11-a671-6045bdc3685f",
+              "DueDate": "2023-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2022",
+              "type": "Financial Report 2022",
+              "uuid": "4d5a9a2d-1a98-eb11-b1ac-000d3acc2ac2"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2026",
+              "type": "Annual Information Statement 2026",
+              "uuid": "7e3a49d6-d4df-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2026-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2026",
+              "type": "Financial Report 2026",
+              "uuid": "943a49d6-d4df-ef11-a732-000d3ad0bafe"
+            },
+            {
+              "AISId": "95faa256-83ea-ef11-be20-000d3acc0fea",
+              "DateReceived": "2025-02-14T03:25:42.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2025-01-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2024",
+              "type": "Annual Information Statement 2024",
+              "uuid": "f9d9f7bd-c9a1-ed11-aad1-002248122b18"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": null,
+              "IsAIS": false,
+              "Status": "Not required - small",
+              "Year": "2024",
+              "type": "Financial Report 2024",
+              "uuid": "32daf7bd-c9a1-ed11-aad1-002248122b18"
+            },
+            {
+              "AISId": "b29f4056-da68-ef11-a671-6045bdc3685f",
+              "DateReceived": "2024-09-02T03:20:45.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Annual Information Statement 2023",
+              "uuid": "dcd41354-a782-ec11-8d20-00224892973b"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2024-09-02T03:20:18.0000000Z",
+              "DocumentUuid": "a7bc8040-da68-ef11-a670-002248116870",
+              "DueDate": "2024-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2023",
+              "type": "Financial Report 2023",
+              "uuid": "5ad51354-a782-ec11-8d20-00224892973b"
+            },
+            {
+              "AISId": "b3333e33-cb32-f111-88b4-6045bde5be38",
+              "DateReceived": "2026-04-07T21:46:25.0000000Z",
+              "DocumentUuid": null,
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Annual Information Statement 2025",
+              "uuid": "f414202b-a5c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": "2026-04-07T21:46:07.0000000Z",
+              "DocumentUuid": "afd5c825-cb32-f111-88b4-6045bde523ce",
+              "DueDate": "2026-01-31T00:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Submitted",
+              "Year": "2025",
+              "type": "Financial Report 2025",
+              "uuid": "0515202b-a5c0-ee11-907a-00224893bfad"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": true,
+              "Status": "Not yet submitted",
+              "Year": "2027",
+              "type": "Annual Information Statement 2027",
+              "uuid": "be95c313-03ff-f011-8406-6045bdc27ae7"
+            },
+            {
+              "AISId": null,
+              "DateReceived": null,
+              "DocumentUuid": null,
+              "DueDate": "2027-12-30T13:00:00.0000000Z",
+              "IsAIS": false,
+              "Status": "Pending",
+              "Year": "2027",
+              "type": "Financial Report 2027",
+              "uuid": "cc95c313-03ff-f011-8406-6045bdc27ae7"
+            }
+          ],
+          "Beneficiaries": [],
+          "CharitySize": "Medium",
+          "CharitySubtypeHistory": [
+            {
+              "EndDate": null,
+              "Purpose": "Advancing culture",
+              "StartDate": "2020-08-16T14:00:00.0000000Z",
+              "uuid": "a822f9cc-b25f-eb11-89f5-000d3ad1f9f4"
+            },
+            {
+              "EndDate": null,
+              "Purpose": "Advancing the natural environment",
+              "StartDate": "2020-08-16T14:00:00.0000000Z",
+              "uuid": "b622f9cc-b25f-eb11-89f5-000d3ad1f9f4"
+            }
+          ],
+          "CharityVersion": "97",
+          "ChildMemberEndDate": null,
+          "ChildMemberStartDate": null,
+          "ChooseToProvideAis": null,
+          "Countries": [],
+          "DateEstablished": "2020-08-16T14:00:00.0000000Z",
+          "Documents": [
+            {
+              "Date": "2021-01-26T00:00:00.0000000",
+              "Title": "5B Agency Projects Limited - Constitution.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4-a9500726-3373-4586-98ed-0b3e6e51220f-Governing%20Document-f4517dc7-b25f-eb11-a812-000d3a6ab826-5B_Agency_Projects_Limited_-_Constitution.pdf",
+              "Year": null,
+              "type": "Governing Document",
+              "uuid": "f4517dc7-b25f-eb11-a812-000d3a6ab826"
+            },
+            {
+              "Date": "2024-09-02T00:00:00.0000000",
+              "Title": "Agency_AnnualReport23v16spreads-web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4-a9500726-3373-4586-98ed-0b3e6e51220f-Financial%20Report-3905b5e6-ef68-ef11-a670-0022481048ed-Agency_AnnualReport23v16spreads-web.pdf",
+              "Year": "2021",
+              "type": "Financial Report",
+              "uuid": "3905b5e6-ef68-ef11-a670-0022481048ed"
+            },
+            {
+              "Date": "2024-09-02T00:00:00.0000000",
+              "Title": "Agency_AnnualReport23v16spreads-web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4-a9500726-3373-4586-98ed-0b3e6e51220f-Financial%20Report-a7bc8040-da68-ef11-a670-002248116870-Agency_AnnualReport23v16spreads-web.pdf",
+              "Year": "2023",
+              "type": "Financial Report",
+              "uuid": "a7bc8040-da68-ef11-a670-002248116870"
+            },
+            {
+              "Date": "2024-09-02T00:00:00.0000000",
+              "Title": "Agency_AnnualReport23v16spreads-web.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4-a9500726-3373-4586-98ed-0b3e6e51220f-Financial%20Report-52d53b5b-dc68-ef11-a671-6045bdc3685f-Agency_AnnualReport23v16spreads-web.pdf",
+              "Year": "2022",
+              "type": "Financial Report",
+              "uuid": "52d53b5b-dc68-ef11-a671-6045bdc3685f"
+            },
+            {
+              "Date": "2026-04-08T00:00:00.0000000",
+              "Title": "Agency Projects Trust Financial Report 2024-25 with signed audit report.pdf",
+              "Url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4-a9500726-3373-4586-98ed-0b3e6e51220f-Financial%20Report-afd5c825-cb32-f111-88b4-6045bde523ce-Agency_Projects_Trust_Financial_Report_2024-25_with_signed_audit_report.pdf",
+              "Year": "2025",
+              "type": "Financial Report",
+              "uuid": "afd5c825-cb32-f111-88b4-6045bde523ce"
+            }
+          ],
+          "Email": "mayatili@agencyprojects.org",
+          "EnforcementOutcomes": [],
+          "FinancialYearEnd": "30/06",
+          "GovernmentAgencies": [
+            {
+              "Name": "Australian Securities and Investment Commission",
+              "ReferenceNumber": "637825668",
+              "uuid": "cdb7ffd2-b25f-eb11-89f5-000d3ad1f9f4"
+            }
+          ],
+          "GroupHeadFlag": false,
+          "LastReported": "2026-04-07T21:46:25.0000000Z",
+          "Name": "AGENCY PROJECTS LIMITED",
+          "NextReportDue": "2026-12-31T12:30:00.0000000Z",
+          "OperatingInStates": [],
+          "OtherDetails": null,
+          "OtherNames": [
+            {
+              "Name": "Lauren Ganley",
+              "uuid": "037f5ed2-1a2c-f111-9730-002248108a02"
+            }
+          ],
+          "ParentAccountAbn": null,
+          "ParentAccountId": null,
+          "Phone": "+61 448 291 815",
+          "Programs": [],
+          "ReferendumReturnsUrl": null,
+          "RegistrationStatusHistory": [
+            {
+              "EffectiveDate": "2020-08-16T14:00:00.0000000Z",
+              "Status": "Registered",
+              "TransactionDate": "2021-04-08T03:26:15.0000000Z",
+              "uuid": "15ad9f27-1a98-eb11-b1ac-000d3acc2ac2"
+            }
+          ],
+          "RelatedPartyTransactions": null,
+          "RelevantTransactions": null,
+          "ReportingLate": "2027-06-30T12:30:00.0000000Z",
+          "ResponsiblePersons": [
+            {
+              "Name": "Lauren Ganley",
+              "Role": "Chairperson",
+              "uuid": "dd3d021f-8629-f111-8341-0022489549a2"
+            },
+            {
+              "Name": "Elizabeth Liddle",
+              "Role": "Director",
+              "uuid": "6ff1f179-baf2-ed11-8849-002248110683"
+            },
+            {
+              "Name": "Antony Grybowski",
+              "Role": "Director",
+              "uuid": "afa03fac-ac5f-f011-bec1-00224891ea6c"
+            }
+          ],
+          "Status": "Registered",
+          "SummaryOfActivities": null,
+          "TotalExpensesEmployee": "808562",
+          "TotalExpensesGrantsAndDonationsInAustralia": "0",
+          "TotalExpensesGrantsAndDonationsOutsideAustralia": "0",
+          "TotalExpensesInterest": "0",
+          "TotalExpensesOther": "1285254",
+          "TotalGrossIncomeDonationsAndRequests": "114030",
+          "TotalGrossIncomeGoodsOrServices": "1168506",
+          "TotalGrossIncomeGovernmentGrants": "538116",
+          "TotalGrossIncomeInvestments": "2041",
+          "TotalGrossIncomeOtherRevenues": "508520",
+          "TransparencyRegisterUrl": null,
+          "Website": "www.agencyprojects.org",
+          "__normalized": true,
+          "type": "charity",
+          "uuid": "9622f9cc-b25f-eb11-89f5-000d3ad1f9f4"
+        },
+        "type": "charity",
+        "uuid": "9622f9cc-b25f-eb11-89f5-000d3ad1f9f4"
+      },
+      "canonical_field_mappings": {
+        "data.Name": "display_name",
+        "data.OtherNames": "operating_names",
+        "data.AnnualReports": "acnc_ais_url",
+        "data.Programs": "programs"
+      },
+      "evidence_ids": [
+        "ev:acnc:ais:48637825668:2025"
+      ]
+    }
+  ],
+  "financial_records": [
+    {
+      "financial_record_id": "fr:ais:cb_f4448aa63cb14e02883ae6b9eb4b7262:2023",
+      "period": {
+        "period_start": "2022-07-01",
+        "period_end": "2023-06-30",
+        "period_length_days": 365,
+        "label": "01/07/2022 to 30/06/2023",
+        "is_transitional_or_nonstandard": false
+      },
+      "reporting_scope": "subject",
+      "reporting_subject_causebase_id": "cb_f4448aa63cb14e02883ae6b9eb4b7262",
+      "covered_subjects": [
+        "cb_f4448aa63cb14e02883ae6b9eb4b7262"
+      ],
+      "consolidated": "unknown",
+      "attribution_method": "direct_subject_report",
+      "evidence_ids": [
+        "ev:ais:48637825668:2023"
+      ],
+      "revenue": {
+        "source_amount": "0",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "0",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "0",
+        "source_precision": null
+      },
+      "donations": null,
+      "government_grants": null,
+      "employee_costs": null,
+      "total_expenses": {
+        "source_amount": "0",
+        "source_currency": "AUD",
+        "source_unit_scale": "1",
+        "normalised_amount": "0",
+        "normalised_currency": "AUD",
+        "source_unit_label": null,
+        "source_raw_value": "0",
+        "source_precision": null
+      },
+      "assets": null,
+      "liabilities": null,
+      "income_breakdown": [],
+      "expense_breakdown": [],
+      "balance_sheet_breakdown": []
+    }
+  ],
+  "financial_metrics": [
+    {
+      "metric": "revenue",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_f4448aa63cb14e02883ae6b9eb4b7262:2023",
+          "amount": {
+            "source_amount": "0",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "0",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "0",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:48637825668:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    },
+    {
+      "metric": "total_expenses",
+      "observations": [
+        {
+          "financial_record_id": "fr:ais:cb_f4448aa63cb14e02883ae6b9eb4b7262:2023",
+          "amount": {
+            "source_amount": "0",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "0",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "0",
+            "source_precision": null
+          },
+          "metric_source_label": null,
+          "evidence_ids": [
+            "ev:ais:48637825668:2023"
+          ]
+        }
+      ],
+      "reconciliation_status": "single_observation",
+      "reconciliation_notes": null
+    }
+  ],
+  "fundraising_expenditure": null,
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "classifications": [
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.environment",
+      "term_label": "environment",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    },
+    {
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.other_beneficiary",
+      "term_label": "other beneficiary",
+      "assignment_method": "source_native",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev:acnc:48637825668"
+      ]
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "cause.culture_and_heritage",
+      "term_label": "Culture and heritage",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "activity.events_and_public_programming",
+      "term_label": "Events and public programming",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "approach.community_partnership",
+      "term_label": "Community partnership",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "participation.public_events",
+      "term_label": "Public events",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.australia",
+      "term_label": "Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "geography.local_or_regional",
+      "term_label": "Local or regional Australia",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "organisation.national",
+      "term_label": "National organisation",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    },
+    {
+      "taxonomy_id": "causebase",
+      "taxonomy_version": "0.1-phase2a",
+      "term_id": "organisation.local",
+      "term_label": "Local organisation",
+      "assignment_method": "llm_classification",
+      "confidence": "medium",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:48637825668",
+      "source_type": "regulatory",
+      "title": "ACNC Register extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:web:48637825668:2026-08-10",
+      "source_type": "organisation_self_report",
+      "title": "Organisation website homepage",
+      "publisher": "AGENCY PROJECTS LIMITED",
+      "url": "https://agencyprojects.org/",
+      "observed_at": "2026-08-10",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:ais:48637825668:2023",
+      "source_type": "regulatory",
+      "title": "ACNC AIS 2023 extract",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": null,
+      "observed_at": "2026-08-10",
+      "reporting_period": "01/07/2022 to 30/06/2023",
+      "page": null,
+      "section": null,
+      "content_hash": null
+    },
+    {
+      "evidence_id": "ev:acnc:ais:48637825668:2025",
+      "source_type": "regulatory",
+      "title": "AGENCY PROJECTS LIMITED Annual Information Statement 2025",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "url": "https://www.acnc.gov.au/charity/charities/9622f9cc-b25f-eb11-89f5-000d3ad1f9f4/documents/b3333e33-cb32-f111-88b4-6045bde5be38",
+      "observed_at": "2026-04-07",
+      "reporting_period": null,
+      "page": null,
+      "section": null,
+      "content_hash": null
+    }
+  ],
+  "embedding": {
+    "embedding_id": "cb_f4448aa63cb14e02883ae6b9eb4b7262:entity:text-embedding-3-small",
+    "embedding_type": "entity",
+    "model_id": "text-embedding-3-small",
+    "model_version": "text-embedding-3-small",
+    "dimensions": 1536,
+    "source_text_hash": "f8b08b7fffdd652257d285339b693e317dd0e63e11022cf3443b98eb7fe7e7a6",
+    "generated_at": "2026-08-13T00:32:18.620479Z",
+    "vector_ref": "embeddings.parquet#cb_f4448aa63cb14e02883ae6b9eb4b7262"
+  },
+  "synthesis": {
+    "model_id": "gpt-5-mini-2025-08-07",
+    "prompt_version": "phase2b-rc2-1",
+    "parameters": {
+      "max_output_tokens": 3000,
+      "structured_output": true
+    },
+    "evidence_input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+    "generated_at": "2026-08-12T13:37:58.023875Z",
+    "editorial_policy_version": "0.1"
+  },
+  "derivative_assessments": [
+    {
+      "derivative": "summary",
+      "generated_at": "2026-08-12T13:37:58.023875Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-rc2-editorial-migration",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+      "disposition": "refreshed",
+      "reason": "Refreshed because the RC2 prompt, editorial policy and summary citation contract supersede h1.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "taxonomy",
+      "generated_at": "2026-08-12T13:37:58.023875Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+      "disposition": "reused",
+      "reason": "No new supported canonical classification facts.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "fundraising",
+      "generated_at": null,
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "cbc151ea11b1b016a85a7bb47eae823c0844cb56c3d28bcd67e8e66a75229a98",
+      "disposition": "reused",
+      "reason": "No new fundraising-method evidence; funding observations are direct AIS projections.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "embedding",
+      "generated_at": "2026-08-10T13:53:24.455492Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "0d589e6550b7658ed74b511471bdca6bf372dba67ff66585a937416741727d0f",
+      "disposition": "reused",
+      "reason": "Semantic source text unchanged.",
+      "affected_dimensions": []
+    },
+    {
+      "derivative": "similarities",
+      "generated_at": "2026-08-10T13:53:24.455492Z",
+      "evidence_through": null,
+      "last_assessed_at": "2026-08-12T14:24:20.675968Z",
+      "assessment_method": "phase2b-deterministic-v1",
+      "input_hash": "0d589e6550b7658ed74b511471bdca6bf372dba67ff66585a937416741727d0f",
+      "disposition": "reused",
+      "reason": "Embedding reused; semantic neighbours retained.",
+      "affected_dimensions": []
+    }
+  ],
+  "dataset_version": "phase2b-2026-08-13-rc3",
+  "card_schema_version": "0.4",
+  "editorial_policy_version": "0.3-rc2",
+  "generator_version": "0.4.0-rc3",
+  "built_at": "2026-08-13T00:32:15.698599Z"
+}
