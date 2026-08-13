@@ -1,36 +1,33 @@
-# RC4 review handoff
+# RC4 final Viewer/editorial integration review handoff
 
-Status: locally validated RC4 visual-escalation candidate; not human-approved or deployed.
+Status: locally validated candidate; not human-approved, committed, pushed or deployed.
 
-Candidate: `C:\CauseBase-runtime\staging\phase2b-2026-08-14-rc4-visual-escalation-human-review`
+Candidate: `C:\CauseBase-runtime\staging\phase2b-2026-08-14-rc4-final-viewer-editorial-integration`
 
-Isolated Viewer bundle: `C:\CauseBase-runtime\staging\viewer-rc4-visual-human-review`
+Isolated Viewer bundle: `C:\CauseBase-runtime\staging\viewer-rc4-final-viewer-editorial-integration`
 
 ## Evidence outcomes
 
-- Scope remains 120 existing cards, projected from immutable `phase2a-2026-08-10-h1`; summaries and embeddings were reused with no model calls.
-- Production Builder has no organisation-specific enrichment strings or conditional path.
-- ACNC acquisition recorded 120 latest-AIS coverage outcomes: 101 actual public AIS-detail payloads and 19 explicit no-submitted-AIS outcomes. The private audit is `archive/processed/phase2b/2026-08-14/rc4-audit.json`.
-- Seven acquired reports were extracted through one deterministic, page-diagnostic pipeline: two reference reports and five reports across four additional existing cards.
-- The reference financial report’s printed p.8 row is source-preserved as `Donations, Fundraisings, Lectures`: 2025 `2,051,817 AUD`, comparative 2024 `1,838,542 AUD`. It has no narrow donations mapping.
-- Financial statements retain source order, printed labels, comparative amounts, totals/headings, source location, extraction metadata and optional canonical annotations. Cash-flow and equity statements are retained source-native.
-- The generic PDF pipeline now classifies image-only/scanned pages and visually unresolved relationships. It uses local OCR first and invokes configured vision only for the selected page/crop.
-- One annual-report chart escalation was made: PDF p.29 recovered `Legal Programs 50%`, `Operations & Management 31%`, `Campaigns & Communications 9%`, and `Fundraising 10%`. The shares sum to 100% and reconcile to independently extracted AUD `5,852,789` total expenses. Fundraising is a direct reported allocation; AUD `585,279` is explicitly a mechanically derived rounded estimate.
-- Viewer source now renders headline metrics plus report-labelled statement tables; participation observations with a public source URL render as links.
+- Scope remains the existing 120 cards, projected from immutable `phase2a-2026-08-10-h1`. Accepted RC2 summaries are reused only when their cited evidence remains present; no model calls or embedding regeneration occurred.
+- Participation has separate action-destination semantics. A participation item is clickable only when it has a valid absolute external `action_url`; report/evidence URLs are not reused as actions. The reference card has zero action URLs, so its Participation entries are evidence-cited text rather than unreliable links.
+- Financials now lead with **Funding & fundraising**, ahead of **Financial reports**. The reference card displays source-labelled revenue rows and conservative derived shares over reported total income. Its printed mixed row remains `Donations, Fundraisings, Lectures`: AUD `2,051,817`, `40.9% of Total income`; it is not relabelled as individual donations.
+- The reference card displays its directly reported `Fundraising` functional allocation as `10% (direct reported)`. Its mechanically derived amount is presented as `Approx. $585k`, not as a falsely precise reported figure. Functional allocations remain separate from statutory expense rows.
+- Full source-preserved statements remain available: EJA has 33 Profit & loss rows and 32 financial-position rows, with source labels, order, totals, comparatives and optional canonical annotations.
+- Statement and functional-allocation tables use table-level citations where all rows share one evidence source; row-level citations remain available for mixed provenance.
+- The redundant `External links & developer data` section is removed. The bottom **Sources & data** section retains source-native records, references, JSON and Markdown.
+- The bounded human-reviewed structured-value remediation records 40 before/after outcomes: 38 provenance-only cleanups (A) and two field-restructuring omissions (C). Its private audit is `structured-provenance-review.json` beside the candidate; it reports zero unexplained routine residues.
 
 ## Automated evidence
 
-- Builder: 60 passing tests.
-- Viewer: 13 passing tests.
-- Candidate publication validation: passed.
-- Coverage-state consistency, AIS date consistency and program merge checks: passed (no conflicts).
-- Static Viewer bundle preparation: passed (120 cards, RC4 visual-escalation dataset).
-- Source-native static-link check: passed.
-- LHS density: headless desktop inspection at 1440×900 showed 11 full result rows before scrolling after consolidating filters under one accessible disclosure.
+- Builder: 63 passing tests.
+- Viewer: 17 passing tests.
+- Candidate publication validation: passed (120 cards).
+- Static Viewer bundle preparation: passed.
+- Source-native static-link check: passed (228 rendered source-native links returned 200).
+- Participation action-URL check: passed; zero action URLs in this candidate are therefore rendered as action links.
 
-## Required human gates still open
+## Required human gate
 
-1. Review the reference card, its financial tables and the reported functional-allocation table in the isolated local Viewer bundle.
-2. Review remaining structured display-value provenance residues before calling RC4 release-ready. The schema migration removed safe terminal qualifiers; a corpus diagnostic still reports 15 activities, three beneficiaries, two geography values and 17 participation-mode values containing source-narration phrases embedded in substantive prose. These require evidence-aware editorial review, not blanket deletion.
+Review the reference card in the isolated bundle. Confirm the accepted RC2 summary, non-clickable evidence-only Participation entries, Funding & fundraising before Financial reports, source-labelled revenue shares, prominent `Fundraising 10%` with `Approx. $585k`, complete primary statements, table-level citations, and Sources & data access.
 
 The handoff does not authorise deployment.
