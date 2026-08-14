@@ -26,3 +26,14 @@ Researchers, developers and agents can retrieve a release manifest, compact inde
 ## Downstream use
 
 Downstream experiences may apply their own preferences, ranking, recommendation and transaction logic. CauseBase supplies inspectable evidence and structure, not those value judgments.
+
+## Intent × channel × scale
+
+| Intent | Viewer/web | Consumer LLM | Analytical tools | Product integration |
+| --- | --- | --- | --- | --- |
+| Funder | Inspect one organisation or compare a shortlist | Ask a realistic funding question and receive evidence-grounded synthesis | Compare a portfolio | Bring charity intelligence into a giving workflow |
+| Product builder | Inspect/reference contract behaviour | Validate downstream LLM behaviour | Explore data quality/corpus shape | Consume JSON, bulk data or future API access |
+| Researcher/analyst | Inspect records and provenance | Research with public evidence | Analyse sector, geography and ecosystem/corpus patterns | Reuse governed datasets |
+| Charity | Inspect and contest its representation | Understand how public data may be interpreted | Review/export its data | Integrate correction/release workflows |
+
+Organisation, portfolio/comparison and ecosystem/corpus are independent scales. Funder × consumer LLM × organisation is a first-order experience; Viewer remains the reference, debugging and inspection surface for it.

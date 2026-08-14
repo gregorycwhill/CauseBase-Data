@@ -2,7 +2,13 @@
 
 Updated: 2026-08-10 — Phase 1 complete
 
-## Phase 2B RC2 human-review remediation (candidate; not deployed)
+## Current handoff — read this first (2026-08-14)
+
+- The live Viewer release is `phase2b-2026-08-14-rc4-fundraising-projection-correction` (Viewer commit `77d84be`), with 120 cards. Do not overwrite it without a new validated candidate and the manual Pages workflow.
+- RC4 completed source-native financial-statement preservation, selective visual allocation extraction and the narrow Funding & fundraising projection. EJA's Donations, gifts & bequests projection is AUD 2,101,817 / 41.9% of total income, using only `Donations, Fundraisings, Lectures` and `Donations - Future Fund`; Fundraising is direct 10% of expenditure with an approximate AUD 585k implication.
+- Post-RC4 product direction is settled in PRODUCT.md, PRINCIPLES.md, EXPERIENCES.md, ROADMAP.md, IMPLEMENTATION_PLAN.md and TEST_PLAN.md. Do not start corpus scaling or a new evidence capability before the public-contract and golden-corpus definition packages have human approval.
+
+## Phase 2B RC2 human-review remediation (historical candidate; not deployed)
 
 - Candidate: `phase2b-2026-08-12-rc2`, with the existing 120-card corpus only. Failed `phase2b-2026-08-12-rc1` is retained under Viewer `public/releases/`; h1 remains retained there too.
 - Editorial migration: all 120 summaries regenerated with `gpt-5-mini`, prompt `phase2b-rc2-1`, editorial policy `0.3-rc2`, and citation-ID output. Private cache telemetry: 327,726 input tokens, 222,747 output tokens, estimated USD 0.527423. Summary validity now treats evidence hash, prompt, editorial policy and output contract as governing inputs.

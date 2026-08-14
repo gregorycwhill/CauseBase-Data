@@ -67,3 +67,18 @@ The Phase 2/3 enriched-card release requires basic private intake with prefilled
 ## Contract discipline
 
 The project is contract-led, not contract-frozen. Public schema versions may deliberately break before public 1.0, with clear versioning and migration/release notes. The reality spike determines when a contract is sufficiently grounded to stabilise.
+
+## Immediate post-RC4 sequence
+
+No corpus expansion begins before two bounded success-definition packages are human-reviewed:
+
+1. **Schema/public-contract consolidation** — enumerate stable public fields, direct/derived semantics, period/scope, coverage/absence, version/freshness, discovery artefacts and compatibility expectations.
+2. **Golden-corpus evaluation framework** — select governed awkward cases and acceptance measures for document extraction, financial reconciliation, provenance, identity, editorial rendering and Viewer usability.
+
+Then conduct bounded, decision-producing technology spikes: document/PDF stack, frontend stack and Wikipedia/Wikidata. Each spike records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.
+
+After those decisions, build document pipeline v2, website evidence acquisition/extraction and identity/group stress tests. Larger taxonomy validation, agent/data distribution and consumer-LLM evaluation precede the Viewer redesign. Corpus machinery follows the redesigned, validated contract; the 500/1,000-card run is a gated learning slice, not an automatic scale commitment.
+
+## Operations harness direction
+
+The build engine executes resumable, sliceable processing. A separate operations harness determines whether it is proceeding correctly, completely and economically. It will monitor completion (selected through published/held), quality (benchmarks, reconciliations, contradictions, outliers, links and failure clusters), spend (API/OCR/vision/synthesis usage and cost), corpus health (taxonomy/source/AIS/DGR/geography/identity distributions) and change (new evidence, invalidations, stale records and refresh backlog).

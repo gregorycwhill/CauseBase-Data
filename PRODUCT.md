@@ -11,6 +11,14 @@ CauseBase is open, inspectable and machine-legible public infrastructure about A
 
 CauseBase is not a recommendation, charity-rating, donation-optimisation, payment, persuasion or behaviour-change product. Those choices belong to downstream products.
 
+## Users, channels and question scale
+
+CauseBase serves four intent groups: funders (individual donors, family offices, trusts/foundations and institutions) who find, understand, compare and diligence organisations; product builders who use CauseBase as a charity-intelligence data layer; researchers/analysts who study organisations, sectors, geography, service ecosystems and change; and charities/their advisers who inspect and contest their representation.
+
+Intent, interaction channel and question scale are orthogonal. Channels are Viewer/web; general-purpose consumer LLMs such as ChatGPT, Gemini, Claude and Grok; spreadsheets and analytical tools (CSV/XLSX, Python/R/BI and Parquet); and product/system integration (JSON, bulk data and future programmatic access). Question scale is organisation, portfolio/comparison or ecosystem/corpus.
+
+LLMs are a major distribution channel, not merely an implementation technology. A dominant user path may be funder → consumer LLM → CauseBase evidence/data → downstream LLM synthesis or recommendation, without a Viewer visit. CauseBase does not therefore need to host its own chatbot. It must make its public records discoverable and legible to general-purpose assistants without CauseBase-specific training.
+
 ## Core object and identity
 
 The CauseBase Card is the conceptual knowledge object. JSON, JSONL, CSV, Parquet, Markdown, Viewer displays, embeddings and similarities are projections of one underlying understanding.
@@ -48,3 +56,5 @@ CauseBase-originated data, cards and taxonomies are intended to be broadly reusa
 ## Agent usability
 
 Public releases provide stable subject/card URLs, per-subject JSON and Markdown, schema and licence metadata, provenance/freshness/version conventions, current-release discovery and compact selective retrieval. Static public artefacts remain independently usable without an API or MCP service.
+
+Machine legibility is a first-order product requirement: semantic crawlable HTML, stable canonical URLs/identifiers, manifests, taxonomy/geography semantics, direct-versus-derived observation status, reporting period/scope, coverage/absence states and freshness/version must work across the corpus, not just at a known card URL.

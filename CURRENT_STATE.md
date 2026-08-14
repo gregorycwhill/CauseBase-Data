@@ -1,6 +1,18 @@
 # CauseBase Current State
 
-Updated: 2026-08-10
+Updated: 2026-08-14
+
+## Current release — Phase 2B RC4 fundraising projection correction
+
+- Live Viewer dataset: `phase2b-2026-08-14-rc4-fundraising-projection-correction`, deployed from Viewer commit `77d84be`. It remains a 120-card projection from immutable `phase2a-2026-08-10-h1`; accepted RC2 summaries and embeddings were reused without model calls.
+- RC4 preserves complete source-native primary financial statements, visual functional allocations and public source-native sidecars. Funding & fundraising is now a narrow analytic projection: EJA reports Donations, gifts & bequests of AUD 2,101,817 (41.9% of AUD 5,016,000 total income), from the full printed rows `Donations, Fundraisings, Lectures` and `Donations - Future Fund`; its direct Fundraising allocation is 10% with an approximate AUD 585k mechanical implication.
+- Viewer separates participation action destinations from evidence URLs, presents Funding & fundraising before Financial reports, retains full statements/functional allocation under Financial reports, uses table-level citations where appropriate, and keeps Sources & data compact.
+- RC4 validation: Builder 63 tests, Viewer 18 tests, candidate/publication validation and source-native static-link checks passed. `RC4_REVIEW_HANDOFF.md` records the detailed acceptance evidence.
+
+## Settled post-RC4 direction
+
+- CauseBase is neutral public charity-information infrastructure. Its users, channels and scales are documented in PRODUCT.md and EXPERIENCES.md; consumer LLMs are a first-order distribution channel, not CauseBase's own chatbot thesis.
+- The next work is dependency-gated: define public-contract and golden-corpus success first; then technology spikes; then evidence/identity work; distribution/taxonomy/LLM validation; Viewer redesign; corpus machinery; and only then progressive scale. See ROADMAP.md and IMPLEMENTATION_PLAN.md.
 
 ## Phase 2B RC2 — human-review remediation candidate
 

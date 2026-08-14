@@ -23,3 +23,7 @@
 18. Treat agents as first-class consumers: selective retrieval, stable IDs, provenance and freshness must be usable without corpus-scale context.
 19. Reproducibility supports legitimacy: evidence → processing → CauseBase understanding → release.
 20. CauseBase should remain inspectable, challengeable and replaceable.
+21. LLM distribution is a product channel. Design public cards and releases so a general-purpose assistant can discover, retrieve and accurately interpret them without a CauseBase-specific integration.
+22. Viewer is an epistemic/reference interface, not a marketplace. Its intended aesthetic is credible, serviceable, utilitarian, functional, restrained, dense-but-legible, accessible and fast—public infrastructure rather than persuasion.
+23. Apply the anti-marketplace test to Viewer design: if it appears to persuade someone to favour, trust or donate to an organisation, it has moved in the wrong direction. Avoid emotional imagery, hero marketing, donation calls-to-action, ratings, winners, gamification and conversion optimisation.
+24. Extract broadly and canonicalise selectively. Preserve source-native observations and expose explicit, provenance-bound projections rather than treating a canonical ontology as an allowlist.

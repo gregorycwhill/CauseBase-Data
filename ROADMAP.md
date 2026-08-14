@@ -48,3 +48,46 @@ Improve discoverability, stable entity/card URLs, per-entity JSON and Markdown, 
 ## Phase 2A completion note
 
 A 120-card governed candidate is validated and staged for the Viewer with private website/report evidence processing, `gpt-5-mini` synthesis, Taxonomy v0, `text-embedding-3-small` neighbours, per-card JSON/Markdown, an agent guide and a configurable correction-intake contract. Human evaluation assessment and live endpoint configuration remain follow-on operational work.
+
+## Post-RC4 capability roadmap
+
+The RC4 120-card baseline is released. The next roadmap is organised by user capability and dependency, rather than by repository ownership. Builder, Viewer and Data remain implementation owners underneath each capability.
+
+### Phase 1 — define success
+
+- Consolidate the public schema/data/agent contract and its release semantics.
+- Establish a governed golden-corpus evaluation framework spanning financials, provenance, summaries, identity and Viewer rendering.
+
+### Phase 2 — technology spikes
+
+- Compare PDF/document extraction stacks against the golden corpus.
+- Compare frontend/JavaScript framework options against the utilitarian Viewer requirements.
+- Investigate the bounded value, provenance and maintenance implications of Wikipedia/Wikidata.
+
+### Phase 3 — evidence engine
+
+- Build document pipeline v2 from the selected stack; acquire/extract website evidence; and stress-test identity, groups and relationships.
+
+### Phase 4 — knowledge and distribution validation
+
+- Validate taxonomy on a larger stratified sample.
+- Define the agent/data distribution contract.
+- Test consumer-LLM discovery and accurate interpretation using the protocol in TEST_PLAN.md.
+
+### Phase 5 — Viewer
+
+- Redesign information architecture and implement it with administrative-credibility aesthetics. Viewer supports inspection, comparison and provenance; it is not a recommendation or fundraising marketplace.
+
+### Phase 6 — corpus machinery
+
+- Build a resumable, sliceable corpus engine and an operations harness that monitors completion, quality, spend, corpus health and change.
+
+### Phase 7 — progressive scale
+
+- Process a stratified 500/1,000-card build, then a several-thousand slice. The first build is an information-generating milestone: quality, cost, source and identity findings gate any full-corpus decision.
+
+### Phase 8 — ongoing operation
+
+- Add longitudinal refresh/history and corrections/release governance. Do not over-specify this phase before the earlier gates.
+
+The active capability backlog also includes schema/public-contract consolidation, golden-corpus evaluation, document and frontend bake-offs, website evidence, progressive build operations, longitudinal history, identity stress testing, agent distribution, correction governance, taxonomy validation and consumer-LLM legibility.

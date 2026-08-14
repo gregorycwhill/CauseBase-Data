@@ -49,3 +49,13 @@ For the durable workflow, separately test that PREPARE is API-free and bounded, 
 Test static data loading with optional-artifact failure, retrieval/search/filter semantics, deep links, exact card fidelity, estimate/provenance visibility, correction context, safe URL/text rendering, keyboard and mobile behaviour, and absence of recommendation framing.
 
 Phase 2B additionally tests stacked facets, clickable taxonomy navigation, source-record links, funding/fundraising display, history/reuse display and accessible help controls.
+
+## Post-RC4 evaluation and distribution tests
+
+The golden corpus must contain governed representative and awkward cases for source-native financial preservation, reports/charts/scans, identity/group ambiguity, thin or failed websites, coverage states, derived projections and editorial/provenance review. It is the shared benchmark for document-stack, website-pipeline and Viewer changes; quality/cost evidence from it gates technology selection and scale.
+
+Consumer-LLM testing uses scarce genuinely naive contexts deliberately. Prepare canonical prompts and scoring criteria before use, and record model/product, date, account/context condition, exact prompt, web/search availability, selected sources, organisations returned, factual errors, citations and whether CauseBase changed the result. Test four conditions separately: unaided discovery (no CauseBase mention), source discovery, directed CauseBase use and interpretation of supplied CauseBase records/URLs. Eventual routine model familiarity/indexing is product success, not permanent contamination.
+
+Machine-distribution acceptance includes corpus-level discoverability, crawlable semantic HTML, stable canonical URLs, per-card JSON/Markdown, manifests, taxonomy/geography semantics, direct-versus-derived and period/scope fields, provenance, coverage/absence and freshness/version. A key acceptance question is whether a general-purpose consumer AI can discover relevant CauseBase records and accurately answer a realistic funder question.
+
+Viewer human design acceptance includes the anti-marketplace test: does the interface appear to persuade a user to favour, trust or donate to an organisation? If yes, it fails. Test accessibility, density, speed and inspectability alongside this qualitative criterion.
