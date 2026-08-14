@@ -17,7 +17,7 @@ Updated: 2026-08-14
 
 ## Current next gates
 
-- The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. Draft public contract `0.5`, its RC4 compatibility matrix, modular draft schemas and four representative examples are now available for product review in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. No migration, rebuild or corpus expansion is authorised; the next task after approval is bounded Builder adapters/validators against frozen fixtures.
+- The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. The corrected draft public contract `0.5`, RC4 compatibility matrix, modular schemas and real/frozen fixtures are available for product review in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. The EJA fixture is validated against a complete immutable RC4 source fixture; sparse coverage is explicit and complete; the identity fixture uses Defence Force Welfare Association. No migration, rebuild or corpus expansion is authorised.
 - Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
 
 # Historical release and implementation record

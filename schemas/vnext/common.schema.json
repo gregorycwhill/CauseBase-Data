@@ -41,13 +41,12 @@
         "derivation": {"$ref": "#/$defs/derivation"}
       }, "allOf": [{"if": {"properties": {"claim_basis": {"enum": ["mechanically_derived", "inferred", "estimated"]}}}, "then": {"required": ["derivation"]}}], "additionalProperties": true
     },
-    "money": {
-      "type": "object", "required": ["source_amount", "source_currency", "normalised_amount", "normalised_currency"],
-      "properties": {"source_amount": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"}, "source_currency": {"type": "string"}, "normalised_amount": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"}, "normalised_currency": {"type": "string"}, "source_raw_value": {"type": ["string", "null"]}, "source_unit_scale": {"type": ["string", "null"]}, "source_unit_label": {"type": ["string", "null"]}}, "additionalProperties": false
-    },
+    "amount": {"type":"object","required":["amount","currency"],"properties":{"amount":{"type":"string","pattern":"^-?[0-9]+(?:\\.[0-9]+)?$"},"currency":{"type":"string"}},"additionalProperties":false},
+    "sourceReportedMoney": {"type":"object","required":["source_amount","source_currency","normalised_amount","normalised_currency"],"properties":{"source_amount":{"type":"string","pattern":"^-?[0-9]+(?:\\.[0-9]+)?$"},"source_currency":{"type":"string"},"normalised_amount":{"type":"string","pattern":"^-?[0-9]+(?:\\.[0-9]+)?$"},"normalised_currency":{"type":"string"},"source_raw_value":{"type":["string","null"]},"source_unit_scale":{"type":["string","null"]},"source_unit_label":{"type":["string","null"]}},"additionalProperties":false},
+    "money": {"$ref":"#/$defs/sourceReportedMoney"},
     "lineage": {
-      "type": "object", "required": ["derivative_id", "kind", "input_hash", "contract_version", "generated_at", "disposition"],
-      "properties": {"derivative_id": {"$ref": "#/$defs/id"}, "kind": {"type": "string"}, "input_hash": {"type": "string"}, "input_observation_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "contract_version": {"const": "0.5"}, "generated_at": {"$ref": "#/$defs/dateTime"}, "assessed_at": {"$ref": "#/$defs/dateTime"}, "policy_or_prompt_version": {"type": ["string", "null"]}, "model": {"type": ["object", "null"]}, "disposition": {"enum": ["generated", "reused", "refreshed", "invalidated"]}, "invalidation_reason": {"type": ["string", "null"]}}, "additionalProperties": false
+      "type": "object", "required": ["derivative_id", "kind", "generated_under", "current_assessment"],
+      "properties": {"derivative_id": {"$ref": "#/$defs/id"}, "kind": {"type": "string"}, "input_observation_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "generated_under": {"type":"object","required":["output_contract_version","input_hash","generated_at"],"properties":{"output_contract_version":{"type":"string"},"input_hash":{"type":"string"},"generated_at":{"$ref":"#/$defs/dateTime"},"policy_or_prompt_version":{"type":["string","null"]},"model":{"type":["object","null"]}},"additionalProperties":false}, "current_assessment": {"type":"object","required":["assessed_at","assessed_against_contract","governing_input_hash","disposition"],"properties":{"assessed_at":{"$ref":"#/$defs/dateTime"},"assessed_against_contract":{"const":"0.5"},"governing_input_hash":{"type":"string"},"disposition":{"enum":["generated","reused","refreshed","invalidated"]},"reason":{"type":["string","null"]}},"additionalProperties":false}}, "additionalProperties": false
     }
   }
 }

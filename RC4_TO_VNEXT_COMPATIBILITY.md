@@ -6,9 +6,9 @@
 
 ## Compatibility recommendation
 
-Use one **explicit dual-projection release window** before 1.0: Builder emits an immutable RC4 projection and a separately versioned 0.5 projection from the same governed intermediate data, each with its own manifest/schema/path. Viewer moves in lock-step to an explicit versioned renderer once the v0.5 projection validates. Retain RC4 as an immutable historical release indefinitely; do not maintain aliases forever.
+Use no active dual-projection window. Validate a deterministic RC4-to-0.5 fixture adapter, publish a new immutable 0.5 release with its own dataset identity and `based_on_release` ancestry, then migrate Viewer in lock-step. Retain RC4 indefinitely as an immutable historical release. Future Builder corpus runs need not emit a twin RC4 shape.
 
-The proposed window is one new 0.5 release plus its immediate successor. Release notes must name removed/renamed fields, link this matrix and identify the version-selection rule. External consumers select a manifest/contract version explicitly. No consumer is expected to infer shape from `dataset_version`, and no Viewer obtains `latest` implicitly.
+Release notes must name removed/renamed fields, link this matrix and identify the selected contract version. External consumers select a manifest/contract version explicitly. No consumer is expected to infer shape from `dataset_version`, and no Viewer obtains `latest` implicitly.
 
 ## Material field matrix
 

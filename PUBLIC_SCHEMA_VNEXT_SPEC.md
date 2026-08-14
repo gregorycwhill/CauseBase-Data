@@ -139,7 +139,21 @@ Rejected abstractions: a universal claim graph, general identity-history store, 
 
 ## 12. Open product questions
 
-None block the 0.5 design package. Exact controlled geography term registries and future source-family publication permissions are governed implementation/catalogue work, not new product choices. A later release must decide a concrete machine-readable licence/attribution manifest shape from actual upstream terms before publishing additional source families.
+None block the corrected 0.5 design package. Exact controlled geography term registries and future source-family publication permissions are governed implementation/catalogue work, not new product choices. A later release must decide a concrete machine-readable licence/attribution manifest shape from actual upstream terms before publishing additional source families.
+
+## 12A. Approved correction clarifications
+
+Cards explicitly retain evidence-bound `activities`, `beneficiaries`, `descriptive_geography`, `funding_sources`, `fundraising_methods`, `participation`, `opportunities`, `programs`, and `identity.website`; these are not optional-by-schema omissions. Each uses the common observation semantics where relevant while retaining domain payloads.
+
+The release owns an applicable capability registry (`capability-registry-0.5-initial`): `regulatory.acnc_profile`, `regulatory.ais`, `tax.dgr`, `web.website`, `report.annual_report`, `financial.report`, `financial.statements`, `understanding.activities`, `understanding.beneficiaries`, `understanding.geography`, `programs`, `participation`, `funding.sources`, `fundraising.methods`, `fundraising.expenditure`, `taxonomy.causebase`, `semantic.embedding`. Every applicable card has exactly one current entry for every registry capability. Omission has no meaning. `consolidated` is JSON `true`, `false`, or `null` (unknown).
+
+Use `sourceReportedMoney` only for values printed by an upstream source. It preserves source/normalised amounts and source fidelity. CauseBase-derived amounts use `{amount, currency}` plus derivation/rounding metadata; they must not manufacture `source_amount` fields. For EJA, the source 10% share is rounded/limited precision, `0.10 × 5,852,789 = 585,279` is mechanically derived and approximate, and the normal human display is approximately AUD 585k.
+
+Derivative generation and later assessment are separate. `generated_under` permanently records original output-contract, input hash, generation time, policy/prompt and material model. `current_assessment` records v0.5 assessment/reuse/refresh/invalidation; a projection never rewrites the original generation contract.
+
+Pre-1.0 `0.x` contract releases may be breaking and must publish migration notes. Patch/document corrections may use a patch version or document revision. A v0.5 release has its own identity and records RC4 as `based_on_release`; RC4 never changes contract version. Migration is immutable RC4 → deterministic fixture adapter/validation → new immutable v0.5 release → lock-step Viewer migration. There is no active twin RC4/v0.5 production projection requirement.
+
+Source-resolution corpus state is distinct from card evidence. Only a resolved/bound source normally appears in ordinary `source_record_refs` and observations. Candidate, ambiguous and unresolved records remain outside the card unless the uncertainty itself is published as an explicit identity-resolution notice.
 
 ## 13. Implementation after approval
 
