@@ -1,0 +1,28 @@
+{
+  "status": "CauseBase Data release ownership ledger",
+  "releases": [
+    {
+      "release_path": "phase2b-2026-08-12-rc2",
+      "dataset_version": "phase2b-2026-08-12-rc2",
+      "manifest_sha256": "36f838dd480c8f68c592042acda6e7298394359107374f7cad851c5e59677d8c",
+      "status": "historical",
+      "immutable": true
+    },
+    {
+      "release_path": "phase2b-2026-08-13-rc3",
+      "dataset_version": "phase2b-2026-08-13-rc3",
+      "manifest_sha256": "3d64c62ee057d0cbf0b40958147167f293d7fa9092456776f230b736cedb7c86",
+      "status": "historical",
+      "immutable": true
+    },
+    {
+      "release_path": "rc4-2026-08-14",
+      "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
+      "manifest_sha256": "4eb7087dbb6a4104f8b659477cd1bbfecee53c541118596aeda204329239b220",
+      "status": "current_accepted_baseline",
+      "immutable": true,
+      "ownership_repair": true,
+      "source_viewer_commit": "77d84befa90c1079346e146f82504ff2ef0d9f26"
+    }
+  ]
+}

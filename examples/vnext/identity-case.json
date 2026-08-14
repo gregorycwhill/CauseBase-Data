@@ -1,0 +1,9 @@
+{
+  "causebase_id": "cb_604da7f26c6c48dd934e713edc493e9f", "contract_version": "0.5", "subject_kind": "unknown",
+  "identity": {"legal_name": "Environmental Justice Australia", "display_name": "Environmental Justice Australia", "operating_names": [], "former_names": [], "entity_status": "registered", "external_identifiers": [{"scheme": "abn", "value": "74052124375", "evidence_ids": ["ev:acnc:74052124375"]}], "registrations": [{"regulator": "ACNC", "status": "registered"}], "tax_statuses": [], "convenience_links": {}},
+  "release": {"release_id": "causebase-0.5-example", "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction", "generated_at": "2026-08-14T00:00:00Z"},
+  "source_record_refs": ["src:acnc-register:7df4154d-4cdc-57bc-8020-a575a6099fcc", "src:website:ambiguous-eja-edo-example"],
+  "source_bindings": [{"source_record_id": "src:acnc-register:7df4154d-4cdc-57bc-8020-a575a6099fcc", "resolution_status": "resolved", "resolution_basis": "authoritative ABN promotion", "confidence": "high", "review_status": "not_required"}, {"source_record_id": "src:website:ambiguous-eja-edo-example", "resolution_status": "ambiguous", "resolution_basis": "name similarity alone is insufficient", "confidence": "low", "conflicting_signals": ["Environmental Defenders Office is a distinct organisation"], "review_status": "pending"}],
+  "evidence": [{"evidence_id": "ev:acnc:74052124375", "title": "ACNC Register", "url": "https://www.acnc.gov.au/"}], "summary": null, "descriptive_geography": [], "navigation_geography": [], "participation": [], "programs": [], "relationships": [], "classifications": [],
+  "coverage": {"current": [{"capability": "regulatory.acnc_profile", "status": "observed", "assessed_at": "2026-08-14T00:00:00Z", "source_record_ids": ["src:acnc-register:7df4154d-4cdc-57bc-8020-a575a6099fcc"]}]}, "financial_reports": [], "canonical_metrics": [], "analytic_projections": [], "derivatives": []
+}

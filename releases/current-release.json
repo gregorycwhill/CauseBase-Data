@@ -1,0 +1,8 @@
+{
+  "release_path": "rc4-2026-08-14",
+  "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
+  "manifest_sha256": "4eb7087dbb6a4104f8b659477cd1bbfecee53c541118596aeda204329239b220",
+  "status": "current_accepted_baseline",
+  "immutable": true,
+  "note": "Authoritative CauseBase Data ownership import of the accepted RC4 Viewer publication; not a regenerated dataset or a deployment."
+}

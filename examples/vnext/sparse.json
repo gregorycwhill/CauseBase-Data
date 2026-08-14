@@ -1,0 +1,10 @@
+{
+  "causebase_id": "cb_5d5459e58dac4e49a042f717e395ebec", "contract_version": "0.5", "subject_kind": "unknown",
+  "identity": {"legal_name": "Akademeia Limited", "display_name": "Akademeia Limited", "operating_names": [], "former_names": [], "entity_status": "registered", "external_identifiers": [{"scheme": "abn", "value": "31128981902", "evidence_ids": ["ev:acnc:31128981902"]}], "registrations": [{"regulator": "ACNC", "status": "registered"}], "tax_statuses": [], "convenience_links": {}},
+  "release": {"release_id": "causebase-0.5-example", "dataset_version": "phase2b-2026-08-14-rc4-fundraising-projection-correction", "generated_at": "2026-08-14T00:00:00Z"},
+  "source_record_refs": ["src:acnc-public-profile:31128981902:da30c989-91d2-ee11-904c-6045bdc27b8f:cb_5d5459e58dac4e49a042f717e395ebec"], "source_bindings": [{"source_record_id": "src:acnc-public-profile:31128981902:da30c989-91d2-ee11-904c-6045bdc27b8f:cb_5d5459e58dac4e49a042f717e395ebec", "resolution_status": "resolved", "confidence": "high"}],
+  "evidence": [{"evidence_id": "ev:acnc:31128981902", "title": "ACNC Register", "url": "https://www.acnc.gov.au/"}],
+  "summary": null, "descriptive_geography": [], "navigation_geography": [], "participation": [], "programs": [], "relationships": [], "classifications": [],
+  "coverage": {"current": [{"capability": "regulatory.acnc_profile", "status": "observed", "assessed_at": "2026-08-14T00:00:00Z", "source_record_ids": ["src:acnc-public-profile:31128981902:da30c989-91d2-ee11-904c-6045bdc27b8f:cb_5d5459e58dac4e49a042f717e395ebec"], "evidence_ids": ["ev:acnc:31128981902"]}, {"capability": "financial.report", "status": "not_yet_processed", "assessed_at": "2026-08-14T00:00:00Z", "observation_ids": []}]},
+  "financial_reports": [], "canonical_metrics": [], "analytic_projections": [], "derivatives": []
+}

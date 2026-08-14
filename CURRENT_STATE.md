@@ -8,6 +8,7 @@ Updated: 2026-08-14
 - RC4 preserves complete source-native primary financial statements, visual functional allocations and public source-native sidecars. Funding & fundraising is now a narrow analytic projection: EJA reports Donations, gifts & bequests of AUD 2,101,817 (41.9% of AUD 5,016,000 total income), from the full printed rows `Donations, Fundraisings, Lectures` and `Donations - Future Fund`; its direct Fundraising allocation is 10% with an approximate AUD 585k mechanical implication.
 - Viewer separates participation action destinations from evidence URLs, presents Funding & fundraising before Financial reports, retains full statements/functional allocation under Financial reports, uses table-level citations where appropriate, and keeps Sources & data compact.
 - RC4 validation: Builder 63 tests, Viewer 18 tests, candidate/publication validation and source-native static-link checks passed. `RC4_REVIEW_HANDOFF.md` records the detailed acceptance evidence.
+- CauseBase Data now owns the immutable RC4 archive at `releases/rc4-2026-08-14`, verified against Viewer commit `77d84befa90c1079346e146f82504ff2ef0d9f26`; Viewer preparation selects that release explicitly. This is an ownership repair only, not an RC4 semantic change or new deployment.
 
 ## Current product direction
 
@@ -16,7 +17,7 @@ Updated: 2026-08-14
 
 ## Current next gates
 
-- Human-review the bounded public-contract and golden-corpus success-definition packages before any new capability build or corpus expansion.
+- The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. Draft public contract `0.5`, its RC4 compatibility matrix, modular draft schemas and four representative examples are now available for product review in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. No migration, rebuild or corpus expansion is authorised; the next task after approval is bounded Builder adapters/validators against frozen fixtures.
 - Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
 
 # Historical release and implementation record

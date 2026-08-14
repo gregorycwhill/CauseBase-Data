@@ -11,6 +11,8 @@ Incremental refresh is staged: acquire/extract, deterministic change profile, de
 
 Funding sources, fundraising methods, current-campaign freshness and fundraising expenditure are distinct fields. They remain descriptive, evidence-bound and non-normative.
 
+The approved vNext design direction distinguishes claim basis from extraction method, treats coverage as capability availability, permits a null sparse-card summary, uses source-family sidecars rather than duplicating payloads in cards, and permits an explicit current-financial pointer over retained observations. These are contract-design decisions, not implemented RC4 migrations.
+
 ## Historical implementation record — completed reality spike through RC4
 
 ### Historical — Phase 2A completion record
@@ -72,7 +74,8 @@ The project is contract-led, not contract-frozen. Public schema versions may del
 
 No corpus expansion begins before two bounded success-definition packages are human-reviewed:
 
-1. **Schema/public-contract consolidation** — enumerate stable public fields, direct/derived semantics, period/scope, coverage/absence, version/freshness, discovery artefacts and compatibility expectations.
+1. **Schema/public-contract and compatibility specification** — completed as a draft `0.5` package in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. It translates the approved consolidation direction into stable public fields, claim-basis/extraction semantics, period/scope, coverage/absence, version/freshness, discovery artefacts and compatibility expectations. Do not migrate RC4 before product review accepts it.
+2. **After approval: bounded adapters and validators** — implement Builder v0.5 models/validators and an RC4-to-v0.5 adapter only against frozen EJA, sparse, identity and multi-period fixtures; do not rebuild the corpus.
 2. **Golden-corpus evaluation framework** — select governed awkward cases and acceptance measures for document extraction, financial reconciliation, provenance, identity, editorial rendering and Viewer usability.
 
 Then conduct bounded, decision-producing technology spikes: document/PDF stack, frontend stack and Wikipedia/Wikidata. Each spike records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.

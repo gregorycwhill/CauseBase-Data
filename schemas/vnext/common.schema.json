@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://causebase.example/schema/0.5/common.schema.json",
+  "title": "CauseBase 0.5 common draft definitions",
+  "type": "object",
+  "$defs": {
+    "id": {"type": "string", "minLength": 1},
+    "date": {"type": "string", "format": "date"},
+    "dateTime": {"type": "string", "format": "date-time"},
+    "claimBasis": {"enum": ["direct", "mechanically_derived", "inferred", "estimated"]},
+    "extractionMethod": {"type": "string", "enum": ["api", "document_text", "table", "ocr", "vision", "manual", "deterministic_parser", "llm"]},
+    "coverageStatus": {"enum": ["observed", "not_found_in_source", "not_available_from_source", "not_applicable", "retrieval_failed", "not_yet_processed", "stale", "unknown"]},
+    "period": {
+      "type": "object",
+      "properties": {"start": {"$ref": "#/$defs/date"}, "end": {"$ref": "#/$defs/date"}, "label": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "time": {
+      "type": "object",
+      "properties": {"reporting_period": {"$ref": "#/$defs/period"}, "valid_from": {"$ref": "#/$defs/date"}, "valid_to": {"$ref": "#/$defs/date"}, "observed_at": {"$ref": "#/$defs/date"}},
+      "additionalProperties": false
+    },
+    "derivation": {
+      "type": "object",
+      "required": ["method_kind", "method_id", "input_observation_ids"],
+      "properties": {
+        "method_kind": {"enum": ["formula", "heuristic", "rule", "peer_imputation", "llm_inference", "approved_model"]},
+        "method_id": {"type": "string"}, "input_observation_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}, "minItems": 1},
+        "formula_or_rule": {"type": ["string", "null"]}, "rounding_or_uncertainty": {"type": ["string", "null"]},
+        "model": {"type": ["object", "null"], "properties": {"id": {"type": "string"}, "version": {"type": "string"}}, "additionalProperties": false}
+      }, "additionalProperties": false
+    },
+    "observation": {
+      "type": "object",
+      "required": ["observation_id", "subject_id", "kind", "claim_basis", "source_record_ids", "evidence_ids", "time", "warnings"],
+      "properties": {
+        "observation_id": {"$ref": "#/$defs/id"}, "subject_id": {"$ref": "#/$defs/id"}, "kind": {"type": "string"},
+        "claim_basis": {"$ref": "#/$defs/claimBasis"}, "extraction_method": {"$ref": "#/$defs/extractionMethod"},
+        "source_record_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+        "time": {"$ref": "#/$defs/time"}, "confidence": {"enum": ["high", "medium", "low", null]}, "warnings": {"type": "array", "items": {"type": "string"}},
+        "derivation": {"$ref": "#/$defs/derivation"}
+      }, "allOf": [{"if": {"properties": {"claim_basis": {"enum": ["mechanically_derived", "inferred", "estimated"]}}}, "then": {"required": ["derivation"]}}], "additionalProperties": true
+    },
+    "money": {
+      "type": "object", "required": ["source_amount", "source_currency", "normalised_amount", "normalised_currency"],
+      "properties": {"source_amount": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"}, "source_currency": {"type": "string"}, "normalised_amount": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"}, "normalised_currency": {"type": "string"}, "source_raw_value": {"type": ["string", "null"]}, "source_unit_scale": {"type": ["string", "null"]}, "source_unit_label": {"type": ["string", "null"]}}, "additionalProperties": false
+    },
+    "lineage": {
+      "type": "object", "required": ["derivative_id", "kind", "input_hash", "contract_version", "generated_at", "disposition"],
+      "properties": {"derivative_id": {"$ref": "#/$defs/id"}, "kind": {"type": "string"}, "input_hash": {"type": "string"}, "input_observation_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "evidence_ids": {"type": "array", "items": {"$ref": "#/$defs/id"}}, "contract_version": {"const": "0.5"}, "generated_at": {"$ref": "#/$defs/dateTime"}, "assessed_at": {"$ref": "#/$defs/dateTime"}, "policy_or_prompt_version": {"type": ["string", "null"]}, "model": {"type": ["object", "null"]}, "disposition": {"enum": ["generated", "reused", "refreshed", "invalidated"]}, "invalidation_reason": {"type": ["string", "null"]}}, "additionalProperties": false
+    }
+  }
+}

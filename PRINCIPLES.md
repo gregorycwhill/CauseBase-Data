@@ -27,3 +27,6 @@
 22. Viewer is an epistemic/reference interface, not a marketplace. Its intended aesthetic is credible, serviceable, utilitarian, functional, restrained, dense-but-legible, accessible and fast—public infrastructure rather than persuasion.
 23. Apply the anti-marketplace test to Viewer design: if it appears to persuade someone to favour, trust or donate to an organisation, it has moved in the wrong direction. Avoid emotional imagery, hero marketing, donation calls-to-action, ratings, winners, gamification and conversion optimisation.
 24. Extract broadly and canonicalise selectively. Preserve source-native observations and expose explicit, provenance-bound projections rather than treating a canonical ontology as an allowlist.
+25. Claim basis and extraction method are distinct: a source fact recovered by vision or an LLM can remain direct; derivation/inference method explains subsequent CauseBase reasoning.
+26. Coverage states describe capability availability, not a preference for an exact scalar. A defensible direct share or mechanically derived amount can satisfy a capability.
+27. Preserve source statement signs; use economically intuitive signs for canonical ordinary financial magnitudes, while retaining signed surplus/deficit and net assets/equity.

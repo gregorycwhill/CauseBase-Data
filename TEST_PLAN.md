@@ -1,7 +1,7 @@
 # CauseBase Test Plan
 
 **Status:** Accepted product direction  
-**Updated:** 2026-08-10
+**Updated:** 2026-08-14
 
 ## Cross-product release gates
 
@@ -17,10 +17,15 @@
 - source-native sidecar provenance and source-field/canonical-field separation;
 - deterministic change profiles, dependency decisions and recorded derivative reuse;
 - source inventory, historical-release ledger and exact deployment-bundle safety.
+- immutable-release ownership: a Data-owned release reproduces an isolated Viewer bundle from an explicitly selected path, with manifest/card/sidecar hash equality and no implicit “latest” lookup.
 
 ## Data tests
 
 Validate JSON, JSONL, CSV and Parquet against their shared canonical values. Treat Markdown as a rendering: test required displayed values, provenance display, renderer behaviour and absence of raw vectors rather than attempting Markdown round trips. Validate per-subject retrieval, stable URLs, coverage/capability metadata, taxonomy artefacts and release discovery.
+
+For an ownership repair/import, validate the source manifest hashes, entity count, card IDs, source-native records, taxonomy and selected financial fixture values before and after import. An archival import must not rewrite RC4 semantics.
+
+For the proposed v0.5 contract, parse every draft schema and validate EJA, sparse, identity-binding and multiple-financial-period examples. Fixture tests must additionally assert reference resolution, version agreement, coverage-state invariants, source-row label/order/sign preservation, financial-pointer coherence, direct-versus-derived separation, public/private exclusion and participation action/evidence separation. These are design-fixture tests until approved Builder validators exist.
 
 ## Builder tests
 

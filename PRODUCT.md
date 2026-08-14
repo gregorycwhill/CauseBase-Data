@@ -33,11 +33,17 @@ The model is pre-1.0 and remains revisable. RC4 and the upcoming public-contract
 
 CauseBase combines authoritative records, organisation self-report, independent references, community contributions and CauseBase derivations. Material assertions expose appropriate evidence and epistemic status.
 
+For the approved vNext direction, claim basis explains why a proposition is justified (`direct`, `mechanically_derived`, `inferred` or `estimated`); extraction method explains how evidence was recovered (for example API, text, table, OCR, vision, LLM or manual). An LLM or vision extraction does not by itself make a directly reported source fact inferred or estimated. This direction is not yet an implemented RC4 schema change.
+
 Fundraising expenditure is a required capability and coverage field for an enriched subject, assessed on a best-effort basis. Publish only a defensible method and preserve that method visibly: direct disclosure, deterministic reconstruction, documented heuristic, bounded LLM interpretation, or approved peer imputation. The ladder is ordered: direct, mechanical, defensible heuristic, bounded LLM, approved peer, then unavailable/null. There is no universal fallback percentage or prior; a null is the correct result when no defensible method is available.
 
 Coverage is represented as explicit capabilities—such as regulatory, financials, annual report, website, current activity, taxonomy and embedding—rather than treating an enrichment label as the primary truth.
 
+A capability is `observed` when CauseBase has a defensible governed observation satisfying it, even where the source did not print an exact preferred scalar. Current financial views may be explicitly labelled pointers over retained observations, with a scope-safe selection policy; they are never independent or silently selected “best” values. Sparse cards may have no summary where structured authoritative evidence is the honest available record.
+
 Canonical financial observations retain exact-decimal source amount/currency/unit scale and exact-decimal normalised amount/currency. Bare floats are not canonical amounts. Unit normalisation is not currency conversion, and any future FX conversion is an explicit derived value with provenance.
+
+For the approved vNext direction, ordinary canonical financial magnitudes such as revenue, expenses, assets, liabilities and fundraising expenditure are non-negative. Surplus/deficit and net assets/equity retain economically meaningful signs. Source statement rows always retain their printed/accounting signs.
 
 Where legitimate source observations differ, CauseBase retains all observations and exposes their reconciliation status. v0.x does not apply universal source precedence or manufacture reconciled values; downstream work requiring one scalar remains unresolved unless it declares an explicit selection/reconciliation policy.
 
