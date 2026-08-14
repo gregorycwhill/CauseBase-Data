@@ -9,26 +9,35 @@ Updated: 2026-08-14
 - Viewer separates participation action destinations from evidence URLs, presents Funding & fundraising before Financial reports, retains full statements/functional allocation under Financial reports, uses table-level citations where appropriate, and keeps Sources & data compact.
 - RC4 validation: Builder 63 tests, Viewer 18 tests, candidate/publication validation and source-native static-link checks passed. `RC4_REVIEW_HANDOFF.md` records the detailed acceptance evidence.
 
-## Settled post-RC4 direction
+## Current product direction
 
 - CauseBase is neutral public charity-information infrastructure. Its users, channels and scales are documented in PRODUCT.md and EXPERIENCES.md; consumer LLMs are a first-order distribution channel, not CauseBase's own chatbot thesis.
 - The next work is dependency-gated: define public-contract and golden-corpus success first; then technology spikes; then evidence/identity work; distribution/taxonomy/LLM validation; Viewer redesign; corpus machinery; and only then progressive scale. See ROADMAP.md and IMPLEMENTATION_PLAN.md.
 
-## Phase 2B RC2 — human-review remediation candidate
+## Current next gates
+
+- Human-review the bounded public-contract and golden-corpus success-definition packages before any new capability build or corpus expansion.
+- Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
+
+# Historical release and implementation record
+
+The records below preserve prior release evidence and implementation history. Candidate, deployment and human-gate language in these sections is historical and must not be executed as a current instruction.
+
+## Historical — Phase 2B RC2 human-review remediation candidate
 
 - Candidate `phase2b-2026-08-12-rc2` retains the same 120-card scope. It preserves both `phase2a-2026-08-10-h1` and failed `phase2b-2026-08-12-rc1` as immutable Viewer release snapshots.
 - All summaries were deliberately regenerated under editorial contract `phase2b-rc2-1` / policy `0.3-rc2`; unchanged evidence alone is no longer a basis for summary reuse. The private migration cache records 120 `gpt-5-mini` calls, 327,726 input tokens, 222,747 output tokens and estimated USD 0.527423.
 - RC2 introduces a card-wide stable evidence-number registry, controlled navigation geography, separated CauseBase and ACNC navigation facets, persistent two-pane Viewer layout, direct ABN/ACNC/website/card links and always-visible funding/fundraising coverage states.
-- The Google Forms correction mapping now matches the externally verified prefill IDs and `usp=pp_url` grammar. Automated URL-contract coverage passes; deployed clean-incognito verification remains a mandatory human release gate before deployment is declared successful.
+- The Google Forms correction mapping now matches the externally verified prefill IDs and `usp=pp_url` grammar. Automated URL-contract coverage passed; its former clean-incognito human release gate is historical and superseded.
 
-## Phase 2B — longitudinal one-stop data candidate
+## Historical — Phase 2B longitudinal one-stop data candidate
 
 - Candidate `phase2b-2026-08-12-rc1` is an append-only projection of the 120-card `phase2a-2026-08-10-h1` release. h1 is retained as a historical static release and is not rewritten.
 - Cards now expose public-safe source-native ACNC Register and AIS sidecars, annual financial observation history, temporal relationship fields, funding-source observations, derivative reuse/refresh assessments and direct source-record links. The initial projection reuses all existing summaries, classifications, embeddings and neighbours after a deterministic assessment; no model calls were made.
 - The candidate includes a public government-source inventory and gap report. ASIC is explicitly not integrated pending its access/cost/terms assessment; CauseBase does not bypass paywalls or access controls.
 - Viewer candidate adds free-text search, stacked facets, taxonomy navigation, browser history, stable card hashes, source/evidence versus convenience links, JSON/Markdown and source-record access, history, funding/fundraising rendering and accessible technical help.
 
-## Phase 2A — governed enriched corpus candidate complete
+## Historical — Phase 2A governed enriched corpus candidate complete
 
 - 120 deliberately heterogeneous ACNC-authoritative subjects have been promoted under `acnc-authoritative-v1`; automated promotions retain `subject_kind: unknown`, opaque CauseBase IDs and source-record/ABN provenance. The original five reviewed subjects remain unchanged.
 - The validated Phase 2A candidate contains 120 enriched cards, CauseBase Taxonomy v0, external ACNC classifications kept separately, per-subject JSON/Markdown, coverage, agent guide, Parquet/CSV/JSONL, manifest and 162 descriptive semantic-neighbour links.
@@ -36,31 +45,31 @@ Updated: 2026-08-14
 - Synthesis uses `gpt-5-mini-2025-08-07`, prompt `phase2a-0.4`, evidence hashes and private cache metadata. Real `text-embedding-3-small` embeddings back semantic links. Candidate validation passed with zero errors; Builder has 42 passing tests and Viewer has 3.
 - Fundraising expenditure remains `not available from selected evidence` where no defensible ladder-method estimate exists; no universal fallback has been introduced.
 
-## Phase 2A.1 — human-test hardening candidate ready
+## Historical — Phase 2A.1 human-test hardening candidate ready
 
 - A new, not-yet-deployed release candidate `phase2a-2026-08-10-h1` preserves the historical `phase2a-2026-08-10` human-test release.
 - It removes duplicate effective coverage states, strips public request/token/cost telemetry, removes ambiguous blanket evidence IDs from CauseBase-native classifications, and corrects sparse-evidence language through nine bounded synthesis reruns.
 - Diagnostics: 120 cards; zero duplicate capabilities; zero native-classification evidence leakage; zero operational telemetry fields; zero classification-exclusion negative statements; 161 semantic links; zero broken public evidence URLs.
 - A private 30-case local human-review pack is prepared. The private Google Forms responder endpoint and all six card-context prefill fields are configured; the form owner confirmed private/reviewer handling. The corrected human-test release is deployed at `https://gregorycwhill.github.io/CauseBase-Viewer/` through the manual `main` → `gh-pages` boundary: dataset `phase2a-2026-08-10-h1`, Viewer commit `a97b99951915a3c92a03da48352f94ad727db511`.
 
-## Phase 1 — National Structured Backbone complete
+## Historical — Phase 1 National Structured Backbone complete
 
 CauseBase now has a reproducible, private national structured-source backbone. It preserves the separation between source record, resolution assertion, CauseBase subject and evidence/observation; it does not attempt to turn every regulator row into a finished card.
 
-## Taxonomy Review v0.1 — first governed corpus review complete
+## Historical — Taxonomy Review v0.1 first governed corpus review complete
 
 - The frozen baseline remains CauseBase taxonomy `0.1-phase2a` (7 dimensions, 23 terms). No canonical taxonomy file, public card classification or Viewer taxonomy was changed.
 - Builder now provides a private, non-mutating `causebase taxonomy-review` process. Pass A is taxonomy-blind and excludes ACNC classifications, labels, mappings and cohort strata; Pass B critiques the frozen vocabulary only after independent discovery; ACNC is a post-hoc diagnostic annex.
 - First review used the private 120-card `phase2a-2026-08-10-h1` candidate. Its private decision package contains deterministic diagnostics, blind concepts, a complete 23-term audit, eight ranked unapproved proposals (4 HIGH, 3 MEDIUM, 1 WATCH), definition/boundary profiles and migration analysis.
-- The review package is awaiting a product/human taxonomy decision. No proposed term is canonical and no reclassification is authorised by this review alone.
+- At that time, the review package awaited a product/human taxonomy decision. No proposed term became canonical and no reclassification was authorised by that review alone.
 
-## Durable taxonomy workflow — PREPARE demonstration complete
+## Historical — durable taxonomy workflow PREPARE demonstration complete
 
 - The historical v0.1 and facet-purity/Sol packages remain immutable advisory evidence; their proposals were not implemented.
 - Builder now separates deterministic `taxonomy-review-prepare`, optional advisory `taxonomy-review-model-review`, human decision records, and non-mutating `taxonomy-review-validate`.
 - The initial deterministic packet reviews the 120-card `phase2a-2026-08-10-h1` corpus against frozen `0.1-phase2a`; it creates pressure questions, diagnostics and bounded cases only. No API request, taxonomy mutation, card regeneration, embedding run, Viewer change or publication occurred.
 
-## National baseline
+## Historical — national baseline
 
 - ACNC Register: 65,472 normalised source records, each with a stable opaque source-record ID.
 - ACNC AIS: 53,465 financial observations with exact-decimal money, report dates, consolidation state and source-to-register ABN linkage.
@@ -68,13 +77,13 @@ CauseBase now has a reproducible, private national structured-source backbone. I
 - National resolution: 5 manually promoted durable CauseBase subjects; 5 resolved registry bindings and 65,467 candidate source records. No name-only promotion or forced resolution occurs.
 - Diagnostics retain coverage, period/consolidation distributions, duplicate patterns, parser failures, source provenance/licences and known identity multiplicity cases.
 
-## Publication and validation
+## Historical — publication and validation
 
 - `C:\CauseBase-runtime\staging\phase1-structured-backbone` is a validated, publication-safe candidate containing only registry entries, aggregate coverage, schema and manifest.
 - Raw regulator files, bulk DGR archives and private normalised source records remain outside publication and Git boundaries.
 - Builder: 36 tests passing. Viewer: 3 tests passing.
 
-## Deliberate limits
+## Historical — deliberate limits
 
 - This is evidence infrastructure, not national enrichment: no report crawl, website crawl, GPT synthesis, embeddings, recommendation logic or backend has been introduced.
 - Public schemas remain provisional. A scheduled source refresh and drift comparison are still operational work, not a reason to stabilise the public card contract.

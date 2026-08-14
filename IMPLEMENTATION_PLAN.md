@@ -1,7 +1,7 @@
 # CauseBase Implementation Plan
 
 **Status:** Accepted product direction; implementation details remain adaptable  
-**Updated:** 2026-08-10
+**Updated:** 2026-08-14
 
 ## Phase 2B contract
 
@@ -11,16 +11,16 @@ Incremental refresh is staged: acquire/extract, deterministic change profile, de
 
 Funding sources, fundraising methods, current-campaign freshness and fundraising expenditure are distinct fields. They remain descriptive, evidence-bound and non-normative.
 
-## Current increment: reality-spike evidence and provisional-contract validation
+## Historical implementation record — completed reality spike through RC4
 
-## Phase 2A completion record
+### Historical — Phase 2A completion record
 
 1. The 120-subject heterogeneous, reproducible cohort uses authoritative ACNC promotion only and records selection strata/provenance privately.
 2. Enrichment uses bounded current website/report evidence, cache-aware `gpt-5-mini` synthesis, CauseBase-native Taxonomy v0 and production embeddings.
 3. The public candidate is allowlisted and contains cards, indices, taxonomy, aggregate coverage, semantic neighbours and an agent retrieval guide; source archives and model inputs stay private.
 4. Viewer consumes the generated release, keeps similarity descriptive, and hands corrections to a configurable external intake URL using the documented prefill contract.
 
-## Phase 2A.1 human-test hardening
+### Historical — Phase 2A.1 human-test hardening
 
 Treat published release `phase2a-2026-08-10` as historical. Any corrected public-card content uses a new release version and separately recorded Viewer deployment commit. Maintain `main` -> manual validated bundle -> static-only `gh-pages`; no ordinary push deploys. Human feedback is a private external form with generic and field-specific prefill, while the 30-case review pack remains local/private.
 
@@ -36,39 +36,39 @@ Treat published release `phase2a-2026-08-10` as historical. Any corrected public
 7. Acquire representative structured, report and website evidence; record failures as domain findings.
 8. Produce and maintain a Codex-to-ChatGPT handoff before stabilising public v0.x card, identity or evidence schemas.
 
-### Reality-spike completion record
+#### Historical — reality-spike completion record
 
 - The full 36-seed cohort has been processed through current ACNC and AIS extracts (8 resolved, 26 candidate, 2 ambiguous), with no name-only promotion.
 - Three reports and two web snapshots are retained/extracted privately; five governed real cards pass registry-gated staging validation.
 - The DGR source is available through the ABR national bulk extract but is intentionally deferred to a separately governed national ingest because it is not a cohort-scale feed.
 
-## Phase 1 completion record
+### Historical — Phase 1 completion record
 
 - National ACNC, AIS and ABR/DGR sources are privately archived with retrieval metadata, hashes and licence information.
 - National normalisation writes private source-record records and diagnostics without forcing subject resolution.
 - The safe Phase 1 staging candidate publishes only public registry and aggregate structural metadata; raw source content remains excluded.
 
-## Web evidence pipeline
+### Historical — web evidence pipeline design
 
 Website ingestion is a core enrichment stage, separate from report processing. It starts with homepage, About/What we do, programs, volunteer/get involved, events, governance, news/blog, feeds and selected opportunity pages. It produces stable-understanding evidence separately from transient current-activity and opportunity observations, each with independent freshness/refresh policies.
 
-## Enriched-card outputs
+### Historical — enriched-card outputs
 
 For a real enriched subject, treat classification, embedding and similarity outputs as related derived products. Use production embeddings only for real enriched cards; synthetic hash embeddings must never be presented as public semantic similarity.
 
-## Taxonomy maintenance lifecycle
+### Historical — taxonomy maintenance lifecycle
 
 Run deterministic PREPARE periodically against a frozen corpus and taxonomy. It produces a compact private packet before any optional model work. An optional model critique is advisory evidence only. Human decisions are recorded with definitions, boundaries, exclusions, cases and migration implications; implementation then creates a candidate version. VALIDATE compares that candidate with the baseline and current corpus without rebuilding or publishing. Only a separately governed reclassification/release may follow.
 
-## Correction delivery sequence
+### Historical — correction delivery sequence
 
 The Phase 2/3 enriched-card release requires basic private intake with prefilled card/field/release context and a traceable acknowledgement. Public proposal records, moderation decisions and full history arrive later. No raw intake payload is automatically public.
 
-## Contract discipline
+### Historical — contract discipline
 
-The project is contract-led, not contract-frozen. Public schema versions may deliberately break before public 1.0, with clear versioning and migration/release notes. The reality spike determines when a contract is sufficiently grounded to stabilise.
+The project is contract-led, not contract-frozen. Public schema versions may deliberately break before public 1.0, with clear versioning and migration/release notes. The historical reality spike informed the contract; the current stabilisation gate is public-contract consolidation and golden-corpus review.
 
-## Immediate post-RC4 sequence
+## Current implementation direction — immediate post-RC4 sequence
 
 No corpus expansion begins before two bounded success-definition packages are human-reviewed:
 

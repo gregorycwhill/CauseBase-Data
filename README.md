@@ -1,6 +1,6 @@
 # CauseBase Data
 
-**Status:** Foundation repository — public schema remains provisional through the reality spike
+**Status:** Public schema remains provisional through pre-1.0 public-contract consolidation and golden-corpus review
 
 CauseBase Data is the public, versioned data sub-product of CauseBase. It publishes releases, cards, datasets, taxonomies, schemas, manifests and governed public correction records when those records are introduced.
 
@@ -8,7 +8,7 @@ It does not own the CauseBase product contract. CauseBase Data, Builder and View
 
 ## Current role
 
-This repository is established early to provide one public-contract and publication boundary. The synthetic bootstrap is not evidence that the domain model is correct. No public v0.x identity, card or evidence schema is stable until the 30–50 subject reality spike is reviewed.
+This repository is established to provide one public-contract and publication boundary. The synthetic bootstrap and historical 30–50 subject reality spike informed the model but did not make it stable. No public v0.x identity, card or evidence schema is stable until public-contract consolidation and golden-corpus review are complete.
 
 ## Shared product-contract documents
 

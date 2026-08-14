@@ -27,13 +27,13 @@ Each subject has an opaque stable `causebase_id`, `subject_kind`, `external_iden
 
 Source records have identities independent of CauseBase subjects. Their resolution records status, basis, confidence, supporting/conflicting signals and review state. A source with an ambiguous or medium-confidence name match cannot silently populate a public card.
 
-The current model remains provisional through the 30–50 subject reality spike.
+The model is pre-1.0 and remains revisable. RC4 and the upcoming public-contract consolidation provide its current basis; the 30–50 subject reality spike is historical validation work, not the current product gate.
 
 ## Evidence, estimates and coverage
 
 CauseBase combines authoritative records, organisation self-report, independent references, community contributions and CauseBase derivations. Material assertions expose appropriate evidence and epistemic status.
 
-Fundraising expenditure is a required best estimate for an enriched subject. Direct disclosure, deterministic reconstruction, documented heuristics, LLM interpretation, peer imputation and a documented fallback prior are distinct methods and must remain visible.
+Fundraising expenditure is a required capability and coverage field for an enriched subject, assessed on a best-effort basis. Publish only a defensible method and preserve that method visibly: direct disclosure, deterministic reconstruction, documented heuristic, bounded LLM interpretation, or approved peer imputation. The ladder is ordered: direct, mechanical, defensible heuristic, bounded LLM, approved peer, then unavailable/null. There is no universal fallback percentage or prior; a null is the correct result when no defensible method is available.
 
 Coverage is represented as explicit capabilities—such as regulatory, financials, annual report, website, current activity, taxonomy and embedding—rather than treating an enrichment label as the primary truth.
 
