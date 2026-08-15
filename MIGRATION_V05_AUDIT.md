@@ -68,9 +68,9 @@ AIS snapshot or treat legacy preservation as observed coverage.
 The provenance blocker is resolved by the approved preservation mechanism.
 Immutable `releases/v0.5.0-2026-08-15` contains 120 cards and 228 public
 source sidecars. Its 349-artefact manifest, complete JSON Schema run,
-source-reference checks and losslessness audit all pass. Viewer migration is
-validated locally; deployment and the live-release-pointer update remain
-operational steps.
+source-reference checks and losslessness audit all pass. Viewer migration was
+validated and deployed by GitHub Actions run `31856788408`; the public Viewer
+returned HTTP 200.
 
 The Builder v0.5 implementation and the current frozen-fixture adapter remain
 useful pre-promotion work, but cannot be used to claim a lossless 120-card

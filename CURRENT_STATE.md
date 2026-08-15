@@ -2,9 +2,9 @@
 
 Updated: 2026-08-15
 
-## Current release — Phase 2B RC4 fundraising projection correction
+## Current release — public contract 0.5 RC4 migration
 
-- Live Viewer dataset: `phase2b-2026-08-14-rc4-fundraising-projection-correction`, deployed from Viewer commit `77d84be`. It remains a 120-card projection from immutable `phase2a-2026-08-10-h1`; accepted RC2 summaries and embeddings were reused without model calls.
+- Live Viewer dataset: `v0.5.0-2026-08-15`, deployed from Viewer commit `c1fc831` through successful GitHub Actions run `31856788408`. It is the 120-card immutable public-contract migration from RC4, with no source acquisition, model call or corpus expansion.
 - RC4 preserves complete source-native primary financial statements, visual functional allocations and public source-native sidecars. Funding & fundraising is now a narrow analytic projection: EJA reports Donations, gifts & bequests of AUD 2,101,817 (41.9% of AUD 5,016,000 total income), from the full printed rows `Donations, Fundraisings, Lectures` and `Donations - Future Fund`; its direct Fundraising allocation is 10% with an approximate AUD 585k mechanical implication.
 - Viewer separates participation action destinations from evidence URLs, presents Funding & fundraising before Financial reports, retains full statements/functional allocation under Financial reports, uses table-level citations where appropriate, and keeps Sources & data compact.
 - RC4 validation: Builder 63 tests, Viewer 18 tests, candidate/publication validation and source-native static-link checks passed. `RC4_REVIEW_HANDOFF.md` records the detailed acceptance evidence.
@@ -19,7 +19,7 @@ Updated: 2026-08-15
 
 - The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. Public contract `0.5` is design approved / ready for implementation: its modular schemas, release-owned capability registry and frozen EJA/sparse/DFWA/multi-period fixtures are in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. The EJA fixture losslessly retains RC4's 33-row P&L and 32-row Financial Position statements; no migration, rebuild or corpus expansion is authorised.
 - Builder now has an isolated v0.5 Pydantic model, deterministic frozen-fixture adapter and independent validator suite. RC4 remains the production contract: there is no corpus migration, v0.5 public release, Viewer change or deployment.
-- Gate A is passed. Immutable Data release `releases/v0.5.0-2026-08-15` contains 120 contract-0.5 cards, 228 public source sidecars and a passed 349-artefact manifest. The losslessness audit retains 20 exact-recovered geography values as evidence-bound observations and preserves 402 activities, 226 beneficiaries, 198 remaining geography values, 573 classifications, six funding/fundraising records and 86 historical AIS records under `legacy_unbound` without invented evidence. The Viewer v0.5 bundle and static source-link gate are also green; deployment is the remaining operational step.
+- Gate A and the Viewer gate are passed. Immutable Data release `releases/v0.5.0-2026-08-15` contains 120 contract-0.5 cards, 228 public source sidecars and a passed 349-artefact manifest. The losslessness audit retains 20 exact-recovered geography values as evidence-bound observations and preserves 402 activities, 226 beneficiaries, 198 remaining geography values, 573 classifications, six funding/fundraising records and 86 historical AIS records under `legacy_unbound` without invented evidence. The Viewer v0.5 bundle deployed successfully and the public site returned HTTP 200.
 - Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
 
 # Historical release and implementation record
