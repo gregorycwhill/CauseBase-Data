@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "status": "evaluation criteria; not a consumer-product result",
+  "scoring_dimensions": ["correct_subject", "correct_source", "correct_fact", "period_scope", "claim_basis", "coverage_absence", "identity_ambiguity", "provenance_citation", "refuses_unavailable_fact"],
+  "criteria": {
+    "exact_lookup": ["correct Environmental Justice Australia subject", "neutral fact", "source or CauseBase provenance"],
+    "abn_lookup": ["ABN 74052124375", "public source", "no name-only identity resolution"],
+    "directed_lookup": ["canonical CauseBase record", "release identified"],
+    "financial_interpretation": ["direct 10% share distinguished from mechanical approximately AUD 585279", "no efficiency claim"],
+    "sparse_coverage": ["unknown and not_available_from_source are coverage states", "no negative fact invented"],
+    "identity_ambiguity": ["DFWA ambiguity retained", "no name/domain resolution"],
+    "legacy_unbound": ["legacy_unbound is not current observed evidence"],
+    "period_scope": ["reporting period and scope retained", "periods not combined"],
+    "source_retrieval": ["follows source/evidence links", "identifies supporting source"],
+    "geography": ["stated geography only", "no recommendation"],
+    "activity": ["evidence-backed activity", "no ranking"],
+    "dgr": ["DGR evidence and coverage state interpreted"],
+    "multiple_periods": ["multiple periods and current-selection state identified"],
+    "markdown_json": ["both JSON and Markdown retrieved", "JSON recognised as richer authority"],
+    "citation": ["CauseBase record/release plus evidence cited", "direct and derived distinguished"],
+    "charity_information": ["neutral public information", "no best-charity claim"]
+  }
+}

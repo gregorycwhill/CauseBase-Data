@@ -65,18 +65,19 @@ The RC4 120-card baseline is released. The next roadmap is organised by user cap
 ### Phase 2 — technology spikes
 
 - Compare PDF/document extraction stacks against Golden Corpus v1 and record a governed decision. **Complete.**
-- Compare frontend/JavaScript framework options against the utilitarian Viewer requirements.
-- Investigate the bounded value, provenance and maintenance implications of Wikipedia/Wikidata.
+- Compare frontend/JavaScript framework options against the utilitarian Viewer requirements. **Complete — KEEP CURRENT.**
+- Investigate the bounded value, provenance and maintenance implications of Wikipedia/Wikidata. **Complete — broad ingestion deferred.**
 
 ### Phase 3 — evidence engine
 
-- Build document pipeline v2 from the selected stack; acquire/extract website evidence; and stress-test identity, groups and relationships.
+- Build document pipeline v2 from the selected stack; acquire/extract website evidence; and stress-test identity, groups and relationships. **Bounded Evidence Engine v1 pilot complete.**
 
 ### Phase 4 — knowledge and distribution validation (active)
 
 - Validate taxonomy on a larger stratified sample.
 - Define the agent/data distribution contract.
 - Test consumer-LLM discovery and accurate interpretation using the protocol in TEST_PLAN.md.
+- Complete Knowledge Validation v1 deterministic preparation and the compact human/consumer-LLM decision gate. **Active — human decisions pending.**
 
 ### Phase 5 — Viewer
 
