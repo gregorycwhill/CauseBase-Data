@@ -1,7 +1,7 @@
 # CauseBase Test Plan
 
 **Status:** Accepted product direction  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-15
 
 ## Cross-product release gates
 
@@ -60,6 +60,8 @@ Phase 2B additionally tests stacked facets, clickable taxonomy navigation, sourc
 ## Post-RC4 evaluation and distribution tests
 
 The golden corpus must contain governed representative and awkward cases for source-native financial preservation, reports/charts/scans, identity/group ambiguity, thin or failed websites, coverage states, derived projections and editorial/provenance review. It is the shared benchmark for document-stack, website-pipeline and Viewer changes; quality/cost evidence from it gates technology selection and scale.
+
+Golden Corpus v1 tests validate the checked-in manifest's schema/version, unique case IDs, truth-level separation and SHA-256-bound private fixture locators. Builder evaluation tests require a stable normalised document result contract, cache-key invalidation when extraction options change, explicit unavailable OCR/vision routes rather than silent fallback, and deterministic benchmark report generation. Benchmark acceptance separately records hard-gold score, elapsed time, platform availability and skipped private fixtures; review-required cases remain diagnostics and cannot be silently promoted to gold.
 
 Consumer-LLM testing uses scarce genuinely naive contexts deliberately. Prepare canonical prompts and scoring criteria before use, and record model/product, date, account/context condition, exact prompt, web/search availability, selected sources, organisations returned, factual errors, citations and whether CauseBase changed the result. Test four conditions separately: unaided discovery (no CauseBase mention), source discovery, directed CauseBase use and interpretation of supplied CauseBase records/URLs. Eventual routine model familiarity/indexing is product success, not permanent contamination.
 

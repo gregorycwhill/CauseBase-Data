@@ -1,7 +1,7 @@
 # CauseBase Product Roadmap
 
 **Status:** Accepted product direction  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-15
 
 CauseBase is one product with three sub-products: CauseBase Data, CauseBase Builder and CauseBase Viewer. The shared CauseBase product contract governs all three. Documents may live in the CauseBase Data repository for convenience, but CauseBase Data is not the parent product.
 
@@ -59,12 +59,12 @@ The RC4 120-card baseline is released. The next roadmap is organised by user cap
 
 ### Phase 1 — define success
 
-- Consolidate the public schema/data/agent contract and its release semantics.
-- Establish a governed golden-corpus evaluation framework spanning financials, provenance, summaries, identity and Viewer rendering.
+- Complete the public schema/data/agent contract and immutable v0.5 release semantics. **Complete.**
+- Establish Golden Corpus v1 spanning financials, provenance, summaries, identity and Viewer rendering. **Active.**
 
 ### Phase 2 — technology spikes
 
-- Compare PDF/document extraction stacks against the golden corpus.
+- Compare PDF/document extraction stacks against Golden Corpus v1 and record a governed decision. **Active.**
 - Compare frontend/JavaScript framework options against the utilitarian Viewer requirements.
 - Investigate the bounded value, provenance and maintenance implications of Wikipedia/Wikidata.
 

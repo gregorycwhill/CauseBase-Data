@@ -1,7 +1,7 @@
 # CauseBase Implementation Plan
 
-**Status:** Accepted product direction; implementation details remain adaptable  
-**Updated:** 2026-08-14
+**Status:** Active implementation plan; historical phases retained for traceability
+**Updated:** 2026-08-15
 
 ## Phase 2B contract
 
@@ -11,7 +11,7 @@ Incremental refresh is staged: acquire/extract, deterministic change profile, de
 
 Funding sources, fundraising methods, current-campaign freshness and fundraising expenditure are distinct fields. They remain descriptive, evidence-bound and non-normative.
 
-The approved vNext design direction distinguishes claim basis from extraction method, treats coverage as capability availability, permits a null sparse-card summary, uses source-family sidecars rather than duplicating payloads in cards, and permits an explicit current-financial pointer over retained observations. These are contract-design decisions, not implemented RC4 migrations.
+The approved v0.5 design distinguishes claim basis from extraction method, treats coverage as capability availability, permits a null sparse-card summary, uses source-family sidecars rather than duplicating payloads in cards, and permits an explicit current-financial pointer over retained observations. It is implemented in the immutable v0.5 release; RC4 remains historical.
 
 ## Historical implementation record — completed reality spike through RC4
 
@@ -72,13 +72,13 @@ The project is contract-led, not contract-frozen. Public schema versions may del
 
 ## Current implementation direction — immediate post-RC4 sequence
 
-No corpus expansion begins before two bounded success-definition packages are human-reviewed:
+The public-contract gate is complete. The next work is governed evaluation before evidence-engine scale:
 
-1. **Schema/public-contract and compatibility specification** — completed as a draft `0.5` package in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. It translates the approved consolidation direction into stable public fields, claim-basis/extraction semantics, period/scope, coverage/absence, version/freshness, discovery artefacts and compatibility expectations. Do not migrate RC4 before product review accepts it.
-2. **After approval: bounded adapters and validators** — implement Builder v0.5 models/validators and an RC4-to-v0.5 adapter only against frozen EJA, sparse, identity and multi-period fixtures; do not rebuild the corpus.
-2. **Golden-corpus evaluation framework** — select governed awkward cases and acceptance measures for document extraction, financial reconciliation, provenance, identity, editorial rendering and Viewer usability.
+1. **Public contract v0.5** — complete: specifications, Builder validation/migration, Data release and Viewer cutover are validated and deployed. Do not mutate `releases/v0.5.0-2026-08-15`.
+2. **Golden Corpus v1 and document-stack bake-off** — establish governed awkward cases and acceptance measures for document extraction, financial reconciliation, provenance, identity, editorial rendering and Viewer usability. Benchmark bounded extraction candidates against retained private evidence, recording availability, quality, cost and failure modes.
+3. **Conditional document pipeline v2** — only adopt a routed architecture that the bake-off supports; retain deterministic native extraction, make OCR/vision routes explicit and cached, and preserve every source result as private evidence rather than a public artefact.
 
-Then conduct bounded, decision-producing technology spikes: document/PDF stack, frontend stack and Wikipedia/Wikidata. Each spike records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.
+Then conduct bounded, decision-producing frontend and Wikipedia/Wikidata spikes. Each records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.
 
 After those decisions, build document pipeline v2, website evidence acquisition/extraction and identity/group stress tests. Larger taxonomy validation, agent/data distribution and consumer-LLM evaluation precede the Viewer redesign. Corpus machinery follows the redesigned, validated contract; the 500/1,000-card run is a gated learning slice, not an automatic scale commitment.
 
