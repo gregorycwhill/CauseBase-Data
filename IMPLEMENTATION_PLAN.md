@@ -80,6 +80,8 @@ The public-contract gate is complete. The next work is governed evaluation befor
 
 Then conduct bounded, decision-producing frontend and Wikipedia/Wikidata spikes. Each records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.
 
+**Completed distribution increment:** frontend decision is KEEP CURRENT; Wikimedia is deferred as a broad source; the agent/data contract and 16-case consumer-LLM foundation are checked in. The minimal static discovery layer is a Viewer projection of the pinned v0.5 release, not a new Data release or backend. Full consumer-product testing and larger taxonomy validation remain the next knowledge-validation work.
+
 After those decisions, build document pipeline v2, website evidence acquisition/extraction and identity/group stress tests. Larger taxonomy validation, agent/data distribution and consumer-LLM evaluation precede the Viewer redesign. Corpus machinery follows the redesigned, validated contract; the 500/1,000-card run is a gated learning slice, not an automatic scale commitment.
 
 ## Operations harness direction

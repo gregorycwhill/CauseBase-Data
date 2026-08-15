@@ -60,11 +60,11 @@ The RC4 120-card baseline is released. The next roadmap is organised by user cap
 ### Phase 1 — define success
 
 - Complete the public schema/data/agent contract and immutable v0.5 release semantics. **Complete.**
-- Establish Golden Corpus v1 spanning financials, provenance, summaries, identity and Viewer rendering. **Active.**
+- Establish Golden Corpus v1 spanning financials, provenance, summaries, identity and Viewer rendering. **Complete.**
 
 ### Phase 2 — technology spikes
 
-- Compare PDF/document extraction stacks against Golden Corpus v1 and record a governed decision. **Active.**
+- Compare PDF/document extraction stacks against Golden Corpus v1 and record a governed decision. **Complete.**
 - Compare frontend/JavaScript framework options against the utilitarian Viewer requirements.
 - Investigate the bounded value, provenance and maintenance implications of Wikipedia/Wikidata.
 
@@ -72,7 +72,7 @@ The RC4 120-card baseline is released. The next roadmap is organised by user cap
 
 - Build document pipeline v2 from the selected stack; acquire/extract website evidence; and stress-test identity, groups and relationships.
 
-### Phase 4 — knowledge and distribution validation
+### Phase 4 — knowledge and distribution validation (active)
 
 - Validate taxonomy on a larger stratified sample.
 - Define the agent/data distribution contract.

@@ -14,6 +14,11 @@ Updated: 2026-08-15
 - CauseBase is neutral public charity-information infrastructure. Its users, channels and scales are documented in PRODUCT.md and EXPERIENCES.md; consumer LLMs are a first-order distribution channel, not CauseBase's own chatbot thesis.
 - The next work is dependency-gated: define public-contract and golden-corpus success first; then technology spikes; then evidence/identity work; distribution/taxonomy/LLM validation; Viewer redesign; corpus machinery; and only then progressive scale. See ROADMAP.md and IMPLEMENTATION_PLAN.md.
 
+## Current distribution state
+
+- Frontend spike: **KEEP CURRENT** dependency-free static Viewer. Wikimedia: defer broad ingestion after 7/120 ABN-first Wikidata matches; it is a possible attributed discovery/corroboration source only.
+- Machine-distribution remediation is validated locally against the unchanged pinned v0.5 release: canonical static card routes, sitemap, robots, release pointer and JSON/Markdown alternatives. The next public action is the existing Viewer deployment workflow; no Data release is required.
+
 ## Current next gates
 
 - Public contract `0.5` is implemented in Builder, Data and Viewer. Its modular schemas, release-owned capability registry, frozen EJA/sparse/DFWA/multi-period fixtures, deterministic adapter and independent validators are in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/`, `examples/vnext/` and Builder’s `v05` package.
