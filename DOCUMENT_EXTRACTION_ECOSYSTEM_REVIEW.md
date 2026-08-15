@@ -18,7 +18,7 @@ ten candidates; popularity was not used as a quality measure.
 | Camelot 2.0.0 lattice | ruled-table specialist | installed and benchmarked with generic statement-page routing | MIT |
 | Tesseract 5.5.3 | low-text OCR | installed and benchmarked | Apache-2.0; stable subprocess |
 | RapidOCR ONNX 1.2.3 | low-text OCR with word boxes | installed and benchmarked | Apache-2.0 |
-| OpenAI narrow vision | page-scoped chart specialist | technically configured but not run | requires explicit authority to transmit a private page |
+| local vector colour/geometry | page-scoped vector-chart specialist | validated on EJA page 29 | local-only; no model/service licence |
 
 Docling was a serious integrated candidate: its official documentation supports
 Windows and local processing, but installation into this OneDrive path failed
@@ -37,5 +37,8 @@ syntax and source-faithful financial reconstruction. Camelot did not replace
 it: it is retained only as an optional future specialist, because its generic
 scan added operational cost without displacing the financial hard-gold route.
 Tesseract is the default local OCR fallback; RapidOCR remains an alternative
-where word boxes justify its substantially higher cold-path cost. Visual chart
-extraction remains gated, not assumed.
+where word boxes justify its substantially higher cold-path cost. The local
+vector colour/geometry route passed the EJA 4/4 chart hard gold with legend and
+value bounding boxes. A hosted/model vision route was not selected because it
+is unnecessary for this validated vector-chart class and would transmit a
+private page.

@@ -1,6 +1,6 @@
 # Document extraction stack decision — Golden Corpus v1
 
-**Decision class:** Conditional routed adoption
+**Decision class:** Decisive routed adoption
 **Date:** 2026-08-15
 **Scope:** private Builder evidence processing only; this does not modify the immutable public v0.5 release.
 
@@ -20,17 +20,19 @@ computed from hard gates, not hard-coded.
 - **Low-text OCR:** local Tesseract 5.5.3 and RapidOCR 1.2.3 both recovered
   genuine Golden Corpus low-text pages. Tesseract is the simpler default;
   RapidOCR remains available where positioned OCR boxes are needed.
-- **Visual charts:** not validated. The configured structured vision adapter
-  would transmit EJA annual-report page 29 to OpenAI; that transfer needs
-  explicit user authority. Until then the EJA 4/4 visual hard gate remains
-  unmet and the overall document state is **CONDITIONAL**.
+- **Visual charts:** the local `local_vector_colour_geometry` route recovered
+  the EJA page-29 legend/value pairs with page, legend-box and value-box
+  provenance: Legal Programs 50%, Operations & Management 31%, Campaigns &
+  Communications 9%, Fundraising 10%. It uses native PDF geometry and colour
+  association only; no report page was sent to an external service.
 
-The current production private pipeline therefore uses `pdfplumber` plus
-page-routed local Tesseract. It records vision as unavailable/not validated;
-it never fabricates a chart observation. The Document Gate does not pass, so
-website/identity evidence-engine work is intentionally not started.
+The current production private pipeline uses `pdfplumber` plus page-routed
+local Tesseract and page-routed local vector chart extraction. The computed
+Document Gate is **DECISIVE**: all required routes have a validated hard-gold
+or genuine-corpus result. Website/identity review work is permitted, but no
+route writes public claims or changes the immutable release.
 
-## Evidence
+## Historical preliminary run (superseded)
 
 The governed corpus contains 21 cases: seven hard-gold cases and fourteen
 review-required diagnostics. It references seven retained private PDFs by
@@ -66,15 +68,16 @@ pipeline:
    `pdfplumber`.
 3. Route only low-text pages to a locally configured OCR adapter; record an
    explicit `ocr_unavailable` state when no engine is installed.
-4. Mark image/curve-heavy pages for a separately configured, cached vision
-   adapter. It is never implicit and cannot fabricate a source observation.
+4. On graphical pages containing percentage tokens, attempt the local vector
+   colour/geometry adapter. It emits nothing unless labelled swatches and
+   percentage regions have an unambiguous one-to-one association.
 5. Leave financial reconstruction, semantic interpretation and public release
    creation to their existing governed stages.
 
-This is conditional rather than a single-library winner: the evidence supports
-native/table extraction as the baseline, but does not validate an OCR engine,
-visual chart recovery or an independent table parser. Those remain bounded
-follow-up comparisons before scale or reliance on those routes.
+This is a decisive routed architecture rather than a single-library winner:
+pdfplumber is the least-complex source-faithful native route; Tesseract owns
+low-text OCR; vector colour geometry owns the validated chart class. Camelot
+and RapidOCR remain optional specialists, not default dependencies.
 
 ## Non-decisions and safeguards
 

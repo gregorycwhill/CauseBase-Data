@@ -76,7 +76,7 @@ The public-contract gate is complete. The next work is governed evaluation befor
 
 1. **Public contract v0.5** — complete: specifications, Builder validation/migration, Data release and Viewer cutover are validated and deployed. Do not mutate `releases/v0.5.0-2026-08-15`.
 2. **Golden Corpus v1 and document-stack bake-off** — establish governed awkward cases and acceptance measures for document extraction, financial reconciliation, provenance, identity, editorial rendering and Viewer usability. Benchmark bounded extraction candidates against retained private evidence, recording availability, quality, cost and failure modes.
-3. **Conditional document pipeline v2** — only adopt a routed architecture that the bake-off supports; retain deterministic native extraction, make OCR/vision routes explicit and cached, and preserve every source result as private evidence rather than a public artefact.
+3. **Document pipeline v2 and first Evidence Engine pilot** — complete: a computed decisive routed architecture retains deterministic `pdfplumber`, page-routed local Tesseract and local vector colour/geometry extraction. The bounded retained-snapshot website/identity/fundraising pilot is complete and produces review material only. Preserve every source result as private evidence rather than a public artefact.
 
 Then conduct bounded, decision-producing frontend and Wikipedia/Wikidata spikes. Each records alternatives, fixtures, quality/cost/accessibility evidence, a recommendation and an explicit decision gate; none silently becomes production architecture.
 
