@@ -117,9 +117,13 @@ Financial source preservation has three layers.
 
 Canonical amount objects preserve `source_amount` as the reported exact decimal (including sign), `source_raw_value`, unit/currency and `normalised_amount`. Normalisation records unit scaling, not FX conversion. Canonical ordinary metrics and analytic amounts are non-negative (`revenue`, `total_expenses`, assets, liabilities, fundraising expenditure). `surplus_deficit` and `net_assets_equity` preserve economically meaningful signed values. A metric derived from a negatively printed source row records the source row ID and `sign_normalisation` such as `absolute_magnitude`; it never discards the original source amount.
 
+When a legacy RC4 value cannot be given a defensible canonical observation envelope, it is retained in `legacy_unbound` with the immutable origin release and SHA-256 of its origin card. This is public preservation, not a governed observation and does not by itself produce `observed` coverage. The container is deliberately domain grouped, including descriptive domains and unresolved historical financial records.
+
 `current_financials.selection_policy` is one of `latest_nonconflicted_reporting_period`, `explicit_report`, or `not_selected`. It must identify period, scope and all selected metric observation IDs. It is absent if competing same-period/scope observations are unresolved.
 
 Funding/fundraising structures are explicit. `funding_sources[]` and `fundraising_methods[]` are observations. `donations_gifts_bequests` is an analytic aggregate with component observation IDs, amount, denominator observation ID/amount, share, period/scope and derivation lineage. `fundraising_expenditure` contains a direct reported share observation plus optional mechanically-derived amount; it does not imply a full functional allocation.
+
+Where attribution is genuinely bounded, an analytic projection may carry `lower_bound`, `upper_bound`, an optional defensible `point_estimate`, and explicit attribution components marked `definite`, `possible` or `excluded` with an additivity basis. Bounds are not efficiency, ROI or causal fundraising economics; no midpoint, fractional allocation or donor-income causal assertion is implied without its own governed rule.
 
 ## 10. Validation invariants
 

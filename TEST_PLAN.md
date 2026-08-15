@@ -39,6 +39,8 @@ Maintain small sanitised or permitted fixtures from awkward real-world cases: mu
 
 Maintain a human-reviewed evaluation set for neutrality, factual grounding, PR-language suppression, activity/beneficiary/geography extraction, taxonomy assignment, uncertainty, attribution, conflicting evidence and financial/fundraising interpretation. Run it for material model or prompt changes; valid JSON alone is not a quality signal.
 
+For the RC4→0.5 migration, gate promotion on a complete-card schema run, public source-reference resolution, manifest hash verification and a losslessness audit that counts each source domain as either canonical or `legacy_unbound`. Test exact recovery only for a unique literal public source-field match, require the origin-card hash on retained legacy material, and ensure legacy preservation never upgrades capability coverage to `observed`.
+
 Phase 2A adds a private 30-case representative evaluation corpus, weighted toward sparse/failed websites and report-bearing subjects. It records source evidence IDs, model/prompt/evidence hashes, review focus and a reviewer-assessment slot; it is the regression basis for later prompt/model changes.
 
 Phase 2A.1 adds corpus-level assertions for one effective public coverage state per capability, no public operational synthesis telemetry, no blanket CauseBase taxonomy evidence IDs, sparse-evidence wording and broken public evidence URLs. Viewer tests cover unavailable/real fundraising estimates, observation currency, conflicting financial values and friendly taxonomy separation.

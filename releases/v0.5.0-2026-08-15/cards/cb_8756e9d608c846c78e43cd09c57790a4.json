@@ -1,0 +1,469 @@
+{
+  "causebase_id": "cb_8756e9d608c846c78e43cd09c57790a4",
+  "contract_version": "0.5",
+  "subject_kind": "unknown",
+  "identity": {
+    "legal_name": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland",
+    "display_name": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "www.brisbanemercy.org.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "94710251744",
+        "evidence_ids": [
+          "ev:acnc:94710251744"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:94710251744"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:94710251744:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:94710251744:2e3cab38-38af-e811-a960-000d3ad24282:cb_8756e9d608c846c78e43cd09c57790a4",
+    "src:acnc-ais-detail:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea:cb_8756e9d608c846c78e43cd09c57790a4"
+  ],
+  "source_bindings": [
+    {
+      "source_record_id": "src:acnc-register:4adb4a52-14e7-5864-9314-a0acbb73b3cd",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "review_status": "not_required",
+      "conflicting_signals": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:94710251744",
+      "title": "ACNC Register extract"
+    },
+    {
+      "evidence_id": "ev:web:94710251744:2026-08-10",
+      "title": "Organisation website homepage",
+      "url": "https://www.brisbanemercy.org.au"
+    },
+    {
+      "evidence_id": "ev:ais:94710251744:2023",
+      "title": "ACNC AIS 2023 extract"
+    },
+    {
+      "evidence_id": "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea",
+      "title": "ACNC Annual Information Statement 2025",
+      "url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea"
+    },
+    {
+      "evidence_id": "ev:abr-dgr:94710251744:20260805",
+      "title": "ABR DGR bulk observation",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
+    }
+  ],
+  "summary": {
+    "derivative_id": "der:rc4:cb_8756e9d608c846c78e43cd09c57790a4:summary",
+    "text": "The Corporation Of The Trustees Of The Order Of The Sisters Of Mercy In Queensland is the corporate entity for the Sisters of Mercy, Brisbane Congregation. It operates in Queensland, with activity linked to Brisbane and Aubigny. When supported, the organisation publishes news and announcements on its website and organises commemorative gatherings, farewell events and anniversary celebrations for congregation members. Examples recorded include a 70\u2011year jubilee for Sister Catharine Courtney (Sister Mary Benedict), a farewell to Robyn Rodwell and a 130\u2011year service commemoration. Recorded modes of participation include attending public gatherings and reading website news. CauseBase does not have sufficient descriptive evidence in this release to identify other service programs, beneficiaries beyond congregation members, or operational details such as staffing or finances."
+  },
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "observation_id": "obs:rc4:cb_8756e9d608c846c78e43cd09c57790a4:program:prg:acnc:94710251744:04473a81-de62-f111-a826-7ced8d33fdea",
+      "program_id": "prg:acnc:94710251744:04473a81-de62-f111-a826-7ced8d33fdea",
+      "name": "Providing support to the Congregation to meet its objectives",
+      "description": "Catholicism",
+      "url": "https://www.acnc.gov.au/charity/charities/2e3cab38-38af-e811-a960-000d3ad24282/documents/b4463a81-de62-f111-a826-7ced8d33fdea",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_8756e9d608c846c78e43cd09c57790a4:classification:0",
+      "classification_id": "cls:rc4:cb_8756e9d608c846c78e43cd09c57790a4:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.religion",
+      "term_label": "religion",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:94710251744"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_8756e9d608c846c78e43cd09c57790a4:classification:1",
+      "classification_id": "cls:rc4:cb_8756e9d608c846c78e43cd09c57790a4:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:94710251744"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:94710251744"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-06-08",
+        "source_record_ids": [
+          "src:acnc-ais-detail:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea:cb_8756e9d608c846c78e43cd09c57790a4"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:94710251744:b4463a81-de62-f111-a826-7ced8d33fdea"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:94710251744:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:94710251744:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_8756e9d608c846c78e43cd09c57790a4:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:94710251744:2026-08-10",
+        "ev:acnc:94710251744"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
+        "generated_at": "2026-08-12T13:57:56.604775Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "51277e4c131a095ca4cd49db19bcb2069c76b6d460c96a9c0df8d413d029231f",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "bd752e8b61563d65977522f5b80b5cb2d329c3adf0c3bb682955da22b04c22a8",
+    "activities": [
+      {
+        "value": "Publishing news items",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "Website is a provenance channel, not the activity.",
+        "evidence_ids": []
+      },
+      {
+        "value": "Hosting and recording commemorative gatherings and farewell events (examples: Aubigny at Mater; farewell to Robyn Rodwell)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Commemorating milestones (examples: 70\u2011year anniversary; 130 years of service)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Members of the Sisters of Mercy, Brisbane Congregation",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Queensland",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Brisbane, Queensland",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Aubigny, Queensland",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "organisation.local",
+        "term_label": "Local organisation",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_8756e9d608c846c78e43cd09c57790a4:2023",
+        "period": {
+          "period_start": null,
+          "period_end": null,
+          "period_length_days": null,
+          "label": null,
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_8756e9d608c846c78e43cd09c57790a4",
+        "covered_subjects": [
+          "cb_8756e9d608c846c78e43cd09c57790a4"
+        ],
+        "consolidated": "unknown",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:94710251744:2023"
+        ],
+        "revenue": {
+          "source_amount": "0",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "0",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "0",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "0",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "0",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "0",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
+}

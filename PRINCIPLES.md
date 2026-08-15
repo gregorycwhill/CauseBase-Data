@@ -13,6 +13,7 @@
 8. Human-readable fields and machine-readable embeddings complement one another.
 9. The card is the knowledge object; projections are generated, not independently authored.
 10. Search and semantic proximity are navigation, not recommendation.
+11. Fundraising expenditure and donation income are not a causal numerator/denominator pair. CauseBase may preserve direct measurements, mechanical allocations and defensible attribution bounds, but does not reconstruct fundraising attribution economics.
 11. Accepted corrections change governed evidence/inputs and regenerate dependent outputs.
 12. Public contestability applies to moderated proposal and decision records, not automatically to raw submissions.
 13. Charities may correct facts and provide self-description; they do not obtain editorial control over CauseBase synthesis.

@@ -1,0 +1,452 @@
+{
+  "causebase_id": "cb_6b2097060d424bdf8858dde71c901dbb",
+  "contract_version": "0.5",
+  "subject_kind": "unknown",
+  "identity": {
+    "legal_name": "International China Concern (Australia) Ltd",
+    "display_name": "International China Concern (Australia) Ltd",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "chinaconcern.org",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "30091040649",
+        "evidence_ids": [
+          "ev:acnc:30091040649"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:30091040649"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:30091040649:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:30091040649:6a6e5a24-39af-e811-a962-000d3ad24a0d:cb_6b2097060d424bdf8858dde71c901dbb",
+    "src:acnc-ais-detail:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13:cb_6b2097060d424bdf8858dde71c901dbb"
+  ],
+  "source_bindings": [
+    {
+      "source_record_id": "src:acnc-register:27b9f52e-9b0e-58ed-b6d5-9a281e4b3bfa",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "review_status": "not_required",
+      "conflicting_signals": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:30091040649",
+      "title": "ACNC Register extract"
+    },
+    {
+      "evidence_id": "ev:web:30091040649:2026-08-10",
+      "title": "Organisation website homepage",
+      "url": "https://chinaconcern.org"
+    },
+    {
+      "evidence_id": "ev:ais:30091040649:2023",
+      "title": "ACNC AIS 2023 extract"
+    },
+    {
+      "evidence_id": "ev:acnc:ais:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13",
+      "title": "ACNC Annual Information Statement 2024",
+      "url": "https://www.acnc.gov.au/charity/charities/6a6e5a24-39af-e811-a962-000d3ad24a0d/documents/8b28b687-a12b-f011-8c4d-6045bdc24e13"
+    },
+    {
+      "evidence_id": "ev:abr-dgr:30091040649:20260805",
+      "title": "ABR DGR bulk observation",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
+    }
+  ],
+  "summary": {
+    "derivative_id": "der:rc4:cb_6b2097060d424bdf8858dde71c901dbb:summary",
+    "text": "International China Concern (Australia) Ltd is an organisation registered in Victoria, Australia. Available materials include a website with a privacy policy describing collection of IP addresses, use of cookies, SSL encryption for transactions and links to third\u2011party payment providers, and a complaints policy that applies to members of the public, volunteers, staff and board members. The complaints policy outlines seven handling stages (acknowledgement, assessment, planning, investigation, response, review and systemic follow\u2011up), refers to biblical principles as guiding principles, and notes volunteers as a stakeholder group. The organisation also references a mission and vision page. CauseBase does not have sufficient descriptive evidence in this release to independently identify specific activities delivered or the intended beneficiary groups."
+  },
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [
+    {
+      "observation_id": "obs:rc4:cb_6b2097060d424bdf8858dde71c901dbb:program:prg:acnc:30091040649:7af5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "program_id": "prg:acnc:30091040649:7af5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Family Partners Program",
+      "description": "Family disability resources",
+      "url": "https://chinaconcern.org/restoring-families/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2024"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_6b2097060d424bdf8858dde71c901dbb:program:prg:acnc:30091040649:8ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "program_id": "prg:acnc:30091040649:8ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Family-style Care Centres",
+      "description": "Out-of-home care",
+      "url": "https://chinaconcern.org/serving-children-without-families/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2024"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_6b2097060d424bdf8858dde71c901dbb:program:prg:acnc:30091040649:9ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "program_id": "prg:acnc:30091040649:9ef5b78d-a12b-f011-8c4d-6045bdc24e13",
+      "name": "Pathways Vocational Training",
+      "description": "Vocational rehabilitation",
+      "url": "https://chinaconcern.org/equipping-young-adults/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2024"
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_6b2097060d424bdf8858dde71c901dbb:classification:0",
+      "classification_id": "cls:rc4:cb_6b2097060d424bdf8858dde71c901dbb:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.health",
+      "term_label": "health",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:30091040649"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_6b2097060d424bdf8858dde71c901dbb:classification:1",
+      "classification_id": "cls:rc4:cb_6b2097060d424bdf8858dde71c901dbb:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:30091040649"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:30091040649"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2025-05-08",
+        "source_record_ids": [
+          "src:acnc-ais-detail:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13:cb_6b2097060d424bdf8858dde71c901dbb"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:30091040649:8b28b687-a12b-f011-8c4d-6045bdc24e13"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "financial.report",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:30091040649:2023"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "unknown",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:ais:30091040649:2023"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_6b2097060d424bdf8858dde71c901dbb:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:30091040649:2026-08-10",
+        "ev:ais:30091040649:2023",
+        "ev:acnc:30091040649"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+        "generated_at": "2026-08-12T13:47:02.145557Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "8a1df3998e0ca21c0027bb8758a3edfd44d9c5137f509190e2cf95ec96fa4334",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "0b53568cb37a48e1c934d8199f9f10bb3c1c25ec9cdf8e10325b6fc4a0248f6b",
+    "descriptive_geography": [
+      {
+        "value": "Victoria, Australia",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_6b2097060d424bdf8858dde71c901dbb:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_6b2097060d424bdf8858dde71c901dbb",
+        "covered_subjects": [
+          "cb_6b2097060d424bdf8858dde71c901dbb"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:30091040649:2023"
+        ],
+        "revenue": {
+          "source_amount": "899398",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "899398",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "899398",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "945189",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "945189",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "945189",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
+}

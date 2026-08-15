@@ -1,0 +1,525 @@
+{
+  "causebase_id": "cb_7e322821acc34c8b920c772f5b4e4c5c",
+  "contract_version": "0.5",
+  "subject_kind": "unknown",
+  "identity": {
+    "legal_name": "Adelaide Symphony Orchestra Pty Ltd",
+    "display_name": "Adelaide Symphony Orchestra Pty Ltd",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://www.aso.com.au",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "49079016738",
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      }
+    ],
+    "tax_statuses": [
+      {
+        "scheme": "ABR DGR",
+        "status": "endorsed",
+        "evidence_ids": [
+          "ev:abr-dgr:49079016738:20260805"
+        ]
+      }
+    ]
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:49079016738:caaabce4-2daf-e811-a963-000d3ad244fd:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:report-extract:49079016738:5848f21901bd747f:cb_7e322821acc34c8b920c772f5b4e4c5c",
+    "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+  ],
+  "source_bindings": [
+    {
+      "source_record_id": "src:acnc-register:d82ef5e3-7e75-593a-ba5c-e44658894168",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "review_status": "not_required",
+      "conflicting_signals": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:49079016738",
+      "title": "ACNC Register extract"
+    },
+    {
+      "evidence_id": "ev:web:49079016738:2026-08-10",
+      "title": "Organisation website homepage",
+      "url": "https://www.aso.com.au"
+    },
+    {
+      "evidence_id": "ev:report:49079016738:5848f21901bd",
+      "title": "Organisation annual or financial report",
+      "url": "https://aso.lbcdn.io/uploads/2023/04/ASO-011-2022-Annual-Report-F1.pdf"
+    },
+    {
+      "evidence_id": "ev:report:49079016738:ac09d642f254",
+      "title": "Organisation annual or financial report",
+      "url": "https://aso.lbcdn.io/uploads/2021/04/ASO-2020-Annual-Report.pdf"
+    },
+    {
+      "evidence_id": "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077",
+      "title": "ACNC Annual Information Statement 2014",
+      "url": "https://www.acnc.gov.au/charity/charities/caaabce4-2daf-e811-a963-000d3ad244fd/documents/c96ba0c3-44c8-e811-a964-000d3ad24077"
+    },
+    {
+      "evidence_id": "ev:abr-dgr:49079016738:20260805",
+      "title": "ABR DGR bulk observation",
+      "url": "https://abr.business.gov.au/Tools/BulkExtract"
+    },
+    {
+      "evidence_id": "ev:report:49079016738:5848f21901bd747f",
+      "title": "5848f21901bd747f35facb46fe653144e92a334b8047cb0b6592e54ed89c4d06.pdf",
+      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf"
+    },
+    {
+      "evidence_id": "ev:report:49079016738:ac09d642f2546982",
+      "title": "ac09d642f2546982276d8ca3b206079c66fb65321659a704f0d4ad9def28ca29.pdf",
+      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/caaabce4-2daf-e811-a963-000d3ad244fd-7060f4b6-7974-4191-9638-c924bd74d001-Financial%20Report-94601086-3db0-e811-a963-000d3ad24077-ASO200415-annual-report-FINAL.pdf"
+    }
+  ],
+  "summary": {
+    "derivative_id": "der:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:summary",
+    "text": "Adelaide Symphony Orchestra Pty Ltd is a professional symphony orchestra based in Adelaide, South Australia. It presents a season of concerts at venues including Adelaide Town Hall, Elder Hall and the Festival Theatre, and undertakes regional touring and community concerts in South Australian towns such as Peterborough and Clare. The ASO runs learning and schools programmes and community projects (for example Floods of Fire), collaborates with festivals and other companies, and produces digital and broadcast programming including an online concert platform and mini\u2011recitals. Public participation opportunities include ticketed concerts, community workshops and participatory projects, and online attendance; the organisation also references volunteers and other supporter involvement."
+  },
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:0",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:0",
+      "mode": "membership",
+      "label": "Membership",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:1",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:1",
+      "mode": "volunteer",
+      "label": "Volunteer",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:participation:2",
+      "participation_id": "part:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:2",
+      "mode": "donate",
+      "label": "Donate",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:49079016738:5848f21901bd747f"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    }
+  ],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:classification:0",
+      "classification_id": "cls:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.culture",
+      "term_label": "culture",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:classification:1",
+      "classification_id": "cls:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.children",
+      "term_label": "children",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:49079016738"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:49079016738"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2015-07-01",
+        "source_record_ids": [
+          "src:acnc-ais-detail:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:49079016738:c96ba0c3-44c8-e811-a964-000d3ad24077"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:report:49079016738:5848f21901bd",
+          "ev:report:49079016738:ac09d642f254"
+        ]
+      },
+      {
+        "capability": "financial.report",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:49079016738:ac09d642f2546982:cb_7e322821acc34c8b920c772f5b4e4c5c"
+        ],
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [],
+  "canonical_metrics": [],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_7e322821acc34c8b920c772f5b4e4c5c:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:web:49079016738:2026-08-10",
+        "ev:report:49079016738:5848f21901bd"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+        "generated_at": "2026-08-12T14:21:24.393184Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "4386595c4aa17ffe34c859042f5195742927f1b0c1d95fc30bd80aa027fcdb56",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "a5b24dd817e890827db6b37097d0ede119a17017b4b04632bd1f71827dd1b0ed",
+    "activities": [
+      {
+        "value": "Symphony and concert series at Adelaide Town Hall, Elder Hall and Festival Theatre",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Regional touring and community concerts in South Australia (Peterborough, Clare, mid\u2011north)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Learning and schools programmes including commissioned school works and incursions",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community projects and participatory work (Floods of Fire)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Collaborations with festivals and companies (Adelaide Festival, WOMADelaide, State Opera, The Australian Ballet)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Digital and broadcast programming (Virtual Concert Hall, online mini\u2011recitals, Silos & Symphonies)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "Audiences in metropolitan Adelaide",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Audiences in regional South Australian towns (Peterborough, Clare)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "School students reached through incursions and learning projects",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Community groups taking part in participatory projects and community centre concerts",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "South Australia (Adelaide and regional towns including Peterborough and Clare)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "cause.culture_and_heritage",
+        "term_label": "Culture and heritage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.volunteer_enabled",
+        "term_label": "Volunteer-enabled delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.volunteering",
+        "term_label": "Volunteering",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.local_or_regional",
+        "term_label": "Local or regional Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "fundraising_methods": [
+      {
+        "method": "other",
+        "first_seen": null,
+        "last_seen": null,
+        "observed_at": "2026-08-13",
+        "status": "current",
+        "evidence_ids": [
+          "ev:report:49079016738:ac09d642f2546982"
+        ]
+      }
+    ]
+  }
+}

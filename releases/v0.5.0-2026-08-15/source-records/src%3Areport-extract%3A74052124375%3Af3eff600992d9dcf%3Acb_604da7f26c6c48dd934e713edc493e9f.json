@@ -1,0 +1,58 @@
+{
+  "source_record_id": "src:report-extract:74052124375:f3eff600992d9dcf:cb_604da7f26c6c48dd934e713edc493e9f",
+  "source_family": "organisation-report-extract",
+  "dataset_version": "2026-08-14-private-extraction",
+  "source_url": "https://envirojustice.org.au/publication/annual-reports/",
+  "retrieved_at": "2026-08-13T13:54:42.956606Z",
+  "observed_at": "2026-08-13",
+  "effective_from": null,
+  "effective_to": null,
+  "source_fields": {
+    "filename": "EJA-Annual-Report-2024-25.pdf",
+    "source_sha256": "f3eff600992d9dcf7ecea509e370b819f2ffa17ffd63391652f0e931642f51ae",
+    "page_count": 32,
+    "discovery_basis": "ACNC public profile Documents field"
+  },
+  "source_payload": {
+    "rows": [],
+    "diagnostics": {
+      "native_text_pages": 32,
+      "low_text_pages": [],
+      "ocr_attempted_pages": [],
+      "image_only_or_scanned_pages": [],
+      "visual_relationships_unresolved_pages": [
+        29
+      ],
+      "vision_escalations": [
+        {
+          "document": "EJA-Annual-Report-2024-25.pdf",
+          "page": 29,
+          "crop": "full_page",
+          "trigger_reason": "labels_and_percentages_present_but_spatial_relationships_unresolved",
+          "model": "gpt-5.6-luna",
+          "usage": {
+            "input_tokens": 2527,
+            "input_tokens_details": {
+              "cache_write_tokens": 0,
+              "cached_tokens": 2524
+            },
+            "output_tokens": 186,
+            "output_tokens_details": {
+              "reasoning_tokens": 88
+            },
+            "total_tokens": 2713
+          },
+          "cost": 0.0007286,
+          "validation_outcome": "passed_share_sum_and_total_expenses_cross_check"
+        }
+      ]
+    }
+  },
+  "canonical_field_mappings": {
+    "rows[].label": "financial_records[].*_breakdown",
+    "rows[].current": "financial_records[].*_breakdown[].amount"
+  },
+  "evidence_ids": [
+    "ev:report:74052124375:f3eff600992d9dcf"
+  ]
+}

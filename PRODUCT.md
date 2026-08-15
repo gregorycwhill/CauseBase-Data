@@ -11,6 +11,8 @@ CauseBase is open, inspectable and machine-legible public infrastructure about A
 
 CauseBase is not a recommendation, charity-rating, donation-optimisation, payment, persuasion or behaviour-change product. Those choices belong to downstream products.
 
+CauseBase publishes source observations and defensible derived measurements. It does not publish charity rankings, fundraising-efficiency ratings, cost-to-raise-a-dollar, fundraising ROI, donor-acquisition efficiency or causal assertions linking fundraising expenditure to particular income. Downstream products may make evaluative use of the published ingredients under their own methodology, assumptions, branding and disclosures.
+
 ## Users, channels and question scale
 
 CauseBase serves four intent groups: funders (individual donors, family offices, trusts/foundations and institutions) who find, understand, compare and diligence organisations; product builders who use CauseBase as a charity-intelligence data layer; researchers/analysts who study organisations, sectors, geography, service ecosystems and change; and charities/their advisers who inspect and contest their representation.

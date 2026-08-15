@@ -1,0 +1,4244 @@
+{
+  "causebase_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+  "contract_version": "0.5",
+  "subject_kind": "unknown",
+  "identity": {
+    "legal_name": "APNIC FOUNDATION LIMITED",
+    "display_name": "APNIC FOUNDATION LIMITED",
+    "operating_names": [],
+    "former_names": [],
+    "entity_status": "registered",
+    "website": "https://apnic.foundation",
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "24646643156",
+        "evidence_ids": [
+          "ev:acnc:24646643156"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:24646643156"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "v0.5.0-2026-08-15",
+    "dataset_version": "0.5.0-2026-08-15",
+    "contract_version": "0.5",
+    "based_on_release": "rc4-2026-08-14",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-public-profile:24646643156:bac96dfd-fba3-eb11-b1ac-000d3acbeb6c:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+    "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+    "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+  ],
+  "source_bindings": [
+    {
+      "source_record_id": "src:acnc-register:6545b90e-33df-509c-8ce5-c2398a92631f",
+      "resolution_status": "resolved",
+      "resolution_basis": "automated authoritative ACNC promotion under acnc-authoritative-v1",
+      "confidence": "high",
+      "review_status": "not_required",
+      "conflicting_signals": []
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:24646643156",
+      "title": "ACNC Register extract"
+    },
+    {
+      "evidence_id": "ev:web:24646643156:2026-08-10",
+      "title": "Organisation website homepage",
+      "url": "https://apnic.foundation"
+    },
+    {
+      "evidence_id": "ev:report:24646643156:a2a8898a4f64",
+      "title": "Organisation annual or financial report",
+      "url": "https://apnic.foundation/wp-content/uploads/2026/06/APNIC-Foundation-Annual-Report-2025_Web-Format.pdf"
+    },
+    {
+      "evidence_id": "ev:ais:24646643156:2023",
+      "title": "ACNC AIS 2023 extract"
+    },
+    {
+      "evidence_id": "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6",
+      "title": "ACNC Annual Information Statement 2025",
+      "url": "https://www.acnc.gov.au/charity/charities/bac96dfd-fba3-eb11-b1ac-000d3acbeb6c/documents/ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+    },
+    {
+      "evidence_id": "ev:report:24646643156:a2a8898a4f64cead",
+      "title": "a2a8898a4f64ceade90b63f11bb3939a63c992b7e4c21a00c9c6ed7a86fb5e60.pdf",
+      "url": "https://acncpubfilesprodstorage.blob.core.windows.net/public/bac96dfd-fba3-eb11-b1ac-000d3acbeb6c-2479b9c7-cd51-4a4d-8662-3d9b83ae8e9c-Financial%20Report-8a056fe1-ca72-f111-ab0f-6045bdc47a8f-APNIC_Foundation_FY25_Financial_Statement.pdf"
+    }
+  ],
+  "summary": {
+    "derivative_id": "der:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:summary",
+    "text": "APNIC Foundation Limited is an Australia-registered organisation (Queensland) that supports internet and digital development across the Asia Pacific. In 2025 it ran grant programs (including ISIF Asia, Trust Discretionary Fund and Community Assistance), directly implemented projects such as school connectivity and M-root deployments, and delivered training through instructor-led workshops and self-paced APNIC Academy courses. It also convenes events and regional schools (for example SOI Asia and APIE) and works with partner organisations on measurement, infrastructure and techno-policy activities. In 2025 the Foundation reports reaching 30 economies, training 11,533 people, and directly reaching about 196,700 individuals; specific project examples include RISE\u2011PH connecting 53 school sites (an estimated 80,000\u2013100,000 students) and the Switch! cohort of 150 women and gender-diverse technical practitioners."
+  },
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "navigation_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:participation:0",
+      "participation_id": "part:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:0",
+      "mode": "membership",
+      "label": "Membership",
+      "action_url": null,
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "document_text",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:report:24646643156:a2a8898a4f64cead"
+      ],
+      "observed_at": "2026-08-13",
+      "warnings": []
+    }
+  ],
+  "opportunities": [],
+  "programs": [
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:140ed2e5-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:140ed2e5-ca72-f111-ab0f-002248954ea6",
+      "name": "Information Society Innovation Fund (ISIF Asia)",
+      "description": "Grantmaking",
+      "url": "https://apnic.foundation/isif-asia/about/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:c8f3cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:c8f3cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Switch!: Fostering professional development for women and gender diverse network engineers in SEA",
+      "description": "Continuing education",
+      "url": "https://apnic.foundation/gender-and-diversity/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:dff3cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:dff3cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Digital Leap South Asia",
+      "description": "Continuing education",
+      "url": "https://www.acnc.gov.au/charity/charities/bac96dfd-fba3-eb11-b1ac-000d3acbeb6c/documents/ad0dd2e5-ca72-f111-ab0f-002248954ea6",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:fef3cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:fef3cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "School on Internet Asia (SOI Asia)",
+      "description": "International development",
+      "url": "https://www.soi.asia/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:51f4cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:51f4cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Asian Internet Interconnection Initiatives (AI3)",
+      "description": "International development",
+      "url": "https://www.soi.asia/ai3-project/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:58f4cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:58f4cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Technical training in the Asia Pacific",
+      "description": "Continuing education",
+      "url": "https://academy.apnic.net/en",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:66f4cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:66f4cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "APNIC Academy Platform and Curriculum Development",
+      "description": "Continuing education",
+      "url": "https://academy.apnic.net/en",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:72f4cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:72f4cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Research and Internet Measurement",
+      "description": "Computer science",
+      "url": "https://labs.apnic.net/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:program:prg:acnc:24646643156:79f4cceb-ca72-f111-ab0f-002248954ea6",
+      "program_id": "prg:acnc:24646643156:79f4cceb-ca72-f111-ab0f-002248954ea6",
+      "name": "Research Fellowships",
+      "description": "Technology",
+      "url": "https://apnic.foundation/grants/research-fellowships/",
+      "status": "current",
+      "claim_basis": "direct",
+      "extraction_method": "api",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+      ],
+      "time": {
+        "reporting_period": {
+          "label": "2025"
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "relationships": [],
+  "classifications": [
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:classification:0",
+      "classification_id": "cls:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:0",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "purpose.education",
+      "term_label": "education",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ],
+      "confidence": "high",
+      "warnings": []
+    },
+    {
+      "observation_id": "obs:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:classification:1",
+      "classification_id": "cls:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:1",
+      "taxonomy_id": "acnc-register",
+      "taxonomy_version": "2026-08-10",
+      "term_id": "beneficiary.older_people",
+      "term_label": "older people",
+      "claim_basis": "direct",
+      "extraction_method": "deterministic_parser",
+      "source_record_ids": [],
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ],
+      "confidence": "high",
+      "warnings": []
+    }
+  ],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:acnc:24646643156"
+        ]
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-06-28",
+        "source_record_ids": [
+          "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+        ],
+        "evidence_ids": [
+          "ev:acnc:ais:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "web.website",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "observed",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": [
+          "ev:report:24646643156:a2a8898a4f64"
+        ]
+      },
+      {
+        "capability": "financial.report",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+        ],
+        "evidence_ids": [
+          "ev:report:24646643156:a2a8898a4f64cead"
+        ]
+      },
+      {
+        "capability": "financial.statements",
+        "status": "observed",
+        "assessed_at": "2026-08-13",
+        "source_record_ids": [
+          "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+        ],
+        "evidence_ids": [
+          "ev:report:24646643156:a2a8898a4f64cead"
+        ]
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_available_from_source",
+        "assessed_at": "2026-08-10",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "unknown",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z",
+        "source_record_ids": [],
+        "evidence_ids": []
+      }
+    ]
+  },
+  "financial_reports": [
+    {
+      "financial_report_id": "fr:report:24646643156:a2a8898a4f64cead",
+      "source_record_id": "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+      "evidence_ids": [
+        "ev:report:24646643156:a2a8898a4f64cead"
+      ],
+      "reporting_period": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "label": "year ended 2025-12-31"
+      },
+      "reporting_scope": "subject",
+      "consolidated": null,
+      "statements": [
+        {
+          "statement_id": "stmt:fr:report:24646643156:a2a8898a4f64cead:profit_and_loss",
+          "statement_type": "profit_and_loss",
+          "printed_title": "Statement of profit or loss and other comprehensive income",
+          "reporting_period": {
+            "label": "year ended 2025-12-31"
+          },
+          "reporting_scope": "subject",
+          "currency": "AUD",
+          "source_location": null,
+          "rows": [
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:0",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "For the year ended 31 December 2025",
+              "row_type": "heading",
+              "source_order": 0,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 1",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:1",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Notes 2025$ 2024$",
+              "row_type": "heading",
+              "source_order": 1,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 2",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:2",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Operating grant revenue",
+              "row_type": "line_item",
+              "source_order": 2,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "8757058",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "8757058",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "8,757,058",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "9228231",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "9228231",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "9,228,231",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 3",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:3",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Overhead recoveries",
+              "row_type": "line_item",
+              "source_order": 3,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1274672",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1274672",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,274,672",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "1382971",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "1382971",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "1,382,971",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 4",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:4",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Other income 4.a",
+              "row_type": "line_item",
+              "source_order": 4,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "203547",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "203547",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "203,547",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "258964",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "258964",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "258,964",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 5",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:5",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total income",
+              "row_type": "total",
+              "source_order": 5,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "10235277",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "10235277",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "10,235,277",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "10870166",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "10870166",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "10,870,166",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 6",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:6",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Grant expenses 4.b",
+              "row_type": "line_item",
+              "source_order": 6,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-8627320",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-8627320",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(8,627,320)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-9415573",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-9415573",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(9,415,573)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 7",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:7",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Employee benefits expense 4.c",
+              "row_type": "line_item",
+              "source_order": 7,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-910380",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-910380",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(910,380)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-935366",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-935366",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(935,366)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 8",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:8",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Professional fees",
+              "row_type": "line_item",
+              "source_order": 8,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-120737",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-120737",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(120,737)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-111461",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-111461",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(111,461)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 9",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:9",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Other expenses",
+              "row_type": "line_item",
+              "source_order": 9,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-273744",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-273744",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(273,744)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-318620",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-318620",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(318,620)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 10",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:10",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total expenses",
+              "row_type": "total",
+              "source_order": 10,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-9932181",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-9932181",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(9,932,181)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-10781020",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-10781020",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(10,781,020)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 11",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:11",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Surplus before tax",
+              "row_type": "line_item",
+              "source_order": 11,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "303096",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "303096",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "303,096",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "89146",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "89146",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "89,146",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 12",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:12",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Income tax expense 5",
+              "row_type": "line_item",
+              "source_order": 12,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-105463",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-105463",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(105,463)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-101893",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-101893",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(101,893)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 13",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:13",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "(Deficit)/surplus for the year",
+              "row_type": "line_item",
+              "source_order": 13,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "197633",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "197633",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "197,633",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-12747",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-12747",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(12,747)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 14",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:14",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Other comprehensive income 2.b(iii) - (70,621)",
+              "row_type": "heading",
+              "source_order": 14,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 15",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:profit_and_loss:15",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total comprehensive (loss)/income for the year",
+              "row_type": "total",
+              "source_order": 15,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "197633",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "197633",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "197,633",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-83368",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-83368",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(83,368)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 16",
+              "source_sign": "positive"
+            }
+          ]
+        },
+        {
+          "statement_id": "stmt:fr:report:24646643156:a2a8898a4f64cead:financial_position",
+          "statement_type": "financial_position",
+          "printed_title": "Statement of financial position",
+          "reporting_period": {
+            "label": "year ended 2025-12-31"
+          },
+          "reporting_scope": "subject",
+          "currency": "AUD",
+          "source_location": null,
+          "rows": [
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:0",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "As at 31 December 2025",
+              "row_type": "heading",
+              "source_order": 0,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 17",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:1",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Notes 2025$ 2024$",
+              "row_type": "heading",
+              "source_order": 1,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 18",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:2",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "ASSETS",
+              "row_type": "heading",
+              "source_order": 2,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 19",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:3",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Current assets",
+              "row_type": "heading",
+              "source_order": 3,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 20",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:4",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Cash and cash equivalents 6",
+              "row_type": "line_item",
+              "source_order": 4,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "3721454",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "3721454",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "3,721,454",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4130324",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4130324",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,130,324",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 21",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:5",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Trade and other receivables 7",
+              "row_type": "line_item",
+              "source_order": 5,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "120208",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "120208",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "120,208",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "12515",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "12515",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "12,515",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 22",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:6",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Prepayments",
+              "row_type": "line_item",
+              "source_order": 6,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "38112",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "38112",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "38,112",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "123442",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "123442",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "123,442",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 23",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:7",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total current assets",
+              "row_type": "total",
+              "source_order": 7,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "3879774",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "3879774",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "3,879,774",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4266281",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4266281",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,266,281",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 24",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:8",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Non-current assets",
+              "row_type": "heading",
+              "source_order": 8,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 25",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:9",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Property, plant and equipment 1,519 -",
+              "row_type": "heading",
+              "source_order": 9,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 26",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:10",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Prepayments - 34,787",
+              "row_type": "heading",
+              "source_order": 10,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 31, text row 27",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:11",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total non-current assets",
+              "row_type": "total",
+              "source_order": 11,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1519",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1519",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,519",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "34787",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "34787",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "34,787",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 28",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:12",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total assets",
+              "row_type": "total",
+              "source_order": 12,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "3881293",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "3881293",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "3,881,293",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4301068",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4301068",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,301,068",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 29",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:13",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "APNIC FOUNDATION \u00b7 ANNUAL REPORT",
+              "row_type": "subtotal",
+              "source_order": 13,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "2025",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "2025",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "2025",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "29",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "29",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "29",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 31, text row 30",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:14",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "LIABILITIES AND EQUITY",
+              "row_type": "heading",
+              "source_order": 14,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 31",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:15",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Current liabilities",
+              "row_type": "heading",
+              "source_order": 15,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 32",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:16",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Trade and other payables 8",
+              "row_type": "line_item",
+              "source_order": 16,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1262131",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1262131",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,262,131",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "1330592",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "1330592",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "1,330,592",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 33",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:17",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Contract liabilities",
+              "row_type": "line_item",
+              "source_order": 17,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "113630",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "113630",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "113,630",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "185744",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "185744",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "185,744",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 34",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:18",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Financial liabilities 53,071 -",
+              "row_type": "heading",
+              "source_order": 18,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 35",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:19",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Provisions 9",
+              "row_type": "line_item",
+              "source_order": 19,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1486350",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1486350",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,486,350",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "2022343",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "2022343",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "2,022,343",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 36",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:20",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total current liabilities",
+              "row_type": "total",
+              "source_order": 20,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "2915182",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "2915182",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "2,915,182",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "3538679",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "3538679",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "3,538,679",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 37",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:21",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Non-current liabilities",
+              "row_type": "heading",
+              "source_order": 21,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 38",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:22",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Provisions",
+              "row_type": "line_item",
+              "source_order": 22,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "19876",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "19876",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "19,876",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "13787",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "13787",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "13,787",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 39",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:23",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total non-current liabilities",
+              "row_type": "total",
+              "source_order": 23,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "19876",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "19876",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "19,876",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "13787",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "13787",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "13,787",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 40",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:24",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total liabilities",
+              "row_type": "total",
+              "source_order": 24,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "2935058",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "2935058",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "2,935,058",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "3552466",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "3552466",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "3,552,466",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 41",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:25",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "EQUITY",
+              "row_type": "heading",
+              "source_order": 25,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 42",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:26",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Accumulated surplus",
+              "row_type": "line_item",
+              "source_order": 26,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1011842",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1011842",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,011,842",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "814209",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "814209",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "814,209",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 43",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:27",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Reserves 2.b(iv)",
+              "row_type": "line_item",
+              "source_order": 27,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-65607",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-65607",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(65,607)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-65607",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-65607",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(65,607)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 44",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:28",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total equity",
+              "row_type": "total",
+              "source_order": 28,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "946235",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "946235",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "946,235",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "748602",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "748602",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "748,602",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 45",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:financial_position:29",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total liabilities and equity",
+              "row_type": "total",
+              "source_order": 29,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "3881293",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "3881293",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "3,881,293",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4301068",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4301068",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,301,068",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 46",
+              "source_sign": "positive"
+            }
+          ]
+        },
+        {
+          "statement_id": "stmt:fr:report:24646643156:a2a8898a4f64cead:changes_in_equity",
+          "statement_type": "changes_in_equity",
+          "printed_title": "Statement of changes in equity",
+          "reporting_period": {
+            "label": "year ended 2025-12-31"
+          },
+          "reporting_scope": "subject",
+          "currency": "AUD",
+          "source_location": null,
+          "rows": [
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:0",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "For the year ended 31 December 2025",
+              "row_type": "heading",
+              "source_order": 0,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 47",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:1",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Notes Currency Translation Accumulated Total Equity",
+              "row_type": "heading",
+              "source_order": 1,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 48",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:2",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Reserve $ Surplus $ $",
+              "row_type": "heading",
+              "source_order": 2,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 49",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:3",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "As at 1 January 2024 5,014",
+              "row_type": "line_item",
+              "source_order": 3,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "826956",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "826956",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "826,956",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "831970",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "831970",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "831,970",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 50",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:4",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Deficit for the year -",
+              "row_type": "line_item",
+              "source_order": 4,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-12747",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-12747",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(12,747)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-12747",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-12747",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(12,747)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 51",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:5",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Other comprehensive income 2.b(iii) (70,621) - (70,621)",
+              "row_type": "heading",
+              "source_order": 5,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 52",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:6",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total comprehensive income for the year (70,621)",
+              "row_type": "total",
+              "source_order": 6,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-12747",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-12747",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(12,747)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-83368",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-83368",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(83,368)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 53",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:7",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "31 December 2024 (65,607)",
+              "row_type": "line_item",
+              "source_order": 7,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "814209",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "814209",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "814,209",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "748602",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "748602",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "748,602",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 54",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:8",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "1 January 2025 (65,607)",
+              "row_type": "line_item",
+              "source_order": 8,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "814209",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "814209",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "814,209",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "748602",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "748602",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "748,602",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 55",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:9",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Surplus for the year -",
+              "row_type": "line_item",
+              "source_order": 9,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "197633",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "197633",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "197,633",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "197633",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "197633",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "197,633",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 56",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:10",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Other comprehensive income 2.b(iii) - - -",
+              "row_type": "heading",
+              "source_order": 10,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 32, text row 57",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:11",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Total comprehensive income for the year -",
+              "row_type": "total",
+              "source_order": 11,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "197633",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "197633",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "197,633",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "197633",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "197633",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "197,633",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 58",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:changes_in_equity:12",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "At 31 December 2025 (65,607)",
+              "row_type": "line_item",
+              "source_order": 12,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "1011842",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "1011842",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "1,011,842",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "946235",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "946235",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "946,235",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 32, text row 59",
+              "source_sign": "positive"
+            }
+          ]
+        },
+        {
+          "statement_id": "stmt:fr:report:24646643156:a2a8898a4f64cead:cash_flow",
+          "statement_type": "cash_flow",
+          "printed_title": "Statement of cash flows",
+          "reporting_period": {
+            "label": "year ended 2025-12-31"
+          },
+          "reporting_scope": "subject",
+          "currency": "AUD",
+          "source_location": null,
+          "rows": [
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:0",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "For the year ended 31 December 2025",
+              "row_type": "heading",
+              "source_order": 0,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 60",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:1",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Notes 2025$ 2024$",
+              "row_type": "heading",
+              "source_order": 1,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 61",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:2",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Operating activities",
+              "row_type": "heading",
+              "source_order": 2,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 62",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:3",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Receipts of operating income",
+              "row_type": "line_item",
+              "source_order": 3,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "9936229",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "9936229",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "9,936,229",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "10684057",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "10684057",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "10,684,057",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 63",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:4",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Payments to suppliers and employees",
+              "row_type": "line_item",
+              "source_order": 4,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-10649019",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-10649019",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(10,649,019)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-11059516",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-11059516",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(11,059,516)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 64",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:5",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Interest received",
+              "row_type": "line_item",
+              "source_order": 5,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "112339",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "112339",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "112,339",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "84310",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "84310",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "84,310",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 65",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:6",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Net cash flows (used in)/from operating activities",
+              "row_type": "line_item",
+              "source_order": 6,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-600451",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-600451",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(600,451)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-291149",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-291149",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(291,149)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 66",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:7",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Investing activities",
+              "row_type": "heading",
+              "source_order": 7,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 67",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:8",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Payments for Property, plant and equipment (1,823) -",
+              "row_type": "heading",
+              "source_order": 8,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 68",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:9",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Net cash flows from investing activities (1,823) -",
+              "row_type": "heading",
+              "source_order": 9,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 69",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:10",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Financing activities - -",
+              "row_type": "heading",
+              "source_order": 10,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 70",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:11",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "medium",
+              "warnings": [],
+              "source_label": "Net cash flows from financing activities - -",
+              "row_type": "heading",
+              "source_order": 11,
+              "hierarchy_indent": 0,
+              "amount": null,
+              "comparatives": [],
+              "source_location": "PDF page 33, text row 71",
+              "source_sign": "not_applicable"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:12",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Net (decrease)/increase in cash and cash equivalents",
+              "row_type": "line_item",
+              "source_order": 12,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "-602274",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "-602274",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "(602,274)",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-291149",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-291149",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(291,149)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 72",
+              "source_sign": "negative"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:13",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Effect of exchange rate change on cash and cash equivalents",
+              "row_type": "line_item",
+              "source_order": 13,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "193404",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "193404",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "193,404",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "-222243",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "-222243",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "(222,243)",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 73",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:14",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Cash and cash equivalents at 1 January",
+              "row_type": "line_item",
+              "source_order": 14,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "4130324",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "4130324",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "4,130,324",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4643716",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4643716",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,643,716",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 74",
+              "source_sign": "positive"
+            },
+            {
+              "observation_id": "obs:ev:report:24646643156:a2a8898a4f64cead:cash_flow:15",
+              "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+              "kind": "financial_statement_row",
+              "claim_basis": "direct",
+              "extraction_method": "table",
+              "source_record_ids": [
+                "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+              ],
+              "evidence_ids": [
+                "ev:report:24646643156:a2a8898a4f64cead"
+              ],
+              "time": {
+                "reporting_period": {
+                  "label": "year ended 2025-12-31"
+                }
+              },
+              "confidence": "high",
+              "warnings": [],
+              "source_label": "Cash and cash equivalents at 31 December 6",
+              "row_type": "line_item",
+              "source_order": 15,
+              "hierarchy_indent": 0,
+              "amount": {
+                "source_amount": "3721454",
+                "source_currency": "AUD",
+                "source_unit_scale": "1",
+                "normalised_amount": "3721454",
+                "normalised_currency": "AUD",
+                "source_unit_label": null,
+                "source_raw_value": "3,721,454",
+                "source_precision": null
+              },
+              "comparatives": [
+                {
+                  "period": {
+                    "label": null
+                  },
+                  "amount": {
+                    "source_amount": "4130324",
+                    "source_currency": "AUD",
+                    "source_unit_scale": "1",
+                    "normalised_amount": "4130324",
+                    "normalised_currency": "AUD",
+                    "source_unit_label": null,
+                    "source_raw_value": "4,130,324",
+                    "source_precision": null
+                  }
+                }
+              ],
+              "source_location": "PDF page 33, text row 75",
+              "source_sign": "positive"
+            }
+          ]
+        }
+      ],
+      "structured_observations": [
+        {
+          "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:revenue",
+          "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "kind": "structured_financial_observation",
+          "claim_basis": "direct",
+          "extraction_method": "api",
+          "source_record_ids": [
+            "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+          ],
+          "evidence_ids": [
+            "ev:report:24646643156:a2a8898a4f64cead"
+          ],
+          "time": {
+            "reporting_period": {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "label": "year ended 2025-12-31"
+            }
+          },
+          "warnings": [],
+          "metric": "revenue",
+          "amount": {
+            "source_amount": "10235277",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "10235277",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "10,235,277",
+            "source_precision": null
+          }
+        },
+        {
+          "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:employee_costs",
+          "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "kind": "structured_financial_observation",
+          "claim_basis": "direct",
+          "extraction_method": "api",
+          "source_record_ids": [
+            "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+          ],
+          "evidence_ids": [
+            "ev:report:24646643156:a2a8898a4f64cead"
+          ],
+          "time": {
+            "reporting_period": {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "label": "year ended 2025-12-31"
+            }
+          },
+          "warnings": [],
+          "metric": "employee_costs",
+          "amount": {
+            "source_amount": "-910380",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-910380",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(910,380)",
+            "source_precision": null
+          }
+        },
+        {
+          "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:total_expenses",
+          "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "kind": "structured_financial_observation",
+          "claim_basis": "direct",
+          "extraction_method": "api",
+          "source_record_ids": [
+            "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+          ],
+          "evidence_ids": [
+            "ev:report:24646643156:a2a8898a4f64cead"
+          ],
+          "time": {
+            "reporting_period": {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "label": "year ended 2025-12-31"
+            }
+          },
+          "warnings": [],
+          "metric": "total_expenses",
+          "amount": {
+            "source_amount": "-9932181",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "-9932181",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "(9,932,181)",
+            "source_precision": null
+          }
+        },
+        {
+          "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:assets",
+          "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "kind": "structured_financial_observation",
+          "claim_basis": "direct",
+          "extraction_method": "api",
+          "source_record_ids": [
+            "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+          ],
+          "evidence_ids": [
+            "ev:report:24646643156:a2a8898a4f64cead"
+          ],
+          "time": {
+            "reporting_period": {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "label": "year ended 2025-12-31"
+            }
+          },
+          "warnings": [],
+          "metric": "assets",
+          "amount": {
+            "source_amount": "3881293",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "3881293",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "3,881,293",
+            "source_precision": null
+          }
+        },
+        {
+          "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:liabilities",
+          "subject_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "kind": "structured_financial_observation",
+          "claim_basis": "direct",
+          "extraction_method": "api",
+          "source_record_ids": [
+            "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+          ],
+          "evidence_ids": [
+            "ev:report:24646643156:a2a8898a4f64cead"
+          ],
+          "time": {
+            "reporting_period": {
+              "start": "2025-01-01",
+              "end": "2025-12-31",
+              "label": "year ended 2025-12-31"
+            }
+          },
+          "warnings": [],
+          "metric": "liabilities",
+          "amount": {
+            "source_amount": "3881293",
+            "source_currency": "AUD",
+            "source_unit_scale": "1",
+            "normalised_amount": "3881293",
+            "normalised_currency": "AUD",
+            "source_unit_label": null,
+            "source_raw_value": "3,881,293",
+            "source_precision": null
+          }
+        }
+      ],
+      "functional_expense_allocations": []
+    }
+  ],
+  "canonical_metrics": [
+    {
+      "metric_id": "metric:fr:report:24646643156:a2a8898a4f64cead:revenue",
+      "metric": "revenue",
+      "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:revenue",
+      "sign_normalisation": "as_reported",
+      "reconciliation_status": "single_observation"
+    },
+    {
+      "metric_id": "metric:fr:report:24646643156:a2a8898a4f64cead:total_expenses",
+      "metric": "total_expenses",
+      "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:total_expenses",
+      "sign_normalisation": "as_reported",
+      "reconciliation_status": "single_observation"
+    },
+    {
+      "metric_id": "metric:fr:report:24646643156:a2a8898a4f64cead:assets",
+      "metric": "total_assets",
+      "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:assets",
+      "sign_normalisation": "as_reported",
+      "reconciliation_status": "single_observation"
+    },
+    {
+      "metric_id": "metric:fr:report:24646643156:a2a8898a4f64cead:liabilities",
+      "metric": "total_liabilities",
+      "observation_id": "obs:fr:report:24646643156:a2a8898a4f64cead:liabilities",
+      "sign_normalisation": "as_reported",
+      "reconciliation_status": "single_observation"
+    }
+  ],
+  "analytic_projections": [],
+  "derivatives": [
+    {
+      "derivative_id": "der:rc4:cb_4434434d6c6e425faf0dd56cb29ef8bf:summary",
+      "kind": "summary",
+      "input_observation_ids": [],
+      "evidence_ids": [
+        "ev:report:24646643156:a2a8898a4f64",
+        "ev:web:24646643156:2026-08-10",
+        "ev:acnc:24646643156"
+      ],
+      "generated_under": {
+        "output_contract_version": "phase2b-rc4-accepted-rc2-summary-reuse",
+        "input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
+        "generated_at": "2026-08-12T13:57:27.863695Z"
+      },
+      "current_assessment": {
+        "assessed_at": "2026-08-13T13:54:42.956606Z",
+        "assessed_against_contract": "0.5",
+        "governing_input_hash": "7a16c098553982c53fe4b0489dfbc52d6a3c08af8c015d8a97e1019536408192",
+        "disposition": "reused",
+        "reason": "Accepted RC2 editorial summary reused; RC4 evidence did not invalidate its cited inputs."
+      }
+    }
+  ],
+  "legacy_unbound": {
+    "origin_release": "rc4-2026-08-14",
+    "origin_card_sha256": "a1cb38aa4c7ac3887ac88acc36de9972ec23555bb88d54c36f3bb9e4f3137f1d",
+    "activities": [
+      {
+        "value": "grant-making and project funding (ISIF Asia, Trust Discretionary Fund, Community Assistance)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "direct project implementation",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "school connectivity, M-root deployments, local infrastructure sites",
+        "evidence_ids": []
+      },
+      {
+        "value": "training and capacity-building (instructor-led workshops, self-paced APNIC Academy courses)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "events and public programming (SOI Asia, summits, awards)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "techno-policy engagement and influence",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "beneficiaries": [
+      {
+        "value": "people trained (reported 11,533 in 2025)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "school students",
+        "source_role": "legacy_source_qualifier",
+        "provenance_note": "RISE\u2011PH: 53 sites; estimated 80,000\u2013100,000 students",
+        "evidence_ids": []
+      },
+      {
+        "value": "women and gender-diverse technical practitioners (Switch! cohort of 150)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "broader communities across Asia Pacific (reported 196,700 individuals reached)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "underserved or special-needs education sites (special education schools in Cebu, Mandaue, Talisay reported)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "descriptive_geography": [
+      {
+        "value": "Asia Pacific region (report lists 30 economies reached, including Australia)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      },
+      {
+        "value": "Queensland, Australia (registered location shown in regulatory record)",
+        "source_role": "unknown",
+        "provenance_note": null,
+        "evidence_ids": []
+      }
+    ],
+    "classifications": [
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.direct_service",
+        "term_label": "Direct service delivery",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.events_and_public_programming",
+        "term_label": "Events and public programming",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "activity.advocacy",
+        "term_label": "Advocacy",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "approach.community_partnership",
+        "term_label": "Community partnership",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "participation.public_events",
+        "term_label": "Public events",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "geography.australia",
+        "term_label": "Australia",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.general_community",
+        "term_label": "General community",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      },
+      {
+        "taxonomy_id": "causebase",
+        "taxonomy_version": "0.1-phase2a",
+        "term_id": "beneficiary.people_experiencing_disadvantage",
+        "term_label": "People experiencing disadvantage",
+        "assignment_method": "llm_classification",
+        "confidence": "medium",
+        "evidence_ids": []
+      }
+    ],
+    "financial_records": [
+      {
+        "financial_record_id": "fr:ais:cb_4434434d6c6e425faf0dd56cb29ef8bf:2023",
+        "period": {
+          "period_start": "2023-01-01",
+          "period_end": "2023-12-31",
+          "period_length_days": 365,
+          "label": "01/01/2023 to 31/12/2023",
+          "is_transitional_or_nonstandard": false
+        },
+        "reporting_scope": "subject",
+        "reporting_subject_causebase_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+        "covered_subjects": [
+          "cb_4434434d6c6e425faf0dd56cb29ef8bf"
+        ],
+        "consolidated": "false",
+        "attribution_method": "direct_subject_report",
+        "evidence_ids": [
+          "ev:ais:24646643156:2023"
+        ],
+        "revenue": {
+          "source_amount": "18533090",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "18533090",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "18533090",
+          "source_precision": null
+        },
+        "donations": null,
+        "government_grants": null,
+        "employee_costs": null,
+        "total_expenses": {
+          "source_amount": "18045491",
+          "source_currency": "AUD",
+          "source_unit_scale": "1",
+          "normalised_amount": "18045491",
+          "normalised_currency": "AUD",
+          "source_unit_label": null,
+          "source_raw_value": "18045491",
+          "source_precision": null
+        },
+        "assets": null,
+        "liabilities": null,
+        "net_assets": null,
+        "income_breakdown": [],
+        "expense_breakdown": [],
+        "balance_sheet_breakdown": [],
+        "source_ordered_line_items": [],
+        "statements": [],
+        "donations_gifts_bequests": null,
+        "functional_expense_allocations": []
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # CauseBase Current State
 
-Updated: 2026-08-14
+Updated: 2026-08-15
 
 ## Current release — Phase 2B RC4 fundraising projection correction
 
@@ -19,7 +19,7 @@ Updated: 2026-08-14
 
 - The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. Public contract `0.5` is design approved / ready for implementation: its modular schemas, release-owned capability registry and frozen EJA/sparse/DFWA/multi-period fixtures are in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. The EJA fixture losslessly retains RC4's 33-row P&L and 32-row Financial Position statements; no migration, rebuild or corpus expansion is authorised.
 - Builder now has an isolated v0.5 Pydantic model, deterministic frozen-fixture adapter and independent validator suite. RC4 remains the production contract: there is no corpus migration, v0.5 public release, Viewer change or deployment.
-- The attempted full RC4→0.5 migration is blocked at Gate A by immutable RC4 provenance gaps: all legacy activity, beneficiary and descriptive-geography observations, plus most classifications, lack evidence IDs. `MIGRATION_V05_AUDIT.md` records the deterministic counts and why a product decision is required before promotion.
+- Gate A is passed. Immutable Data release `releases/v0.5.0-2026-08-15` contains 120 contract-0.5 cards, 228 public source sidecars and a passed 349-artefact manifest. The losslessness audit retains 20 exact-recovered geography values as evidence-bound observations and preserves 402 activities, 226 beneficiaries, 198 remaining geography values, 573 classifications, six funding/fundraising records and 86 historical AIS records under `legacy_unbound` without invented evidence. The Viewer v0.5 bundle and static source-link gate are also green; deployment is the remaining operational step.
 - Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
 
 # Historical release and implementation record
