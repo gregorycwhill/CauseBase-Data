@@ -18,6 +18,7 @@ Updated: 2026-08-14
 ## Current next gates
 
 - The public-contract design decisions are closed and recorded in `PUBLIC_CONTRACT_CONSOLIDATION_PROPOSAL.md`. Public contract `0.5` is design approved / ready for implementation: its modular schemas, release-owned capability registry and frozen EJA/sparse/DFWA/multi-period fixtures are in `PUBLIC_SCHEMA_VNEXT_SPEC.md`, `RC4_TO_VNEXT_COMPATIBILITY.md`, `schemas/vnext/` and `examples/vnext/`. The EJA fixture losslessly retains RC4's 33-row P&L and 32-row Financial Position statements; no migration, rebuild or corpus expansion is authorised.
+- Builder now has an isolated v0.5 Pydantic model, deterministic frozen-fixture adapter and independent validator suite. RC4 remains the production contract: there is no corpus migration, v0.5 public release, Viewer change or deployment.
 - Run the selected technology spikes only after those packages are accepted; their outcomes remain decision inputs, not pre-authorised implementation directions.
 
 # Historical release and implementation record

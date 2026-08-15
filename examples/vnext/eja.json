@@ -41,7 +41,6 @@
     "based_on_release": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
     "generated_at": "2026-08-15T00:00:00Z"
   },
-  "source_statement_fixture": "eja-rc4-source-fixture.json",
   "source_record_refs": [
     "src:report-extract:74052124375:8c1652a7ab5783f5:cb_604da7f26c6c48dd934e713edc493e9f",
     "src:report-extract:74052124375:f3eff600992d9dcf:cb_604da7f26c6c48dd934e713edc493e9f"
