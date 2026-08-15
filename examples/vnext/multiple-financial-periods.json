@@ -1,8 +1,188 @@
 {
-  "causebase_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf", "contract_version": "0.5", "subject_kind": "unknown",
-  "identity": {"legal_name": "APNIC FOUNDATION LIMITED", "display_name": "APNIC FOUNDATION LIMITED", "website": null, "operating_names": [], "former_names": [], "entity_status": "registered", "external_identifiers": [{"scheme": "abn", "value": "24646643156", "evidence_ids": ["ev:acnc:24646643156"]}], "registrations": [{"regulator": "ACNC", "status": "registered", "evidence_ids": ["ev:acnc:24646643156"]}], "tax_statuses": [], "convenience_links": {}},
-  "release": {"release_id": "causebase-example-0.5-multiple-periods", "dataset_version": "causebase-0.5-example-multiple-periods", "contract_version": "0.5", "based_on_release": "phase2b-2026-08-14-rc4-fundraising-projection-correction", "generated_at": "2026-08-15T00:00:00Z"}, "source_record_refs": ["src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf", "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"], "source_bindings": [], "evidence": [{"evidence_id": "ev:acnc:24646643156", "title": "ACNC AIS", "url": "https://www.acnc.gov.au/"}], "summary": null, "activities": [], "beneficiaries": [], "descriptive_geography": [], "funding_sources": [], "fundraising_methods": [], "participation": [], "opportunities": [], "programs": [], "relationships": [], "classifications": [],
-  "coverage": {"registry_id": "capability-registry-0.5-initial", "current": [{"capability": "regulatory.ais", "status": "observed", "assessed_at": "2026-08-14T00:00:00Z", "source_record_ids": ["src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf", "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"]}]},
-  "financial_reports": [{"financial_report_id": "finrep:apnic:2024", "source_record_id": "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf", "evidence_ids": ["ev:acnc:24646643156"], "reporting_period": {"label": "2024"}, "reporting_scope": "subject", "consolidated": null, "statements": []}, {"financial_report_id": "finrep:apnic:2025", "source_record_id": "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf", "evidence_ids": ["ev:acnc:24646643156"], "reporting_period": {"label": "2025"}, "reporting_scope": "subject", "consolidated": null, "statements": []}],
-  "canonical_metrics": [], "current_financials": {"selection_policy": "not_selected"}, "analytic_projections": [], "derivatives": []
+  "causebase_id": "cb_4434434d6c6e425faf0dd56cb29ef8bf",
+  "contract_version": "0.5",
+  "subject_kind": "unknown",
+  "identity": {
+    "legal_name": "APNIC FOUNDATION LIMITED",
+    "display_name": "APNIC FOUNDATION LIMITED",
+    "website": null,
+    "external_identifiers": [
+      {
+        "scheme": "abn",
+        "value": "24646643156",
+        "evidence_ids": [
+          "ev:acnc:24646643156"
+        ]
+      }
+    ],
+    "registrations": [
+      {
+        "regulator": "ACNC",
+        "status": "registered",
+        "evidence_ids": [
+          "ev:acnc:24646643156"
+        ]
+      }
+    ],
+    "tax_statuses": []
+  },
+  "release": {
+    "release_id": "causebase-example-0.5-multiple-periods",
+    "dataset_version": "causebase-0.5-example-multiple-periods",
+    "contract_version": "0.5",
+    "based_on_release": "phase2b-2026-08-14-rc4-fundraising-projection-correction",
+    "generated_at": "2026-08-15T00:00:00Z"
+  },
+  "source_record_refs": [
+    "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+    "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+  ],
+  "source_bindings": [],
+  "evidence": [
+    {
+      "evidence_id": "ev:acnc:24646643156",
+      "title": "ACNC AIS",
+      "url": "https://www.acnc.gov.au/"
+    }
+  ],
+  "summary": null,
+  "activities": [],
+  "beneficiaries": [],
+  "descriptive_geography": [],
+  "funding_sources": [],
+  "fundraising_methods": [],
+  "participation": [],
+  "opportunities": [],
+  "programs": [],
+  "relationships": [],
+  "classifications": [],
+  "coverage": {
+    "registry_id": "capability-registry-0.5-initial",
+    "current": [
+      {
+        "capability": "regulatory.acnc_profile",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "regulatory.ais",
+        "status": "observed",
+        "assessed_at": "2026-08-14T00:00:00Z",
+        "source_record_ids": [
+          "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+          "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf"
+        ]
+      },
+      {
+        "capability": "tax.dgr",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "web.website",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "report.annual_report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "financial.report",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "financial.statements",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "understanding.activities",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "understanding.beneficiaries",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "understanding.geography",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "programs",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "participation",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "funding.sources",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "fundraising.methods",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "fundraising.expenditure",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "taxonomy.causebase",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      },
+      {
+        "capability": "semantic.embedding",
+        "status": "not_yet_processed",
+        "assessed_at": "2026-08-15T00:00:00Z"
+      }
+    ]
+  },
+  "financial_reports": [
+    {
+      "financial_report_id": "finrep:apnic:2024",
+      "source_record_id": "src:report-extract:24646643156:a2a8898a4f64cead:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ],
+      "reporting_period": {
+        "label": "2024"
+      },
+      "reporting_scope": "subject",
+      "consolidated": null,
+      "statements": []
+    },
+    {
+      "financial_report_id": "finrep:apnic:2025",
+      "source_record_id": "src:acnc-ais-detail:24646643156:ad0dd2e5-ca72-f111-ab0f-002248954ea6:cb_4434434d6c6e425faf0dd56cb29ef8bf",
+      "evidence_ids": [
+        "ev:acnc:24646643156"
+      ],
+      "reporting_period": {
+        "label": "2025"
+      },
+      "reporting_scope": "subject",
+      "consolidated": null,
+      "statements": []
+    }
+  ],
+  "canonical_metrics": [],
+  "current_financials": {
+    "selection_policy": "not_selected"
+  },
+  "analytic_projections": [],
+  "derivatives": [],
+  "navigation_geography": []
 }

@@ -1,6 +1,6 @@
 # RC4 to public contract 0.5 compatibility and migration contract (proposed)
 
-**Status:** Draft design for review; no adapter, migration or Viewer change is implemented
+**Status:** Design approved / ready for implementation; no adapter, migration or Viewer change is implemented
 **Baseline:** `releases/rc4-2026-08-14` (immutable)
 **Target:** public contract `0.5`
 

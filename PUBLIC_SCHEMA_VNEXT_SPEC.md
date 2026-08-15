@@ -1,6 +1,6 @@
 # CauseBase public-data contract 0.5 (proposed)
 
-**Status:** Draft design for product review; not a production schema
+**Status:** Design approved / ready for implementation; not a production schema
 **Contract version:** `0.5`
 **Applies to:** a future pre-1.0 CauseBase Data release
 **Baseline:** immutable RC4 at `releases/rc4-2026-08-14`
@@ -11,7 +11,7 @@ This is the concrete public contract approved in direction by `PUBLIC_CONTRACT_C
 
 `0.5` is the public **card contract** version. A release has one `contract_version`, each card and source-record sidecar repeats that value, and the release manifest is authoritative for the selected release. The value must agree everywhere. `schemas/vnext/release.schema.json` is the machine-readable expression of this draft.
 
-Pre-1.0 releases may make breaking changes, but each must publish a migration note and retain its immutable release artefacts. A minor `0.x` increment is additive only; a breaking change increments the `0.x` minor number (for example, `0.5` to `0.6`). Patch increments correct schema documentation/validation without changing public meaning. No consumer should infer compatibility from generator or editorial-policy versions.
+Pre-1.0 `0.x` contract releases may be breaking. Breaking releases must publish migration notes and retain their immutable release artefacts; no SemVer-compatible guarantee is implied before 1.0. Patch/document revisions may correct documentation or validation without changing public semantics. No consumer should infer compatibility from generator or editorial-policy versions.
 
 ## 2. Release contract and ownership
 
@@ -21,7 +21,7 @@ The authoritative boundary is:
 
 A release directory contains `manifest.json`, `schema/`, `cards/`, `source-records/`, `taxonomy/`, `coverage.json`, public bulk projections, checksums declared in the manifest, and release-history/current-release metadata. Viewer takes an explicit selected Data-release directory through `CAUSEBASE_DATA_RELEASE_DIR`; it must not fetch or resolve `latest`, and its output must copy rather than link the selected artefacts.
 
-Required release metadata is `release_id`, `dataset_version`, `contract_version`, `generated_at`, `card_count`, `source_record_count`, `validation.status`, artefact hashes/sizes, licence/attribution notice and compatibility metadata. `release_id` is immutable and path-safe; `dataset_version` is the human/release label. RC4's short physical directory name is an archival Windows-path workaround, not a new public version convention.
+Required release metadata is `release_id`, `dataset_version`, `contract_version`, `based_on_release`, `generated_at`, release-owned capability-registry ID/path, `card_count`, `source_record_count`, `validation.status`, artefact hashes/sizes, licence/attribution notice and compatibility metadata. `release_id` is immutable and path-safe; `dataset_version` is the human/release label. RC4's short physical directory name is an archival Windows-path workaround, not a new public version convention.
 
 ## 3. Public object model
 
