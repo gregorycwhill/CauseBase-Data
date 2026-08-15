@@ -18,6 +18,7 @@ Updated: 2026-08-15
 
 - Frontend spike: **KEEP CURRENT** dependency-free static Viewer. Wikimedia: defer broad ingestion after 7/120 ABN-first Wikidata matches; it is a possible attributed discovery/corroboration source only.
 - Machine-distribution remediation is validated locally against the unchanged pinned v0.5 release: canonical static card routes, sitemap, robots, release pointer and JSON/Markdown alternatives. The next public action is the existing Viewer deployment workflow; no Data release is required.
+- Viewer discovery-layer deployment is green (Viewer `f198335`, Actions `31862499938`); live representative HTML/JSON/Markdown, sitemap, robots and release-pointer checks passed. The immutable Data release was not changed.
 
 ## Current next gates
 
