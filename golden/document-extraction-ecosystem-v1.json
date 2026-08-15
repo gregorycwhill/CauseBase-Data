@@ -1,0 +1,17 @@
+{
+  "inventory_version": "1.0",
+  "reviewed_at": "2026-08-15",
+  "selection_principle": "capability coverage, private-first execution and evidence preservation; popularity is not a quality score",
+  "candidates": [
+    {"name":"pdfplumber","version":"0.11.10","family":"native text/layout/table","licence":"MIT","python_api":true,"windows":"installed","private_local":true,"capabilities":["text","coordinates","tables","page provenance"],"disposition":"shortlist_primary"},
+    {"name":"PyMuPDF","version":"1.28.2","family":"native text/layout/render/table detection","licence":"AGPL-3.0 or commercial","python_api":true,"windows":"installed","private_local":true,"capabilities":["text","coordinates","tables","render"],"disposition":"excluded_licence_for_default_adoption"},
+    {"name":"Camelot","version":"2.0.0","family":"table specialist","licence":"MIT","python_api":true,"windows":"installed","private_local":true,"capabilities":["digital_pdf_tables","table provenance"],"disposition":"shortlist_specialist"},
+    {"name":"Docling","version":"2.120.1 inspected","family":"integrated document understanding","licence":"MIT","python_api":true,"windows":"failed_current_path_length","private_local":true,"capabilities":["layout","tables","OCR","structured output"],"disposition":"excluded_current_windows_environment"},
+    {"name":"Unstructured","version":"0.23.1 inspected","family":"document partitioning","licence":"Apache-2.0","python_api":true,"windows":"not benchmarked","private_local":true,"capabilities":["structured elements","layout strategies"],"disposition":"retained_longlist_not_shortlisted_due_to_no_material_advantage_tested"},
+    {"name":"Tesseract","version":"5.5.3","family":"local OCR","licence":"Apache-2.0","python_api":false,"stable_subprocess":true,"windows":"installed","private_local":true,"capabilities":["OCR","page provenance"],"disposition":"shortlist_ocr"},
+    {"name":"RapidOCR ONNX Runtime","version":"1.2.3","family":"local OCR","licence":"Apache-2.0","python_api":true,"windows":"installed","private_local":true,"capabilities":["OCR","word boxes","reading order"],"disposition":"shortlist_ocr"},
+    {"name":"OCRmyPDF","version":"17.8.1 inspected","family":"OCR PDF preprocessing","licence":"MPL-2.0","python_api":false,"stable_subprocess":true,"windows":"native/WSL/Docker dependent","private_local":true,"capabilities":["OCR text layer","deskew/cleanup"],"disposition":"retained_longlist_not_shortlisted_due_to_extra native stack"},
+    {"name":"OpenAI narrow vision adapter","version":"gpt-5.6-luna configured","family":"page-scoped visual extraction","licence":"service","python_api":true,"windows":"available","private_local":false,"capabilities":["chart label/value association","structured output"],"disposition":"shortlist_pending_explicit_private-page_transfer_authority"},
+    {"name":"hosted cloud document parsers","version":"various","family":"hosted extraction","licence":"various","python_api":true,"windows":"available","private_local":false,"capabilities":["OCR","layout","tables"],"disposition":"excluded_private-report-upload requirement"}
+  ]
+}

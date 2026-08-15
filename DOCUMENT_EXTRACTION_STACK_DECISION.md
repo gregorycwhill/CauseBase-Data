@@ -1,8 +1,34 @@
 # Document extraction stack decision — Golden Corpus v1
 
-**Decision class:** Conditional adoption
+**Decision class:** Conditional routed adoption
 **Date:** 2026-08-15
 **Scope:** private Builder evidence processing only; this does not modify the immutable public v0.5 release.
+
+## Superseding ecosystem bake-off result
+
+The initial same-library configuration comparison is superseded by the real
+ecosystem bake-off recorded in DOCUMENT_EXTRACTION_ECOSYSTEM_REVIEW.md and the
+private `golden-corpus-v1-ecosystem-results.*` reports. The decision is now
+computed from hard gates, not hard-coded.
+
+- **Normal digital PDFs / financial reconstruction:** `pdfplumber` passes the
+  EJA source-faithful hard gold: P&L 33/33 and Financial Position 32/32, with
+  labels, values, comparatives, signs, order and hierarchy preserved.
+- **Table specialist:** Camelot stream/lattice were evaluated with a generic
+  statement-page rule. Neither displaces the primary route; retain them as
+  optional specialists rather than default dependencies.
+- **Low-text OCR:** local Tesseract 5.5.3 and RapidOCR 1.2.3 both recovered
+  genuine Golden Corpus low-text pages. Tesseract is the simpler default;
+  RapidOCR remains available where positioned OCR boxes are needed.
+- **Visual charts:** not validated. The configured structured vision adapter
+  would transmit EJA annual-report page 29 to OpenAI; that transfer needs
+  explicit user authority. Until then the EJA 4/4 visual hard gate remains
+  unmet and the overall document state is **CONDITIONAL**.
+
+The current production private pipeline therefore uses `pdfplumber` plus
+page-routed local Tesseract. It records vision as unavailable/not validated;
+it never fabricates a chart observation. The Document Gate does not pass, so
+website/identity evidence-engine work is intentionally not started.
 
 ## Evidence
 
