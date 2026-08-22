@@ -82,7 +82,7 @@ Then conduct bounded, decision-producing frontend and Wikipedia/Wikidata spikes.
 
 **Completed distribution increment:** frontend decision is KEEP CURRENT; Wikimedia is deferred as a broad source; the agent/data contract and 16-case consumer-LLM foundation are checked in. The minimal static discovery layer is a Viewer projection of the pinned v0.5 release, not a new Data release or backend. Full consumer-product testing and larger taxonomy validation remain the next knowledge-validation work.
 
-**Knowledge Validation v1 (active human gate):** deterministic review preparation is complete. Builder inventories retained Evidence Engine candidates, selects a provenance-preserving stratified sample, validates human decision vocabulary and refuses all pre-human automation. Data records domain-specific policy, taxonomy-blind comparison questions, fundraising semantic prompts and answer-key criteria for all 16 consumer-LLM prompts. Next: human adjudication and genuinely fresh consumer-product runs; only then may a governed decision consider semantic promotion, taxonomy work, representation changes or scale.
+**Knowledge Validation v1 (minimum gate complete):** 22 approved decisions were validated/scored across the deliberately difficult sample; no domain is auto-promotable and the remaining 26 cases are deferred. The active next phase is the private/review-only Semantic Enrichment Benchmark v1 implementation contract in `SEMANTIC_ENRICHMENT_BENCHMARK_V1_IMPLEMENTATION_v2.md`; no public schema, release or Viewer change is authorised.
 
 **Approved design consolidation:** the next review-only implementation may use
 scoped observations for program/service/unit evidence; separate Ethos and
