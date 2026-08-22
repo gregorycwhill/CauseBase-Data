@@ -1,4 +1,4 @@
-# Semantic Enrichment Benchmark v1 â€” Implementation Contract
+# Semantic Enrichment Benchmark v1 — Implementation Contract
 
 **Status:** Approved implementation contract for the next review-only Builder phase  
 **Design basis:** CauseBase Data commit `14f7e53be7db558495f5afe7ab8c707cb37d7134`  
@@ -25,7 +25,7 @@ The benchmark is not a public-data build. It is an evaluation harness that produ
 
 The central economic question is:
 
-> **What is the marginal accepted enrichment coverage gained per dollar, and which next intervention â€” better local extraction, a cheap model, selective model escalation, or a new source family â€” buys the most useful coverage?**
+> **What is the marginal accepted enrichment coverage gained per dollar, and which next intervention — better local extraction, a cheap model, selective model escalation, or a new source family — buys the most useful coverage?**
 
 ---
 
@@ -122,7 +122,7 @@ The benchmark should support compact `assessment_scope` semantics privately now,
 
 ## 3. Completed prerequisites
 
-### 3.1 Fundraising safety reconciliation â€” complete
+### 3.1 Fundraising safety reconciliation — complete
 
 Builder commit `f21efbb2ccf6867a5ec6cdc4eb5d76c0cbf81cd9`:
 
@@ -134,7 +134,7 @@ Builder commit `f21efbb2ccf6867a5ec6cdc4eb5d76c0cbf81cd9`:
 
 This prerequisite is closed. Do not reopen it in the benchmark implementation.
 
-### 3.2 Knowledge Validation v1 minimum human gate â€” complete
+### 3.2 Knowledge Validation v1 minimum human gate — complete
 
 Builder commit `1e532ad1fbb5f5d1c89dfea1290b183673006c4d` records 22 approved human-governed decisions from the deliberately difficult 48-case packet:
 
@@ -146,11 +146,11 @@ Builder commit `1e532ad1fbb5f5d1c89dfea1290b183673006c4d` records 22 approved hu
 
 By domain:
 
-- activities: 4 reviewed â€” HUMAN REVIEW;
-- beneficiaries: 6 reviewed â€” HUMAN REVIEW;
-- geography: 5 reviewed â€” HUMAN REVIEW;
-- programs: 2 reviewed â€” HUMAN REVIEW;
-- participation: 5 reviewed â€” HUMAN REVIEW;
+- activities: 4 reviewed — HUMAN REVIEW;
+- beneficiaries: 6 reviewed — HUMAN REVIEW;
+- geography: 5 reviewed — HUMAN REVIEW;
+- programs: 2 reviewed — HUMAN REVIEW;
+- participation: 5 reviewed — HUMAN REVIEW;
 - opportunities, self-description, fundraising and identity-sensitive: NOT READY.
 
 No domain is auto-promotable.
@@ -164,7 +164,7 @@ Treat these as implementation evidence, not universal precision estimates:
 - explicit named-program detection is promising (2/2 difficult program cases accepted), but the sample is too small to authorise automation;
 - participation language such as explicit volunteering or donating is often useful, but participation existence must remain separate from verified action URLs;
 - activities require filtering of rhetoric, acknowledgements and other non-activity prose;
-- beneficiary extraction must distinguish beneficiaries from audiences, participants, supporters and generic aspirational â€œcommunitiesâ€;
+- beneficiary extraction must distinguish beneficiaries from audiences, participants, supporters and generic aspirational “communities”;
 - geography must distinguish service/activity/program geography from contact/admin address, venue context and irrelevant location language;
 - identity can block an otherwise semantically valid observation.
 
@@ -242,8 +242,8 @@ Do not make cohort membership a public salience or importance label.
 
 The benchmark should support private candidates for:
 
-1. activities â€” control domain;
-2. beneficiaries â€” control domain;
+1. activities — control domain;
+2. beneficiaries — control domain;
 3. programs/services;
 4. cause/intervention classification plus optional centrality;
 5. role-specific geography where explicitly evidenced;
@@ -350,13 +350,13 @@ A source may be strong for one proposition and weak for another.
 
 Instrument the benchmark by processing stage.
 
-## P0 â€” structured baseline
+## P0 — structured baseline
 
 Existing structured/regulator information and already governed observations.
 
 No new LLM use.
 
-## P1 â€” deterministic/local extraction
+## P1 — deterministic/local extraction
 
 Includes:
 
@@ -371,7 +371,7 @@ Includes:
 
 P1 should maximise cheap evidence opportunity before model interpretation.
 
-## P2 â€” low-cost semantic interpretation
+## P2 — low-cost semantic interpretation
 
 Pass only selected bounded evidence slices to the economical model route.
 
@@ -385,7 +385,7 @@ P2 should:
 - not create human-gold labels;
 - log model/version/prompt/input hash/token/cost telemetry privately.
 
-## P3 â€” selective higher-spec escalation
+## P3 — selective higher-spec escalation
 
 P3 is not a default corpus step.
 
@@ -393,7 +393,7 @@ It is authorised only when a deterministic routing rule identifies a likely high
 
 The first benchmark may test P3 experimentally. Do not hard-code a production escalation rule before economic review.
 
-## O â€” same-source high-spec oracle
+## O — same-source high-spec oracle
 
 The oracle receives the **same acquired evidence universe** as P1/P2/P3.
 
@@ -412,13 +412,13 @@ Use only calibration samples for easy activities/beneficiaries.
 
 Do not spend oracle calls on straightforward structured regulator facts.
 
-## H1 â€” human adjudication
+## H1 — human adjudication
 
 Human review establishes the governed reference for benchmark cases.
 
 Models do not create human gold.
 
-## H2 â€” broader-source audit
+## H2 — broader-source audit
 
 Manual benchmark-only research outside the acquired production source universe.
 
@@ -451,13 +451,13 @@ source-led index/table/directory
     -> human/economic review
 ```
 
-Start with **2â€“3 high-density sources**, not all candidate sources.
+Start with **2–3 high-density sources**, not all candidate sources.
 
 Recommended first choices:
 
-1. PFRA current charity/agency material â€” standing face-to-face practice + provider relationships;
-2. Donor Republic/Funraisin P2P benchmark â€” named campaigns + source-defined activity + reported amount;
-3. FIA awards â€” campaign/type/provider relationship.
+1. PFRA current charity/agency material — standing face-to-face practice + provider relationships;
+2. Donor Republic/Funraisin P2P benchmark — named campaigns + source-defined activity + reported amount;
+3. FIA awards — campaign/type/provider relationship.
 
 If one source proves technically unsuitable, substitute another high-density source from the approved design rather than broadening scope arbitrarily.
 
@@ -786,13 +786,13 @@ The first benchmark is primarily extraction economics, but preserve enough metad
 
 Examples:
 
-- PFRA current directory â€” current/periodic;
-- annual awards list â€” annual/edition;
-- campaign page â€” transient/historical;
-- provider case study â€” historical unless currentness explicitly supported;
-- annual report â€” reporting-period;
-- Ethos constitution/formal affiliation â€” slow-changing;
-- participation/event pages â€” faster-changing.
+- PFRA current directory — current/periodic;
+- annual awards list — annual/edition;
+- campaign page — transient/historical;
+- provider case study — historical unless currentness explicitly supported;
+- annual report — reporting-period;
+- Ethos constitution/formal affiliation — slow-changing;
+- participation/event pages — faster-changing.
 
 Do not infer current continuity from an old case study.
 
@@ -824,7 +824,7 @@ Include tests/fixtures covering at least:
 - peer-to-peer challenge;
 - marketing expense ambiguity;
 - direct functional allocation;
-- campaign â€œraised $Xâ€ distinct from annual accounting revenue;
+- campaign “raised $X” distinct from annual accounting revenue;
 - provider relationship explicit vs implied;
 - vendor ROI/CPA ignored as canonical metric.
 
@@ -930,13 +930,13 @@ CauseBase Data should change only if explicitly required to record an implementa
 
 # 27. Implementation sequence
 
-## Step 0 â€” completed prerequisites
+## Step 0 — completed prerequisites
 
 Fundraising safety reconciliation and the minimum 22-case Knowledge Validation human gate are complete at the Builder SHAs recorded above.
 
 Do not spend a new implementation turn redoing them.
 
-## Step 1 â€” benchmark deterministic scaffold
+## Step 1 — benchmark deterministic scaffold
 
 Implement:
 
@@ -950,31 +950,31 @@ Implement:
 
 No model calls required for completion of this step.
 
-## Step 2 â€” fundraising-industry adapters
+## Step 2 — fundraising-industry adapters
 
-Implement 2â€“3 initial high-density source adapters and conservative identity-candidate binding.
+Implement 2–3 initial high-density source adapters and conservative identity-candidate binding.
 
 Keep all results private/review-only.
 
-## Step 3 â€” document/web semantic retrieval
+## Step 3 — document/web semantic retrieval
 
 Add bounded retrieval/candidate generation across the approved domains.
 
-## Step 4 â€” P2 low-cost model evaluation
+## Step 4 — P2 low-cost model evaluation
 
 Run only bounded cohort/slices after deterministic PREPARE is inspected.
 
-## Step 5 â€” selective P3/O benchmark
+## Step 5 — selective P3/O benchmark
 
 Choose cases from observed ambiguity/misses, not a blanket pass.
 
-## Step 6 â€” human/economic adjudication
+## Step 6 — human/economic adjudication
 
 Produce domain/source economic results.
 
 No production routing change yet.
 
-## Step 7 â€” ChatGPT/user product gate
+## Step 7 — ChatGPT/user product gate
 
 Return results to ChatGPT/user.
 
