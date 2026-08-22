@@ -78,6 +78,7 @@ The RC4 120-card baseline is released. The next roadmap is organised by user cap
 - Define the agent/data distribution contract.
 - Test consumer-LLM discovery and accurate interpretation using the protocol in TEST_PLAN.md.
 - Complete Knowledge Validation v1 deterministic preparation and the compact human/consumer-LLM decision gate. **Active — human decisions pending.**
+- Consolidate approved semantic-domain and fundraising-source design decisions before implementation. **Design decision recorded; implementation remains review-only and gated.**
 
 ### Phase 5 — Viewer
 

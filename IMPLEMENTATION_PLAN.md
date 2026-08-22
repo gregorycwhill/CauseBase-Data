@@ -84,6 +84,15 @@ Then conduct bounded, decision-producing frontend and Wikipedia/Wikidata spikes.
 
 **Knowledge Validation v1 (active human gate):** deterministic review preparation is complete. Builder inventories retained Evidence Engine candidates, selects a provenance-preserving stratified sample, validates human decision vocabulary and refuses all pre-human automation. Data records domain-specific policy, taxonomy-blind comparison questions, fundraising semantic prompts and answer-key criteria for all 16 consumer-LLM prompts. Next: human adjudication and genuinely fresh consumer-product runs; only then may a governed decision consider semantic promotion, taxonomy work, representation changes or scale.
 
+**Approved design consolidation:** the next review-only implementation may use
+scoped observations for program/service/unit evidence; separate Ethos and
+`service_or_mission_orientation`; preferred public `notable_context`; and
+fundraising practice/campaign/expenditure distinctions. A bounded
+fundraising-industry source category is authorised for experimental review
+only. Before that work, reconcile Builder's obsolete fallback-prior guidance
+and code with the canonical no-prior/no-peer-imputation fundraising policy.
+Do not change the v0.5 release or public schemas in that reconciliation.
+
 After those decisions, build document pipeline v2, website evidence acquisition/extraction and identity/group stress tests. Larger taxonomy validation, agent/data distribution and consumer-LLM evaluation precede the Viewer redesign. Corpus machinery follows the redesigned, validated contract; the 500/1,000-card run is a gated learning slice, not an automatic scale commitment.
 
 ## Operations harness direction

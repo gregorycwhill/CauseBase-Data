@@ -71,6 +71,14 @@ The executable initial prompt set is `golden/distribution-evaluation-v1.json` (1
 
 Knowledge Validation v1 adds deterministic review-sample selection, review-decision schema validation, exact excerpt/source-hash resolution, a prohibition on model output becoming human gold, domain-specific (not aggregate) automation policy, taxonomy-blind PREPARE input, historical-pressure comparison recording, fundraising additivity blocks, consumer answer-key criteria and explicit `AUTOMATED PROXY` labelling. Static-agent regressions must preserve enough linked v0.5 evidence to distinguish EJA's direct fundraising share from mechanical implications, APNIC period state, sparse coverage, DFWA/identity ambiguity and `legacy_unbound` material.
 
+The approved next design adds documentation-level tests for: no fundraising
+prior or peer-imputation fallback; separate Ethos and service-orientation
+semantics; neutral `notable_context` naming; fundraising source-role and
+provider/campaign attribution; industry-source absence not becoming a negative
+claim; and review-only status for all industry-derived candidates. The generic
+schema derivation vocabulary may retain `peer_imputation` only as an unused,
+future-domain option; it must not be reachable by fundraising expenditure.
+
 Machine-distribution acceptance includes corpus-level discoverability, crawlable semantic HTML, stable canonical URLs, per-card JSON/Markdown, manifests, taxonomy/geography semantics, direct-versus-derived and period/scope fields, provenance, coverage/absence and freshness/version. A key acceptance question is whether a general-purpose consumer AI can discover relevant CauseBase records and accurately answer a realistic funder question.
 
 Viewer human design acceptance includes the anti-marketplace test: does the interface appear to persuade a user to favour, trust or donate to an organisation? If yes, it fails. Test accessibility, density, speed and inspectability alongside this qualitative criterion.

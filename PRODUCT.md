@@ -37,9 +37,19 @@ CauseBase combines authoritative records, organisation self-report, independent 
 
 For the approved vNext direction, claim basis explains why a proposition is justified (`direct`, `mechanically_derived`, `inferred` or `estimated`); extraction method explains how evidence was recovered (for example API, text, table, OCR, vision, LLM or manual). An LLM or vision extraction does not by itself make a directly reported source fact inferred or estimated. This direction is not yet an implemented RC4 schema change.
 
-Fundraising expenditure is a required capability and coverage field for an enriched subject, assessed on a best-effort basis. Publish only a defensible method and preserve that method visibly: direct disclosure, deterministic reconstruction, documented heuristic, bounded LLM interpretation, or approved peer imputation. The ladder is ordered: direct, mechanical, defensible heuristic, bounded LLM, approved peer, then unavailable/null. There is no universal fallback percentage or prior; a null is the correct result when no defensible method is available.
+Fundraising expenditure is a required capability and coverage field for an enriched subject, assessed on a best-effort basis. Publish only a defensible method and preserve that method visibly: direct disclosure, deterministic/mechanical reconstruction, defensible attribution bounds or specifically governed interpretation, then unavailable/null. There is no universal fallback percentage, broad prior, peer-imputation fill, forced point estimate or automatic midpoint; null is the correct result when no defensible result exists. The generic derivation vocabulary may retain `peer_imputation` for a separately approved future domain, but it is not permitted for CauseBase fundraising expenditure.
 
 Coverage is represented as explicit capabilities—such as regulatory, financials, annual report, website, current activity, taxonomy and embedding—rather than treating an enrichment label as the primary truth.
+
+The approved next-phase design keeps organisational Ethos separate from
+`service_or_mission_orientation`, which records how an ethos enters service,
+formation, worship, proselytising or advocacy. The preferred public name for
+the neutral collection of contextual observations formerly discussed as
+Notability is `notable_context`; it is not a score or reputation judgement.
+Neither construct is part of the immutable v0.5 release. Fundraising-industry
+material is an approved experimental public source category for a bounded,
+review-only pilot; it does not authorise national crawling, public sidecar
+republication or automatic identity binding.
 
 A capability is `observed` when CauseBase has a defensible governed observation satisfying it, even where the source did not print an exact preferred scalar. Current financial views may be explicitly labelled pointers over retained observations, with a scope-safe selection policy; they are never independent or silently selected “best” values. Sparse cards may have no summary where structured authoritative evidence is the honest available record.
 

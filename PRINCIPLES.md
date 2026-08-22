@@ -31,3 +31,6 @@
 26. Claim basis and extraction method are distinct: a source fact recovered by vision or an LLM can remain direct; derivation/inference method explains subsequent CauseBase reasoning.
 27. Coverage states describe capability availability, not a preference for an exact scalar. A defensible direct share or mechanically derived amount can satisfy a capability.
 28. Preserve source statement signs; use economically intuitive signs for canonical ordinary financial magnitudes, while retaining signed surplus/deficit and net assets/equity.
+29. Fundraising expenditure has no universal prior, peer-imputation fill, forced point estimate or automatic midpoint; unavailable/null is valid when no defensible result exists.
+30. Organisational Ethos and service/mission orientation are separate observation domains; beneficiary identity never supplies an Ethos inference.
+31. `notable_context` is descriptive sourced context, never a notability, reputation, prestige or controversy score. Fundraising-industry sources are experimental review-only evidence, not an automatic publication or identity authority.
