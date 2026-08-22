@@ -1,6 +1,8 @@
-# CauseBase Data — Agent Instructions
+# CharityGraph Data — Agent Instructions
 
-CauseBase Data is the canonical GitHub-visible home for shared CauseBase project memory. It is a sibling of CauseBase Builder and CauseBase Viewer, not their parent product.
+> The former CauseBase name is retained only for documented legacy compatibility and immutable release material. Current contracts, schemas, project memory, and repository links use CharityGraph.
+
+CharityGraph Data is the canonical GitHub-visible home for shared CharityGraph project memory. It is a sibling of CharityGraph and CharityGraph Viewer, not their parent product.
 
 Before cross-product work, read and maintain:
 

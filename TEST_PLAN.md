@@ -1,4 +1,6 @@
-# CauseBase Test Plan
+# CharityGraph Test Plan
+
+> Historical note: pre-pivot CauseBase test records below are retained for provenance. New active checks use CharityGraph names while immutable releases retain their original artefacts.
 
 **Status:** Accepted product direction  
 **Updated:** 2026-08-15

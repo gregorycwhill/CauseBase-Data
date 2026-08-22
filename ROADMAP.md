@@ -1,4 +1,14 @@
-# CauseBase Product Roadmap
+# CharityGraph Product Roadmap
+
+> Historical note: the detailed RC4 and pre-pivot roadmap below records work completed under the former CauseBase name. CharityGraph is the current name and is unaffiliated with the unrelated Australian project using that name.
+
+## Current sequence
+
+1. Establish the CharityGraph data contract.
+2. Produce a trustworthy CharityGraph Builder.
+3. Develop CharityGraph Viewer later.
+
+The current target model is source-native records, canonical observations, and derived projections. JSON/Markdown cards and sidecars are authoritative; CSV/Parquet are projections.
 
 **Status:** Accepted product direction  
 **Updated:** 2026-08-15

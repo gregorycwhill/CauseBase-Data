@@ -1,4 +1,10 @@
-# CauseBase Current State
+# CharityGraph Current State
+
+**Current identity:** CharityGraph. The project is unaffiliated with the unrelated Australian project using the former CauseBase name. The detailed pre-pivot material below is retained as historical provenance.
+
+## Current direction
+
+CharityGraph is establishing its data contract before Builder rearchitecture and later Viewer work. The authoritative model separates source-native records, canonical observations, and derived projections. The immutable `v0.5.0-2026-08-15` release remains unmodified legacy material.
 
 Updated: 2026-08-15
 
@@ -29,7 +35,7 @@ Updated: 2026-08-15
 - Knowledge Validation v1 minimum human gate is complete: 22 approved decisions were validated/scored, no domain is auto-promotable, and the remaining 26 stratified cases are deferred. No semantic candidate, taxonomy change, fundraising value, corpus rebuild or Viewer deployment has occurred. Semantic Enrichment Benchmark v1 is now the active review-only next phase under SEMANTIC_ENRICHMENT_BENCHMARK_V1_IMPLEMENTATION_v2.md.
 - Design consolidation is now recorded in `DESIGN_CONSOLIDATION_DECISIONS.md`: fundraising expenditure has no prior or peer-imputation fallback; service/mission orientation is separate from Ethos; `notable_context` is the preferred public contextual construct; and fundraising-industry sources are approved only as an experimental review-only category. The four supporting designs and `FUNDRAISING_INDUSTRY_SOURCE_DESIGN.md` are present verbatim for shared project memory. No public schema, release, corpus or Viewer change follows from this decision record alone.
 
-# Historical release and implementation record
+# Historical CauseBase release and implementation record
 
 The records below preserve prior release evidence and implementation history. Candidate, deployment and human-gate language in these sections is historical and must not be executed as a current instruction.
 
