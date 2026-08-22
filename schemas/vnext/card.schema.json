@@ -1,5 +1,5 @@
 {
-  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://causebase.example/schema/0.5/card.schema.json","title":"CauseBase public card 0.5 draft","type":"object",
+  "$schema":"https://json-schema.org/draft/2020-12/schema","$id":"https://github.com/gregorycwhill/charitygraph-data/blob/main/schemas/vnext/card.schema.json","title":"CharityGraph public card 0.5 draft","type":"object",
   "$defs":{
     "observationBase":{"type":"object","required":["observation_id","claim_basis","source_record_ids","evidence_ids"],"properties":{"observation_id":{"type":"string","minLength":1},"claim_basis":{"$ref":"common.schema.json#/$defs/claimBasis"},"extraction_method":{"$ref":"common.schema.json#/$defs/extractionMethod"},"source_record_ids":{"type":"array","items":{"type":"string"}},"evidence_ids":{"type":"array","items":{"type":"string"}},"time":{"$ref":"common.schema.json#/$defs/time"},"observed_at":{"type":["string","null"]},"confidence":{"enum":["high","medium","low",null]},"warnings":{"type":"array","items":{"type":"string"}}},"additionalProperties":true},
     "activity":{"allOf":[{"$ref":"#/$defs/observationBase"},{"type":"object","required":["label"],"properties":{"label":{"type":"string"},"description":{"type":["string","null"]}},"additionalProperties":true}]},

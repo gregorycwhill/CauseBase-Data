@@ -1,4 +1,6 @@
-# CauseBase — Codex to ChatGPT Handoff
+# CharityGraph — Codex to ChatGPT Handoff
+
+> Migration status: current work uses CharityGraph. References to CauseBase in retained handoff history identify the former working name or immutable legacy material only.
 
 ## Current handoff — read this first (2026-08-15)
 

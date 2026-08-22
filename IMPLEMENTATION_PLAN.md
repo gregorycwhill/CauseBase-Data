@@ -1,4 +1,6 @@
-# CauseBase Implementation Plan
+# CharityGraph Implementation Plan
+
+> Historical note: pre-pivot CauseBase plan items below are retained for provenance. The active identity is CharityGraph; do not treat historical product names as current public branding.
 
 **Status:** Active implementation plan; historical phases retained for traceability
 **Updated:** 2026-08-15
